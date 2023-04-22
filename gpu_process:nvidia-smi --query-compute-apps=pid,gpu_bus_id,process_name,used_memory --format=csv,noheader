@@ -1,4 +1,4 @@
-command> gpu_process:nvidia-smi --query-compute-apps=pid,gpu_bus_id,process_name,used_memory --format=csv,noheader
+Command> gpu_process:nvidia-smi --query-compute-apps=pid,gpu_bus_id,process_name,used_memory --format=csv,noheader
 
 Description> --query-compute-apps              プロセス状況を確認
            > --query-compute-apps=pid          pid

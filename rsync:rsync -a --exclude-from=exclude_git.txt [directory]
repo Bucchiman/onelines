@@ -1,0 +1,1 @@
+Command> rsync -a --exclude-from=exclude_git.txt [directory]

@@ -1,4 +1,4 @@
-command> nvidia-smi --query-gpu=timestamp,name,utilization.gpu,utilization.memory,memory.used,memory.free,memory.used --format=csv,noheader
+Command> nvidia-smi --query-gpu=timestamp,name,utilization.gpu,utilization.memory,memory.used,memory.free,memory.used --format=csv,noheader
 
 Description> --query-gpu            GPUステータス確認
            > --query-gpu=index      GPU_id

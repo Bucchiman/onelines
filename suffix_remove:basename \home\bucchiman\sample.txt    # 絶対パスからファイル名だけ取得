@@ -1,0 +1,1 @@
+Command> basename /home/bucchiman/sample.txt    # 絶対パスからファイル名だけ取得

@@ -1,0 +1,1 @@
+Command> git rm --cached [file name]  # インデックスからファイルを削除

@@ -1,0 +1,1 @@
+Command> pip install torch torchvision torchaudio matplotlib seaborn scikit-learn numpy pandas hydra_core plotly jupyterlab scikit-image hydra_core

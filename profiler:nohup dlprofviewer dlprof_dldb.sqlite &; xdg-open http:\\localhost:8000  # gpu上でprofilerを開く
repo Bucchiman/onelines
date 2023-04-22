@@ -1,0 +1,1 @@
+Command> nohup dlprofviewer dlprof_dldb.sqlite &; xdg-open http://localhost:8000  # gpu上でprofilerを開く

@@ -1,0 +1,1 @@
+Command> stat -c%N \dev\fd\*    # ファイルディスクリプタのリンク先確認

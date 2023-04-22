@@ -1,0 +1,1 @@
+Command> mkdir `date "+%d_%m_%Y"`

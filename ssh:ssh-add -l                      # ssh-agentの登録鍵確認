@@ -1,0 +1,1 @@
+Command> ssh-add -l                      # ssh-agentの登録鍵確認

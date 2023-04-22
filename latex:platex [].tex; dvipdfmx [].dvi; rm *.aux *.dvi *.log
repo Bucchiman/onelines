@@ -1,0 +1,1 @@
+Command> platex [].tex; dvipdfmx [].dvi; rm *.aux *.dvi *.log

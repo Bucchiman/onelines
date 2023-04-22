@@ -1,0 +1,1 @@
+Command> rsync -auv dir/ dir/  # 追加分のみをコピー
