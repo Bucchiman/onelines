@@ -1,0 +1,1 @@
+Command> nvim -d [file1] [file2]  # nvimによるファイルの差分表示
