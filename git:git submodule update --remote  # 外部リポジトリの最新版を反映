@@ -1,0 +1,3 @@
+Command> git submodule update --remote  # 外部リポジトリの最新版を反映
+
+Reference> https://qiita.com/nasuB7373/items/0d3c67777f3b53cbefb0
