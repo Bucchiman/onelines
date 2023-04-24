@@ -1,0 +1,9 @@
+Command> git remote rm origin # 登録したリモートリポジトリを削除
+
+
+Description>
+           > 登録したリポジトリを削除
+           > 間違ったリポジトリを登録してしまった場合などに用いる
+
+
+Reference> https://prograshi.com/general/git/git-remote-commands/

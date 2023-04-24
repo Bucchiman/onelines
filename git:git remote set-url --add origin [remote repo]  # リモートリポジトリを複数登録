@@ -1,0 +1,15 @@
+Command> git remote set-url --add origin [remote repo]  # リモートリポジトリを複数登録
+
+
+Description> 
+           > 同じ用途でこれも使える(はず)
+           > $ git remote add [remote repo] [url]
+           > gitlabとgithubで並行運用したい場合に使う
+           > 
+           > e.g.
+           > $ git remote set-url --add origin https://github.com/Bucchiman/unko.git
+           > $ git remote set-url --add origin https://gitlab.com/Bucchiman/hoge.git
+           > $ git push -u origin master
+
+Reference> https://prograshi.com/general/git/git-remote-commands/
+         > https://qiita.com/miso_develop/items/0eeae8ef01e755310538
