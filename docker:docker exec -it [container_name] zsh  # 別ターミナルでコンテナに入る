@@ -1,0 +1,3 @@
+Command> docker exec -it [container name] zsh   # 別ターミナルでコンテナに入る
+
+Reference> https://stackoverflow.com/questions/39794509/how-to-open-multiple-terminals-in-docker
