@@ -1,0 +1,8 @@
+Command> otool -L a.out  # プログラムの依存ライブラリを見る
+
+Description>
+           > Linuxではlddコマンドに相当する
+           > ldd a.out
+           >
+
+Reference> https://qiita.com/kunichiko/items/b101a713450f099eefbf
