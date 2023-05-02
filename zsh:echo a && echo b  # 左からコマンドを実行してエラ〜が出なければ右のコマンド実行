@@ -1,0 +1,5 @@
+Command> echo a && echo b  # 左からコマンドを実行してエラ〜が出なければ右のコマンド実行'
+
+Description>
+
+Reference> https://blog.livewing.net/zsh-symbols

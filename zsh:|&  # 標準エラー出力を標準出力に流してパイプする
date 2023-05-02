@@ -1,0 +1,6 @@
+Command> |&  # 標準エラー出力を標準出力に流してパイプする
+
+Description>
+           > 2>&1 | と同じ
+
+Reference> https://blog.livewing.net/zsh-symbols
