@@ -1,0 +1,5 @@
+Command> docker:docker inspect [image\container name]  # イメージやコンテナの情報取得
+
+Description>
+
+Reference> https://blog.shibayu36.org/entry/2013/12/28/145019
