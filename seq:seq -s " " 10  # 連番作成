@@ -1,0 +1,8 @@
+Comand> seq -s " " 10 # 連番作成
+
+Description>
+           > shellのbuilt-inで実行
+           > $ echo {1..10}
+
+
+Reference> https://qiita.com/hitode7456/items/6ba8e2d58f9b8db9de11

@@ -1,0 +1,23 @@
+Command> sed -i -e "s/_plugin_name/bucchiman/g" [filename]  # iオプションにてファイルに直接置換する
+
+
+Description>
+           > - バックアップファイルをとる場合、iオプションの後に拡張子
+           >  $ sed -i".org" -e "s/AAA/ZZZ/g"  input.log
+           >
+           > - その他の例
+           >  $ sed -i -e "s/^ *//g"         [file_name] # 先頭空白文字を削除、複数の空白も削除
+           >  $ sed -i -e "/^AAA/d"          [file_name] # 先頭にAAAがある行を削除
+           >  $ sed -i -e "s/AAA/AAA,BBB/g"  [file_name] # AAA->AAA,BBB
+           >  $ sed -i -e "/^ +$/d"          [file_name] # 空白行削除
+           >  $ sed -i -e "s/ /,/g"          [file_name] # 空白文字をカンマに置換
+           >  $ sed -i -e "s/ /(タブ)/g"     [file_name] # タブ置換
+           >  $ sed -i -e "s/\"//g"          [file_name] # ファイル内のダブルクォーテーションを置換
+           >  $ sed -i -e "s/.*sometext.*/d" [file_name] # ファイル内の任意の文字列(この場合sometext)を含む行を削除
+           >
+           >  $ echo "bananaapple" | sed -e "s/^.\{6\}//"   # 先頭6文字削除
+           >   > apple
+           >  $ echo "bananaapple" | sed -e "s/.\{5\}$//"   # 末尾5文字削除
+           >   > banana
+
+Reference> https://open-groove.net/linux-command/sed-edit-files/

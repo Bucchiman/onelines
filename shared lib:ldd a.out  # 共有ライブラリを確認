@@ -1,0 +1,10 @@
+Command> ldd a.out  # 共有ライブラリを確認
+
+Description>
+           > オプション
+           >  -d 足りないオブジェクトについてレポート
+           >  -r 足りないオブジェクトや関数についてレポート
+           >  -u 使用されていない依存関係を表示
+           >  -v 全ての情報を表示
+
+Reference> https://webkaru.net/linux/ldd-command/

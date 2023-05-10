@@ -1,0 +1,11 @@
+Command> nvim -c New # ファイルを開いたときにコマンドを実行
+
+
+Description>
+           > e.g.
+           >    nvim -c split
+           >
+           >
+
+
+Reference> https://qiita.com/simeji/items/41f4c1bd4e9a2b3c1526
