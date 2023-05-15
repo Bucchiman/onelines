@@ -1,0 +1,9 @@
+Command> sudo i2cget -y 1 0x68 0x01   # I2Cデバイスからデータ読み込み
+
+Description>
+           > $ sudo i2cget -y 1 デバイスアドレス 読み込みたいデータのアドレス
+           >
+           >
+           >
+
+Reference> https://www.raspberrypirulo.net/entry/raspberrypi-i2c

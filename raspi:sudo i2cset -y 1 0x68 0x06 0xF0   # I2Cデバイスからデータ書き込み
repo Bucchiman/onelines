@@ -1,0 +1,9 @@
+Command> sudo i2cset -y 1 0x68 0x06 0xF0   # I2Cデバイスからデータ書き込み
+
+Description>
+           > $ sudo i2cset -y 1 デバイスアドレス 書き込みたいアドレス 書き込みたいデータ
+           >
+           >
+           >
+
+Reference> https://www.raspberrypirulo.net/entry/raspberrypi-i2c

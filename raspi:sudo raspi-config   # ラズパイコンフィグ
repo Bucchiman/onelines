@@ -1,0 +1,6 @@
+Command> sudo raspi-config   # ラズパイコンフィグ
+
+Description>
+
+
+Reference> https://www.raspberrypi.com/documentation/computers/configuration.html
