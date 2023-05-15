@@ -1,0 +1,6 @@
+Command> show databases;
+
+
+Description> データベースの一覧を取得する
+
+Reference> https://qiita.com/Fendo181/items/2be9a0f28fb0805794b0
