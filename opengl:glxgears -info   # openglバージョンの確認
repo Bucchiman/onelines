@@ -1,0 +1,10 @@
+Command> glxgears -info   # openglバージョンの確認
+
+Description>
+           > $ nvidia-settings
+           > $ glxgears -info
+           >
+           >
+
+
+Reference> https://ugarailog.blogspot.com/2012/06/linuxopengl.html
