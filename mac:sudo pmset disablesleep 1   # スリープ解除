@@ -1,0 +1,8 @@
+Command> sudo pmset disablesleep 1
+
+Description>
+           > sudo pmset disablesleep 0
+           >
+           >
+
+Reference> https://www.reddit.com/r/macbook/comments/alz13m/how_to_entirely_disable_sleep_on_a_macbook/
