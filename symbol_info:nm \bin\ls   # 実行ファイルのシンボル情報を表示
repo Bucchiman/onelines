@@ -1,0 +1,6 @@
+Command> nm /bin/ls   # 実行ファイルのシンボル情報を表示
+
+
+Description>
+
+Reference> オペレーティングシステムの仕組み 河野健二
