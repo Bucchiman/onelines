@@ -1,0 +1,9 @@
+Command> ros2 node list # 起動しているノードの一覧表示
+
+Description> 
+           > 起動しているノードの一覧表示
+           > $
+           >
+
+
+Reference> https://docs.ros.org/en/humble/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Nodes/Understanding-ROS2-Nodes.html
