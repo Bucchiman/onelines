@@ -1,0 +1,13 @@
+Command> colcon build --symlink-install  # パッケージを自動的にインストール
+
+Description>
+           >
+           > Since build types such as ament_cmake do not support the concept of the devel space and require the package to be installed, colcon supports the option --symlink-install
+           > ament_cmakeはパッケージのインストールができなかった模様
+           > e.g.
+           > $ git clone https://github.com/ros2/examples src/examples -b humble
+           > colcon build --symlink-install
+
+
+Reference> https://docs.ros.org/en/humble/Tutorials/Beginner-Client-Libraries/Colcon-Tutorial.html 
+

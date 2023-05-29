@@ -1,6 +1,22 @@
 Command> rosdep install -i --from-path src --rosdistro humble -y  # パッケージの依存関係を解決
 
 Description>
+           > $ mkdir -p $HOME/ros2_ws/src
+           > $ cd $HOME/ros2_ws/src
+           > $ git clone https://github.com/ros/ros_tutorials.git -b humble
+           > $ cd ..          # $HOME/ros2_ws/src -> $HOME/ros2_ws
+           > $ rosdep insatll -i --from-path src --rosdistro humble -y  # パッケージの依存関係を解決
+           >  > #All required resdeps installed successfully
+           > $ cd $HOME/
+           > $ colcon build
+           > $ ls
+           >  > build install log src
+           > # 別ターミナル
+           > $ source /opt/ros/humble/setup.zsh
+           > $ source install/local_setup.sh
+           > 問題なければ、次のように出力される
+           > #All required rosdeps installed successfully
+           >
 
 
 Reference> https://qiita.com/porizou1/items/16ea8783f41fc5cac361

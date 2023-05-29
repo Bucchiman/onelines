@@ -1,0 +1,8 @@
+Command> ros2 interface show geometry_msgs/msg/Twist   # メッセージの型を表示する
+
+Description>
+           > Ros1のrosmsg
+           > $ rosmsg show geometry_msgs/msg/Twist
+	       >
+
+Reference> https://docs.ros.org/en/humble/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Topics/Understanding-ROS2-Topics.html#ros2-topic-pub
