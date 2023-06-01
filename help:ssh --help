@@ -1,0 +1,8 @@
+Command> ssh --help
+
+
+Description>
+           > コンフィグは/etc/ssh/sshd_config
+           >
+           >
+           >
