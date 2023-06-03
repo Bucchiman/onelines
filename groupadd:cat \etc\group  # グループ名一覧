@@ -1,0 +1,40 @@
+Command> cat /etc/group  # グループ名の表示
+
+Description> グループ名の表示
+           >
+           >
+           > $ cat /etc/group # グループ名一覧
+           >  > nobody:*:-2:
+           >  > nogroup:*:-1:
+           >  > wheel:*:0:root
+           >  > daemon:*:1:root
+           >  > kmem:*:2:root
+           >  > sys:*:3:root
+           >  > tty:*:4:root
+           >  > operator:*:5:root
+           >  > mail:*:6:_teamsserver
+           >  > bin:*:7:
+           >  > procview:*:8:root
+           >  > procmod:*:9:root
+           >  > owner:*:10:
+           >  > everyone:*:12:
+           >  > _taskgated:*:13:_taskgated
+           >  > group:*:16:
+           >  > staff:*:20:root
+           >  > _networkd:*:24:
+           >  > _installassistant:*:25:
+           >  > _lp:*:26:
+           >  > _postfix:*:27:
+           >  > _postdrop:*:28:
+           >
+           > 解説
+           >  > daemon:*:5:root
+           >       ^   ^ ^  ^
+           >       |   | |  +---- 所属メンバー一覧
+           >       |   | +------- グループID
+           >       |   +--------- パスワード(セキュリティ上表示しない)
+           >       +------------- グループ名
+
+
+Reference> https://eng-entrance.com/linux-command-groupadd
+           https://eng-entrance.com/linux-group
