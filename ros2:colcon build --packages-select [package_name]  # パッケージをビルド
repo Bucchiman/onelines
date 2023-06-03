@@ -1,7 +1,10 @@
-Command> colcon build --packages-select [package_name]  # パッケージをビルド
+Command> colcon build --packages-select [package_name]  # パッケージを指定して、ビルド
 
 Description>
-
-
+           > packages-selectオプションによりパッケージを指定する
+           >
+           >
+           >
 
 Reference> https://qiita.com/porizou1/items/16ea8783f41fc5cac361
+           https://docs.ros.org/en/humble/Tutorials/Beginner-Client-Libraries/Creating-Your-First-ROS2-Package.html
