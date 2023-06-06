@@ -1,0 +1,12 @@
+Command> telnet [ip address] [port]   # 外からポートが開いているか調べる
+
+Description>
+           > ポート番号を指定してポートが開いているか確認
+           > $ nmap -sT -p[port] [ip address]
+           >
+           > ポート状況を確認する
+           > lsof, ss, netstatm, nmap
+
+
+Reference> https://www.softel.co.jp/blogs/linux/archives/53
+           https://www.linuxmaster.jp/linux_skill/2009/02/linux-4.html
