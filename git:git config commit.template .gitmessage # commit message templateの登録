@@ -1,0 +1,6 @@
+Command> git config commit.template .gitmessage # commit message templateの登録
+
+Description>
+           > Motivation: コミットメッセージの内容をそろえるためにテンプレートを登録
+
+Reference> https://kitigai.hatenablog.com/entry/2019/05/31/233000
