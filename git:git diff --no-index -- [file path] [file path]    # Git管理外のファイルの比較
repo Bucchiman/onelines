@@ -1,0 +1,8 @@
+Command> git diff --no-index -- [file path] [file path]   # Git管理外のファイルを比較
+
+Description>
+           > 
+           >
+           >
+
+Reference> https://liginc.co.jp/387757

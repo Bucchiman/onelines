@@ -1,0 +1,10 @@
+Command> git config ...   # 初期設定
+
+Description> git config --local user.name "8ucchiman"
+           > git config --local user.email "8ucchiman@gmail.com"
+           > git config --local color.ui true
+           > git config --local http.sslverify false
+           > git config --local push.default simple
+           > git config --list
+
+Reference>

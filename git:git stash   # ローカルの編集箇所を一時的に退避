@@ -4,7 +4,10 @@ Description> ローカルの変更内容を一時的に退避
            > 通常以下のように使う
            > $ git stash
            > $ git checkout -b [branch name]
-           > $ git stash pop
+           > $ git stash pop  # 復帰
+           >
+           > $ git stash show # スタックを表示
+           >
            >
 
 Reference> https://qiita.com/shuntaro_tamura/items/db1aef9cf9d78db50ffe
