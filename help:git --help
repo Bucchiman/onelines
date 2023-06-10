@@ -1,0 +1,12 @@
+Command> git --help
+
+Description>
+           > # git merge --help
+           > gitのマージには2種類ある
+           > - Fast-Forward
+           >
+           >
+           >
+
+
+Reference> https://dev.classmethod.jp/articles/git-config-alias-19/
