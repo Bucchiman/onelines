@@ -1,0 +1,6 @@
+Command> gh pr merge -m -d    # プルリクのマージ
+
+
+Description>
+
+Reference> https://zenn.dev/hankei6km/articles/pull-request-with-github-cli
