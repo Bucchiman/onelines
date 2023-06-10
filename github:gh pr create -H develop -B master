@@ -1,7 +1,7 @@
-Command> gh pr create -H develop -B master
+Command> gh pr create -H develop -B master --title "Fix bug" --body ""
 
 Description>
-           > -B --base  The branch into which you want your code merged (マージしたいコード)
+           > -B --base  The branch into which you want your code merged (マージしたいコードのブランチ)
            > -H --head  The branch that contains commits for your pull request(default: current branch)
            > -t --title Title for the pull request
            > -b --body  String body for the pull request
