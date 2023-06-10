@@ -1,0 +1,10 @@
+Command> gh pr create -H develop -B master
+
+Description>
+           > -B --base  The branch into which you want your code merged (マージしたいコード)
+           > -H --head  The branch that contains commits for your pull request(default: current branch)
+           > -t --title Title for the pull request
+           > -b --body  String body for the pull request
+           >
+
+Reference> https://zenn.dev/donchan922/articles/65bb47508923abab677b
