@@ -1,0 +1,3 @@
+Command> git branch topic master    # masterからtopicを作る
+
+Reference> https://dev.classmethod.jp/articles/git-config-alias-19/
