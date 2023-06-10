@@ -1,0 +1,6 @@
+Command> git init --base  # ベアリポジトリ作成
+
+Description>
+
+Reference> https://qiita.com/devzooiiooz/items/56a02342d9d65d79f6c3
+         > https://tech.pjin.jp/blog/2015/11/24/git-command-matome-list-100/
