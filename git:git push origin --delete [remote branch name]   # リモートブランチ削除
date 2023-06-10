@@ -1,3 +1,5 @@
 Command> git push origin --delete [remote buranch name]
 
 Description> リモートブランチの削除
+
+Reference> https://liginc.co.jp/387757

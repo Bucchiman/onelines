@@ -1,0 +1,12 @@
+Command> git commit --amend --no-edit   # 直前のコミットに変更内容を追加する
+
+
+Description>
+           > Motivation
+           > コミットに含め忘れた変更があった時に使う
+           >
+           > $ git add .  # 直前のコミットに含めたい変更をステージに追加
+           > $ git commit --amend --no-edit   # 直前のコミットに変更内容を追加
+           >
+
+Reference> https://liginc.co.jp/387757
