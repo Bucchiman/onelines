@@ -1,0 +1,21 @@
+Reference> https://mugeek.hatenablog.com/entry/2019/05/27/230256
+
+Description>
+           > # prerequisite
+           > - デフォルトゲートウェイのipアドレス
+           > - DNSサーバーのipアドレス
+           > ## windows
+           > - ipconfig /all
+           >
+           > # 設定ファイルの編集
+           > - sudo vim /etc/dhcpcd.conf
+           > # 以下を最後尾に追記 (192.168.11.16: 固定ip, 192.168.11.1: デフォルトゲートウェイ,DNS)
+           > interface wlan0
+           > static ip_address=192.168.11.16/24
+           > static routers=192.168.11.1
+           > static domain_name_servers=192.168.11.1
+           >
+           > # 再起動
+           > $ sudo reboot
+           >
+
