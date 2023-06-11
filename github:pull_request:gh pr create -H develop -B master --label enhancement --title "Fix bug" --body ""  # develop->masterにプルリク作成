@@ -6,7 +6,15 @@ Description>
            > -H --head  The branch that contains commits for your pull request(default: current branch)
            > -t --title Title for the pull request
            > -b --body  String body for the pull request
-           > -l --label 
+           > -l --label bug                 Something isn't working                   
+           >            documentation       Improvements or additions to documentation
+           >            duplicate           This issue or pull request already exists 
+           >            enhancement         New feature or request                    
+           >            good first issue    Good for newcomers                        
+           >            help wanted         Extra attention is needed                 
+           >            invalid             This doesn't seem right                   
+           >            question            Further information is requested          
+           >            wontfix             This will not be worked on                
            >
            > # 一連の流れ
            > $ gh pr create -H [current branch] -B master --title "Fix bug" --body ""
