@@ -1,0 +1,25 @@
+Command> gh pr create -H develop -B master --label enhancement --title "Fix bug" --body ""  # develop->masterにプルリク作成
+
+Description>
+           > # option
+           > -B --base  The branch into which you want your code merged (マージしたいコードのブランチ)
+           > -H --head  The branch that contains commits for your pull request(default: current branch)
+           > -t --title Title for the pull request
+           > -b --body  String body for the pull request
+           > -l --label bug                 Something isn't working                   
+           >            documentation       Improvements or additions to documentation
+           >            duplicate           This issue or pull request already exists 
+           >            enhancement         New feature or request                    
+           >            good first issue    Good for newcomers                        
+           >            help wanted         Extra attention is needed                 
+           >            invalid             This doesn't seem right                   
+           >            question            Further information is requested          
+           >            wontfix             This will not be worked on                
+           >
+           > # 一連の流れ
+           > $ gh pr create -H [current branch] -B master --title "Fix bug" --body ""
+           > $ gh pr merge -m -d
+           > $ git fetch origin --prune
+           >
+
+Reference> https://zenn.dev/donchan922/articles/65bb47508923abab677b
