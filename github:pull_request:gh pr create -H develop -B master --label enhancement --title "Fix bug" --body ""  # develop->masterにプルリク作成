@@ -1,4 +1,4 @@
-Command> gh pr create -H develop -B master --title "Fix bug" --body ""
+Command> gh pr create -H develop -B master --label enhancement --title "Fix bug" --body ""  # develop->masterにプルリク作成
 
 Description>
            > # option
@@ -6,6 +6,7 @@ Description>
            > -H --head  The branch that contains commits for your pull request(default: current branch)
            > -t --title Title for the pull request
            > -b --body  String body for the pull request
+           > -l --label 
            >
            > # 一連の流れ
            > $ gh pr create -H [current branch] -B master --title "Fix bug" --body ""
