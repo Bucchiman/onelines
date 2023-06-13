@@ -1,0 +1,3 @@
+Command> dpkg -l | grep nvinfer  # tensorrt version確認
+
+Reference> https://forums.developer.nvidia.com/t/how-to-check-my-tensorrt-version/56374
