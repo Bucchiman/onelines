@@ -1,1 +1,11 @@
 Command> 
+
+Description>
+           > # 任意の場所にあるヘッダーファイルを読み込みたいとき
+           > - gcc -Iオプションにパスを追加
+           >    $ gcc -I /path/to/your/header
+           >    $ gcc -I /opt/json-c/include/json-c
+           >      -> #include <json.h>
+           >
+
+Reference> https://qiita.com/DQNEO/items/4e5c2eca2761ec08b922
