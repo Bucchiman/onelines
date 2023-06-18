@@ -1,0 +1,8 @@
+Command> tr -dc 0-9A-Za-z < /dev/urandom | fold -w 10 | head -1  英数字10文字を出力
+
+Description>
+           > - 別手法
+           > $ tr -dc "[:alnum:]" < /dev/urandom | fold -w 10 head -1
+           >
+
+Reference>
