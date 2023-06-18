@@ -1,0 +1,8 @@
+Command> tr -dc 0-9 < /dev/urandom | fold -w 8 | head -1    # 数字のみ８桁出力
+
+Description>
+           > - 別手法
+           > $ tr -dc "[:digit:]" < /dev/urandom | fold -w 8 | head -1
+           >
+
+Reference> https://www.home-page.xyz/generate_random/

@@ -1,0 +1,5 @@
+Command> echo $RANDOM    # 0..32767(2の15乗)の乱数を生成
+
+Description>
+
+Reference> https://www.home-page.xyz/generate_random/

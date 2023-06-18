@@ -1,0 +1,5 @@
+Command> echo $? 直前コマンドの終了ステータスを確認
+
+Description>
+
+Reference> https://yu-nix.com/archives/c-exit/
