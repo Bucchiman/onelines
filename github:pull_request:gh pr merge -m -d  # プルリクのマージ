@@ -2,5 +2,13 @@ Command> gh pr merge -m -d    # プルリクのマージ
 
 
 Description>
+           > # 一連の流れ
+           > $ git checkout -b hoge
+           > $ # 編集
+           > $ gh pr create -H hoge -B master --title "Fix bug" --body ""
+           > $ gh pr merge -m -d
+           > $ git fetch origin --prune
+           >
+
 
 Reference> https://zenn.dev/hankei6km/articles/pull-request-with-github-cli
