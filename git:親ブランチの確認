@@ -1,0 +1,7 @@
+Command> git show-branch | grep '*' | grep -v "$(git rev-parse --abbrev-ref HEAD)" | head -1 | awk -F'[]~^[]' '{print $2}'
+
+
+Description>
+
+
+Reference> https://qiita.com/monaka33/items/4823589cd5d6c633e3f7
