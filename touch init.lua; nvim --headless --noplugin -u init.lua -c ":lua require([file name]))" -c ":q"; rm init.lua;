@@ -1,0 +1,5 @@
+Command> init.lua; nvim --headless --noplugin -u init.lua -c ":lua require([file name]))" -c ":q"; rm init.lua;
+
+Description>
+
+Reference> 
