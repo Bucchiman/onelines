@@ -1,0 +1,12 @@
+Command> sshfs -o intr -o sshfs_sync [user name]@[machine name]:[directory] [directory]    # sshでのマウント方法
+
+Description>
+           > - mount方法
+           > $ # local machine
+           > $ # リモートであらかじめマウントポイントを用意する
+           > $ sshfs -o intr -o sshfs_sync [user name]@[machine name]:[directory] [directory]
+           >
+           > - unmount
+           > $ fusermount -u [directory]
+
+Reference> https://www.kkaneko.jp/tools/server/sshfs.html
