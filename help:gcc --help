@@ -7,5 +7,34 @@ Description>
            >    $ gcc -I /opt/json-c/include/json-c
            >      -> #include <json.h>
            >
+           > - object file
+           >    オブジェクトファイルはコンパイルしたがリンクが終わっていない状態
+           > - 実行ファイルを作るために以下の手順を踏む
+           >    - プリプロセッサ
+           >    - コンパイル
+           >    - リンク
+           >
+           >
+           > - 静的ライブラリ(lib*.a)をリンクする L option
+           >    - 静的ライブラリ lib*.a
+           >    - オブジェクトファイルの集合体で arコマンドにより作成される
+           >       $ ar -r libsample.a a.o b.o c.o
+           >      (nmコマンドで中身が見れる)
+           >    - 静的ライブラリも実行ファイルを作成するときに使用することができる
+           >    - コンパイル時に静的ライブラリがあるディレクトリを-Lオプションで指定する必要がある
+           >         -----
+           >           |- a.c
+           >           |- b.c
+           >           |- c.c
+           >           +- libsample.a
+           >       $ gcc a.c b.c c.c -L. -lsample -o mani    # -lxxxxは静的ライブラリ
+           >
+           >    - 算術用ライブラリlibm.aはLオプションを付けず、使用できる。その理由は、リンカがデフォルトでライブラリを探しにいくディレクトリが決まっているから
+           >       $ gcc a.c -lm -o main    # libm.aはライブラリ探索先を書かなくてよい
+           >       $ ld --version           # リンカがデフォルトでライブラリを探しに行くディレクリを調べる
+           >
+           >
+
 
 Reference> https://qiita.com/DQNEO/items/4e5c2eca2761ec08b922
+         > https://qiita.com/seriru13/items/c2f5192615162c4c3f47
