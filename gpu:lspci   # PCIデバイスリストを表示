@@ -1,0 +1,25 @@
+Command> lspci   # PCIデバイスリストを表示
+
+Description>
+           > 例
+           > 002a:00:00.0 SCSI storage controller: Red Hat, Inc. Virtio 1.0 filesystem (rev 01)
+           > 0234:00:00.0 SCSI storage controller: Red Hat, Inc. Virtio 1.0 filesystem (rev 01)
+           > 0a6e:00:00.0 SCSI storage controller: Red Hat, Inc. Virtio 1.0 filesystem (rev 01)
+           > 1713:00:00.0 SCSI storage controller: Red Hat, Inc. Virtio 1.0 console (rev 01)
+           > 46c9:00:00.0 SCSI storage controller: Red Hat, Inc. Virtio 1.0 filesystem (rev 01)
+           > 5be1:00:00.0 SCSI storage controller: Red Hat, Inc. Virtio 1.0 filesystem (rev 01)
+           > 652e:00:00.0 SCSI storage controller: Red Hat, Inc. Virtio 1.0 filesystem (rev 01)
+           > 6a5e:00:00.0 System peripheral: Red Hat, Inc. Virtio file system (rev 01)
+           > 7047:00:00.0 3D controller: Microsoft Corporation Basic Render Driver
+           > 7c74:00:00.0 SCSI storage controller: Red Hat, Inc. Virtio 1.0 filesystem (rev 01)
+           > 7f85:00:00.0 SCSI storage controller: Red Hat, Inc. Virtio 1.0 filesystem (rev 01)
+           > 930c:00:00.0 SCSI storage controller: Red Hat, Inc. Virtio 1.0 filesystem (rev 01)
+           > 961b:00:00.0 SCSI storage controller: Red Hat, Inc. Virtio 1.0 filesystem (rev 01)
+           > 96be:00:00.0 SCSI storage controller: Red Hat, Inc. Virtio 1.0 filesystem (rev 01)
+           > 979d:00:00.0 SCSI storage controller: Red Hat, Inc. Virtio 1.0 filesystem (rev 01)
+           > aeaa:00:00.0 SCSI storage controller: Red Hat, Inc. Virtio 1.0 filesystem (rev 01)
+           > e7a4:00:00.0 SCSI storage controller: Red Hat, Inc. Virtio 1.0 filesystem (rev 01)
+
+
+Reference> https://minus9d.hatenablog.com/entry/2020/02/27/212520
+         > https://www.cyberciti.biz/faq/howto-find-linux-vga-video-card-ram/
