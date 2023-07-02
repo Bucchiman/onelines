@@ -1,0 +1,6 @@
+Command> cat hoge.txt | xsel --clipboard --input
+
+
+Description>
+
+Reference> https://qiita.com/yoshikyoto/items/1676b925580717c0a443
