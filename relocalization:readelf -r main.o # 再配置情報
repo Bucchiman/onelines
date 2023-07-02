@@ -1,0 +1,12 @@
+Command> readelf -r main.o   # 再配置情報
+
+Description>
+           > オブジェクトファイルはリンク前の段階
+           > 変数、関数を参照する箇所は空欄になっている
+           > 空欄にっていることを再配置情報と呼ぶ
+           > .relxxx & .relaxxxに入っている(xxxは各セクション名)
+           >
+           > nm hello.o
+           >
+
+Reference> https://qiita.com/saikoro-steak/items/e5089a2b33b52d5410bd
