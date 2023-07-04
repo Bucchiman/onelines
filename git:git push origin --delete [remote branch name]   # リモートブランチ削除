@@ -1,5 +1,14 @@
 Command> git push origin --delete [remote buranch name]
 
-Description> リモートブランチの削除
+Description>
+           > リモートブランチの削除
+           >
+           > $ git branch -a
+           >   > master
+           >   > remotes/origin/HEAD -> origin/master
+           >   > remotes/origin/master
+           >   > remotes/origin/new_command
+           > $ git push origin --delete new_command
 
 Reference> https://liginc.co.jp/387757
+         > https://www.freecodecamp.org/japanese/news/how-to-delete-a-git-branch-both-locally-and-remotely/
