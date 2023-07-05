@@ -1,0 +1,6 @@
+Command> gh pr list   # プルリクの一覧表示
+
+Keywords> github
+        > pull_request
+
+Reference> 
