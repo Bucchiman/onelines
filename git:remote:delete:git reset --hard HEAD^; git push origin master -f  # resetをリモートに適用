@@ -1,0 +1,6 @@
+Command> git reset --hard HEAD^; git push origin master -f  # resetをリモートに適用
+
+Description>
+
+
+Reference> https://zenn.dev/nekoniki/articles/f238efa56eb869
