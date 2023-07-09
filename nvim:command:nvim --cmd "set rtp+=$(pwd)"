@@ -1,0 +1,6 @@
+Command> nvim --cmd "set rtp+=$(pwd)"
+
+Keywords> nvim
+        > command
+
+Reference> https://alpha2phi.medium.com/writing-neovim-plugins-a-beginner-guide-part-i-e169d5fd1a58
