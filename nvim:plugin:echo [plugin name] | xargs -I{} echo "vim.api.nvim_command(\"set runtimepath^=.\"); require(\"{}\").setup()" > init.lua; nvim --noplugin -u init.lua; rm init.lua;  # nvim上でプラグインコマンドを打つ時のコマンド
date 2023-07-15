@@ -1,4 +1,4 @@
-Command> nvim:plugin:echo [plugin name] | xargs -I{} echo "vim.api.nvim_command(\"set runtimepath^=.\"); require(\"{}\").setup()" > init.lua; nvim --noplugin -u init.lua; rm init.lua;  # nvim上でプラグインコマンドを打つ時のコマンド
+Command> echo [plugin name] | xargs -I{} echo "vim.api.nvim_command(\"set runtimepath^=.\"); require(\"{}\").setup()" > init.lua; nvim --noplugin -u init.lua; rm init.lua;  # nvim上でプラグインコマンドを打つ時のコマンド
 
 Keywords> nvim
         > plugin
