@@ -1,5 +1,8 @@
 Command> cargo new projects --vcs none   # gitリポジトリなしでプロジェクト作成
 
+Keywords>
+        > cargo
+        > rust
 
 Description> gitリポジトリなしでプロジェクト作成
 
