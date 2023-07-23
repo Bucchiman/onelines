@@ -2,5 +2,8 @@ Command> datetime.now().strftime(r"%Y_%m_%H_%M")
 
 Description> 
 
+Keywords>
+        > PYTHON
+        > make_time_stopped
 
 Reference> 
