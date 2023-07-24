@@ -2,4 +2,7 @@ Command> cmake --build  # ビルド実行
 
 Description> 
 
+Keywords>
+        > cmake
+
 Reference> https://qiita.com/osamu0329/items/0a72ee32ee6934a7edf7

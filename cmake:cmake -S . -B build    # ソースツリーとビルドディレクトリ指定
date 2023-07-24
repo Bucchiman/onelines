@@ -2,4 +2,8 @@ Command> cmake -S . -B build    # ソースツリーとビルドディレクト�
 
 Description>
 
+Keywords>
+        > cmake
+        >
+
 Reference> https://cliutils.gitlab.io/modern-cmake/chapters/intro/running.html
