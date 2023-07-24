@@ -1,0 +1,6 @@
+Command> showkey -a  # タイプしたコマンドを確認
+
+
+Keywords> showkey
+
+Reference> https://www.reddit.com/r/zsh/comments/yjx259/how_to_use_ctrl1_as_a_command_keybinding/
