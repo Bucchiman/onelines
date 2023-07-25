@@ -1,0 +1,17 @@
+Command> protoc --decode onnx.ModelProto onnx.proto < [onnx file] > DstTextFile.txt   # binary2txt
+
+Keywords>
+        > onnx
+        > protoc
+        >
+        >
+
+
+Description>
+           >
+           > $ https://github.com/protocolbuffers/protobuf/releases
+           > $ git clone https://github.com/onnx/onnx/tree/main/onnx
+           >
+           >
+           >
+           >
