@@ -6,6 +6,11 @@ Description>
            > -u            .. init.lua指定
            > -c            .. commandの実行
 
+Keywords> nvim
+        > neovim
+        >
+        >
+
 Reference> https://github.com/ellisonleao/nvim-plugin-template/tree/main
          > https://qiita.com/simeji/items/41f4c1bd4e9a2b3c1526
          > https://scrapbox.io/jiroshin-knowledge/-Vim-_vim%E8%B5%B7%E5%8B%95%E6%99%82%E3%81%AB_vim_-c_%E3%80%87%E3%80%87_%E3%81%A7%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%E3%82%92%E5%AE%9F%E8%A1%8C%E3%81%99%E3%82%8B%E3%81%93%E3%81%A8%E3%81%8C%E3%81%A7%E3%81%8D%E3%82%8B
