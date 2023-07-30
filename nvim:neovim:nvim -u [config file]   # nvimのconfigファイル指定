@@ -2,4 +2,8 @@ Command> nvim -u [config.file]   # configファイル指定
 
 Description>
 
+
+Keywords> nvim
+        > neovim
+
 Reference> 
