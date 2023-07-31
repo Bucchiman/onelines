@@ -1,0 +1,12 @@
+Command> git config --file .gitmodules --name-only --get-regexp path   # submodule一覧表示
+
+Keywords>
+        > git
+        > submodule
+
+Description>
+           >
+           >
+           >
+
+Reference> https://stackoverflow.com/questions/12641469/list-submodules-in-a-git-repository

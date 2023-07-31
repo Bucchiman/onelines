@@ -1,0 +1,10 @@
+Command> ary=(foo fooo foooo fooooo); [[ -n ${ary[(re)fooo]} ]] && echo "found" || echo "not found"; # 文字列が配列に含まれるか
+
+
+Keywords> zsh
+
+
+Description>
+
+
+Reference> https://qiita.com/kyanagi/items/6bada2bc75578898736d
