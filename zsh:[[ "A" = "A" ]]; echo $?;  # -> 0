@@ -1,0 +1,19 @@
+Command> [[ "A" = "A" ]]; echo $?;   # -> 0
+
+
+Description>
+           > $ [ 1 -ne 1 ]; echo $?
+           > > 1
+           > $ [ -f file1 ]; echo $?
+           > > 0
+           >
+           >
+           >
+           >
+           >
+
+Keywords>
+        > zsh
+
+
+Reference> https://shellscript.sunone.me/if_and_test.html
