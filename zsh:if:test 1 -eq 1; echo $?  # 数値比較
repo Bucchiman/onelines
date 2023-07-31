@@ -1,0 +1,8 @@
+Command> test 1 -eq 1; echo $?  # -> 0
+
+Keywords> zsh
+        > if
+
+Description> $ test 1 -eq 2; echo $?  # -> 1
+
+Reference> https://shellscript.sunone.me/if_and_test.html
