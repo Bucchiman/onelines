@@ -5,4 +5,6 @@ Description>
            > $ tr -dc "[:digit:]" < /dev/urandom | fold -w 8 | head -1
            >
 
+Keywords> zsh
+
 Reference> https://www.home-page.xyz/generate_random/

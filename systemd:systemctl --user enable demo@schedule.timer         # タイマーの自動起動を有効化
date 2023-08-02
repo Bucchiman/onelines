@@ -1,0 +1,4 @@
+Command> systemctl --user enable demo@schedule.timer    # タイマーの自動起動を有効化
+
+
+Keywords> systemd

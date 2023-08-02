@@ -1,0 +1,3 @@
+Command> systemctl edit --user --force --full demo@schedule.timer    # タイマー作成
+
+Keywords> systemd

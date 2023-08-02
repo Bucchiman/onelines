@@ -2,4 +2,7 @@ Command> echo a && echo b  # 左からコマンドを実行してエラ〜が出
 
 Description>
 
+
+Keywords> zsh
+
 Reference> https://blog.livewing.net/zsh-symbols
