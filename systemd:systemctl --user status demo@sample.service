@@ -1,0 +1,4 @@
+Command> systemctl --user status demo@sample.service
+
+
+Keywords> systemd

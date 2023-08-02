@@ -1,0 +1,4 @@
+Command> systemctl stop demo@.service
+
+
+Keywords> systemd

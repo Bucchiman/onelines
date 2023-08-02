@@ -1,0 +1,4 @@
+Command> systemd-analyze calendar 00,04,08,12,16,20:15:00  # OnCalendarの値検証
+
+
+Keywords> systemd

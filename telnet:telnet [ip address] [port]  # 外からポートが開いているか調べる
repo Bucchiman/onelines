@@ -8,5 +8,8 @@ Description>
            > lsof, ss, netstatm, nmap
 
 
+Keywords> telnet
+
+
 Reference> https://www.softel.co.jp/blogs/linux/archives/53
            https://www.linuxmaster.jp/linux_skill/2009/02/linux-4.html
