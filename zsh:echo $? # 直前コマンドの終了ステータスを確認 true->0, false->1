@@ -1,0 +1,7 @@
+Command> echo $? 直前コマンドの終了ステータスを確認 true->0, false->1
+
+Description>
+
+Keywords> zsh
+
+Reference> https://yu-nix.com/archives/c-exit/
