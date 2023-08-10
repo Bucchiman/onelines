@@ -1,5 +1,7 @@
 Command> git --help
 
+Keywords> help
+
 Description>
            > # git merge --help
            > gitのマージには2種類ある

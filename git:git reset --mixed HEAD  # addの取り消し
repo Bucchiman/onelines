@@ -1,4 +1,6 @@
-Command> git reset --mixed HEAD
+Command> git reset --mixed HEAD   # addの取り消し
+
+Keywords> git
 
 
 Description> addしたときに取り消し

@@ -1,5 +1,7 @@
 Command> git cherry-pick [hash id]  # 別ブランチから特定のコミットを取り込む
 
+Keywords> git
+
 
 Description>
            > 一部のコミットだけ取り込む場合

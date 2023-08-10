@@ -1,4 +1,7 @@
 Command> ffmpeg -i [].mp4 [].gif
 
 
+Keywords> ffmpeg_video2gif
+
+
 Description> ffmpegでvideoからgifに変換

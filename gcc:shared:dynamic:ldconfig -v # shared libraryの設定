@@ -3,6 +3,10 @@ Command> ldconfig -v  # shared libraryの設定
 
 Description>
 
+Keywords> gcc
+        > shared
+        > dynamic
+
 
 Command> https://linuxcommand.net/ldconfig/
        > https://tech.pjin.jp/blog/2020/12/01/linux-shared-library-management

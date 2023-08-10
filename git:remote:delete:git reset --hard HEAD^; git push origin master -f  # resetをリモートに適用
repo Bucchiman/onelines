@@ -1,5 +1,9 @@
 Command> git reset --hard HEAD^; git push origin master -f  # resetをリモートに適用
 
+Keywords> git
+        > remote
+        > delete
+
 Description>
 
 

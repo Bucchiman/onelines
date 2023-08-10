@@ -1,5 +1,8 @@
 Command> gh pr --help
 
+Keywords> github
+        > pull_request
+
 Description>
            > - gh pr checkout {[number] | [url] | [branch]} [flags]
            > - gh pr create [flags]

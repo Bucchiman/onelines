@@ -1,5 +1,8 @@
 Command> git submodule add git@github.com:Bucchiman/abeja_works.git achievement  # サブモジュール追加
 
+Keywords> git
+        > submodule
+
 Description>
            > 外部のgitリポジトリを自分のgitリポジトリのサブディレクトリとして登録し、特定のcommitを参照する仕組み
            >

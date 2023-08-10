@@ -1,3 +1,5 @@
 Command> dpkg -l | grep nvinfer  # tensorrt version確認
 
+Keywords> jetson
+
 Reference> https://forums.developer.nvidia.com/t/how-to-check-my-tensorrt-version/56374

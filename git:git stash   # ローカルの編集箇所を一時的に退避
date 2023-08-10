@@ -1,4 +1,6 @@
-Command> git stash
+Command> git stash  # ローカルの編集箇所を一時的に退避
+
+Keywords> git
 
 Description> ローカルの変更内容を一時的に退避
            > 通常以下のように使う

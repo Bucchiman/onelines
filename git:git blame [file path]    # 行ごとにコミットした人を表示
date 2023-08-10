@@ -3,4 +3,6 @@ Command> git blame [file path]    # 行ごとにコミットした人を表示
 
 Description>
 
+Keywords> git
+
 Reference> https://liginc.co.jp/387757

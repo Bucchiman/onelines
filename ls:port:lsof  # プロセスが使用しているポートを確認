@@ -4,7 +4,8 @@ Command> lsof   # プロセスが使用しているポートを確認
 Description>
 
 
-Keywords> port
+Keywords> ls
+        > port
 
 
 Reference> https://www.linuxmaster.jp/linux_skill/2009/02/linux-4.html

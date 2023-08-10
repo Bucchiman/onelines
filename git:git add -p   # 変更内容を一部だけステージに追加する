@@ -3,5 +3,7 @@ Command> git add -p    # 変更内容を一部だけステージに追加する
 
 Description>
 
+Keywords> git
+
 
 Reference> https://liginc.co.jp/387757

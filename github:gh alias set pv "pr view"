@@ -1,5 +1,7 @@
 Command> gh alias set pv "pr view"
 
+Keywords> github
+
 
 Description>
            >  # note: Command Prompt on Windows requires using double quotes for arguments

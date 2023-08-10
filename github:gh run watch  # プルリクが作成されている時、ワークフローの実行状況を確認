@@ -1,5 +1,7 @@
 Command> gh run watch  # プルリクが作成されている時、ワークフローの実行状況を確認 
 
+Keywords> github
+
 Description>
 
 Reference> https://zenn.dev/hankei6km/articles/pull-request-with-github-cli

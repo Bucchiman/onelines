@@ -1,5 +1,6 @@
-Command> git reset --hard HEAD^
+Command> git reset --hard HEAD^   # 直前のコミット、編集部分を含め取り消し
 
+Keywords> git
 
 Description> 直前のコミットを取り消す(編集部分も取り消される)
            > 1.

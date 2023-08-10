@@ -1,5 +1,7 @@
 Command> gh api --help
 
+Keywords> github
+
 Description>
            >
            > $ gh api graphql --paginate -f query='

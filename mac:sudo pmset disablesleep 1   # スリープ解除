@@ -1,5 +1,7 @@
 Command> sudo pmset disablesleep 1
 
+Keywords> mac
+
 Description>
            > sudo pmset disablesleep 0
            >

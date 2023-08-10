@@ -2,4 +2,6 @@ Command> git fetch --prune  # リモートで削除されたブランチのロ�
 
 Description>
 
+Keywords> git
+
 Reference> https://liginc.co.jp/387757

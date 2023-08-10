@@ -1,5 +1,9 @@
 Command> lshw # List CPU and other HW
 
+Keywords> ls
+        > gpu
+        >
+
 Description>
 
 Reference> https://www.cyberciti.biz/faq/howto-find-linux-vga-video-card-ram/

@@ -1,7 +1,7 @@
-Command> docker commit [CONTAINER] bucchiman/[IMAGE_NAME]:[TAG]
+Command> docker commit [CONTAINER] bucchiman/[IMAGE_NAME]:[TAG]   # コンテナからimage作成
 
 Description> 
 
+Keywords> docker
 
-
-Reference> 
+Reference> https://docs.docker.com/engine/reference/commandline/commit/

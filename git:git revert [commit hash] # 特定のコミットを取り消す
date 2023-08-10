@@ -1,4 +1,6 @@
-Command> git revert [comit hash]
+Command> git revert [comit hash]   # 特定のコミットを取り消す
+
+Keywords> git
 
 Description> 緊急で一部のコミットのみ削除する時、使用する
            > 0. prerequisite

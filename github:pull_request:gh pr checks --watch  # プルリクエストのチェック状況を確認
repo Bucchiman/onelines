@@ -1,5 +1,8 @@
 Command> gh pr checks --watch  # プルリクエストのチェック状況を確認
 
+Keywords> github
+        > pull_request
+
 Description>
 
 Reference> https://zenn.dev/hankei6km/articles/pull-request-with-github-cli

@@ -1,5 +1,7 @@
 Command> git commit --amend --no-edit   # 直前のコミットに変更内容を追加する
 
+Keywords> git
+
 
 Description>
            > Motivation

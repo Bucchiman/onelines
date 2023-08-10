@@ -1,5 +1,7 @@
 Command> git remote set-url --add origin [remote repo]  # リモートリポジトリを複数登録
 
+Keywords> git
+
 
 Description> 
            > 同じ用途でこれも使える(はず)

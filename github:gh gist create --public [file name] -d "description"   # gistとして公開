@@ -1,5 +1,7 @@
 Command> gh gist create --public [file name] -d "description"   # gistとして公開
 
+Keywords> github
+
 
 Description>
 

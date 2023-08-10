@@ -1,5 +1,8 @@
 Command> gh pr create -H develop -B master --label enhancement --title "Fix bug" --body ""  # develop->masterにプルリク作成
 
+Keywords> github
+        > pull_request
+
 Description>
            > # option
            > -B --base  The branch into which you want your code merged (マージしたいコードのブランチ)
