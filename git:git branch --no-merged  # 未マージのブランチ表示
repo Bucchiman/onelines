@@ -2,5 +2,6 @@ Command> git branch --no-merged   # 未マージのブランチ表示
 
 Description>
 
+Keywords> git
 
 Reference> https://liginc.co.jp/387757

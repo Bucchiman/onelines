@@ -1,4 +1,6 @@
-Command> git reset --hard HEAD
+Command> git reset --hard HEAD   # 編集部分の取り消し
+
+Keywords> git
 
 Description> 編集後にその編集箇所をすべて元に戻したい
            > 1. before

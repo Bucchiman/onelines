@@ -1,5 +1,7 @@
 Command> git config commit.template .gitmessage # commit message templateの登録
 
+Keywords> git
+
 Description>
            > Motivation: コミットメッセージの内容をそろえるためにテンプレートを登録
 

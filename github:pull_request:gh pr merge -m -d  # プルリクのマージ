@@ -1,5 +1,8 @@
 Command> gh pr merge -m -d    # プルリクのマージ
 
+Keywords> github
+        > pull_request
+
 
 Description>
            > # 一連の流れ

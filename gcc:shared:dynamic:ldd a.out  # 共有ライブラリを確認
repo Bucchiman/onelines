@@ -7,5 +7,9 @@ Description>
            >  -u 使用されていない依存関係を表示
            >  -v 全ての情報を表示
 
+Keywords> gcc
+        > shared
+        > dynamic
+
 Reference> https://webkaru.net/linux/ldd-command/
          > https://tech.pjin.jp/blog/2020/12/01/linux-shared-library-management

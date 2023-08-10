@@ -1,5 +1,7 @@
 Command> gh repo create [repo name] --private -d "8ucchiman was here"  # リモートリポジトリを作成
 
+Keywords> github
+
 Description>
            >
            >

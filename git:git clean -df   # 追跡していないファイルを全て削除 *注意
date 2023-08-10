@@ -1,5 +1,7 @@
 Command> git clean -df   # 追跡していないファイルを全て削除
 
+Keywords> git
+
 
 Description>
 

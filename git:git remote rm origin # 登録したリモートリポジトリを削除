@@ -1,5 +1,7 @@
 Command> git remote rm origin # 登録したリモートリポジトリを削除
 
+Keywords> git
+
 
 Description>
            > 登録したリポジトリを削除

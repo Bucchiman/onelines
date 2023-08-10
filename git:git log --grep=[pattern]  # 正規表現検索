@@ -1,5 +1,7 @@
 Command> git log --grep=[pattern]  # 正規表現検索
 
+Keywords> git
+
 Description>
 
 Reference> https://tech.pjin.jp/blog/2015/11/24/git-command-matome-list-100/

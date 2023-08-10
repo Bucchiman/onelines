@@ -1,4 +1,6 @@
-Command> git reset --soft HEAD^
+Command> git reset --soft HEAD^  # 直前のコミットを取り消し(コミットのみ取り消し)
+
+Keywords> git
 
 Description> 直前のコミットを取り消す(編集箇所workingは消えない)
            > 1.

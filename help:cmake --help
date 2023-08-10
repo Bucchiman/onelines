@@ -1,3 +1,7 @@
+Command> cmake --help
+
+Keywords> help
+
 # cmake -S . -B build -DBUILD_SHARED_LIBS=ON    # 共有ライブラリ指定
 
 ####################

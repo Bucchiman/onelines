@@ -1,5 +1,7 @@
 Command> git reset -p  # 変更内容を一部だけステージにリセットする
 
+Keywords> git
+
 Description>
 
 Reference> https://liginc.co.jp/387757

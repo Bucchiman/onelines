@@ -1,4 +1,6 @@
-Command> git reflog
+Command> git reflog    # HEADのトラッキング
+
+Keywords> git
 
 Description> HEADのトラッキングが可能
            > 出力結果の確認

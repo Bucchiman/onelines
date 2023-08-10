@@ -1,5 +1,8 @@
 Command> lsof -i -P  # プロセスが使用しているポートを確認する
 
+Keywords> ls
+        > infra
+
 Description>
            > サーバー      : 島
            > インターネット: 海

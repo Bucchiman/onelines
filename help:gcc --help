@@ -1,4 +1,6 @@
-Command> 
+Command> gcc --help
+
+Keywords> help
 
 Description>
            > # 任意の場所にあるヘッダーファイルを読み込みたいとき

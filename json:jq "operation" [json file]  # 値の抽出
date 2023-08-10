@@ -1,4 +1,6 @@
-Command> jq 'operation' [json file]
+Command> jq 'operation' [json file]  # 値の抽出
+
+Keywords> json
 
 Description> 
            > - 値の抽出

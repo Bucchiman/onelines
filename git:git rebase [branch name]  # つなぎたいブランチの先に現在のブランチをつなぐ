@@ -1,4 +1,6 @@
-Command> git rebase [branch name]
+Command> git rebase [branch name]     # つなぎたいブランチの先に現在のブランチをつなぐ
+
+Keywords> git
 
 Description> branchを一直線にしてトラッキングしやすくしたい場合、これを使う
            > 1. before

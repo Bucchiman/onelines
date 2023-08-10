@@ -1,4 +1,6 @@
-Command> git push origin --delete [remote buranch name]
+Command> git push origin --delete [remote buranch name]   # リモートブランチ削除
+
+Keywords> git
 
 Description>
            > リモートブランチの削除

@@ -1,5 +1,7 @@
 Command> git diff --diff-filter=M      # 変更のみ確認
 
+Keywords> git
+
 Description>
            >
            >

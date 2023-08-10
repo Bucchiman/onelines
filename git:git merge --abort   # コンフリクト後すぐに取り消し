@@ -1,4 +1,6 @@
-Command> git merge --abort
+Command> git merge --abort   # コンフリクト後すぐに取り消し
+
+Keywords> git
 
 Description> コンフリクト編集していない時
 

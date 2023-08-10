@@ -1,0 +1,11 @@
+Command> cat /etc/fstab #ディスクパーティションやリモートファイルをどのようにファイルシステムにマウントするか
+
+Description>
+           >
+           >
+
+Keywords> fstab
+        > mount
+
+
+Reference> https://qiita.com/kihoair/items/03635447591358210772

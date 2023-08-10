@@ -1,6 +1,10 @@
 Command> lshw -C display -businfo
 
 
+Keywords> ls
+        > get_bus_id
+
+
 Description> GPUのIDを調べるために打った
            >
            > WARNING: you should run this program as super-user.

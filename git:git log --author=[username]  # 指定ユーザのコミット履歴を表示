@@ -1,5 +1,6 @@
 Command> git log --author=[username]  # 指定ユーザのコミット履歴を表示
 
+Keywords> git
 
 Description>
 

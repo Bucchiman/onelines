@@ -1,5 +1,7 @@
 Command> otool -L a.out  # プログラムの依存ライブラリを見る
 
+Keywords> mac
+
 Description>
            > Linuxではlddコマンドに相当する
            > ldd a.out

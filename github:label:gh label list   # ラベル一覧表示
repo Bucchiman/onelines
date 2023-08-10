@@ -1,5 +1,8 @@
 Command> gh label list   # ラベル一覧表示
 
+Keywords> github
+        > label
+
 Description>
 
 Reference> https://cli.github.com/manual/gh_label

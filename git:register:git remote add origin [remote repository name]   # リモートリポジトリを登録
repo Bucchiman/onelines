@@ -1,5 +1,8 @@
 Command> git remote add origin [remote repository name]   # リモートリポジトリを登録
 
+Keywords> git
+        > register
+
 Description>
            > e.g.
            > $ git remote add origin git@github.com:Bucchiman/base_docker.git

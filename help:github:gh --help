@@ -1,5 +1,7 @@
 Command> gh --help
 
+Keywords> help
+
 Description>
            > - alias
            >   - gh alias delete
