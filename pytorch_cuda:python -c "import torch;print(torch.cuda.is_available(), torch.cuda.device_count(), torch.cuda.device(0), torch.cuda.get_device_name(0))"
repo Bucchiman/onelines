@@ -2,5 +2,6 @@ Command> python -c "import torch;print(torch.cuda.is_available(), torch.cuda.dev
 
 Description>
 
+Keywords> pytorch_cuda
 
 Reference> gulliver

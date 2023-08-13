@@ -1,1 +1,3 @@
 Command> n>&m                  # nのFDにmのFDが複製される
+
+Keywords> redirect
