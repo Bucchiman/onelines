@@ -1,0 +1,4 @@
+Command> netsh interface show all
+
+Keywords> powershell
+        > portfowarding

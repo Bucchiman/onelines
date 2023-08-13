@@ -1,0 +1,4 @@
+Command> wsl -e hostname -I
+
+Keywords> powershell
+        > portfowarding
