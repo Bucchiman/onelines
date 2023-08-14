@@ -1,0 +1,7 @@
+Command> arr=($(ls))    # lsの結果を配列に格納
+
+
+Keywords> zsh
+
+
+Description> $ arr=($(echo {0000 .. 0010}))
