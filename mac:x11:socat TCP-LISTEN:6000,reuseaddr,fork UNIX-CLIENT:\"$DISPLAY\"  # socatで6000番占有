@@ -1,5 +1,8 @@
 Command> socat TCP-LISTEN:6000,reuseaddr,fork UNIX-CLIENT:\"$DISPLAY\"
 
+Keywords> mac
+        > x11
+
 Description> 
            > Mac環境でDocker Container内GUIを起動
            > そのため6000番を空けておく

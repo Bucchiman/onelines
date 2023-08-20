@@ -2,6 +2,7 @@ Command> lsof -i TCP:6000   # ポート6000番の空きを確認
 
 Keywords> ls
         > x11
+        > mac
 
 Description> 
            > Mac環境でDocker Container内GUIを起動
