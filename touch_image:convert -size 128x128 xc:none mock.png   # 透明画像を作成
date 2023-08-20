@@ -1,0 +1,7 @@
+Command> convert -size 128x128 xc:none mock.png   # 透明画像を作成
+
+Keywords> touch_image
+
+Description>
+
+Reference> http://blog.penlabo.net/another/imagemagick/introduction
