@@ -1,0 +1,25 @@
+Command> gh label create refactoring --description "Refactoring" --color FFCB2     # create label
+
+
+Keywords> github
+        > label
+
+
+Description>
+           > function colorlist() {
+           >     for color in {000..015}; do
+           >         print -nP "%F{$color}$color %f"
+           >         print -nP "%K{$color}$color %k"
+           >     done
+           >     printf "\n"
+           >     for color in {016..255}; do
+           >         print -nP "%F{$color}$color %f"
+           >         if [ $(($((color-16))%6)) -eq 5 ]; then
+           >             printf "\n"
+           >         fi
+           >     done
+           > }
+
+
+
+Reference> https://cli.github.com/manual/gh_label_create
