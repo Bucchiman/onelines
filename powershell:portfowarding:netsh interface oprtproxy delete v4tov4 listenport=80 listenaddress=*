@@ -4,3 +4,7 @@ Command> netsh interface oprtproxy delete v4tov4 listenport=80 listenaddress=*
 Keywords>
         > powershell
         > portfowarding
+
+
+
+Reference> https://qiita.com/yabeenico/items/15532c703974dc40a7f5
