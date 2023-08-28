@@ -1,10 +1,15 @@
 Command> sudo insmod test.ko     # カーネルモジュールのロード
 
-Keywords> raspberrypi
+Keywords> raspi
+        > kernel
 
 Description>
            > デバイスドライバを勉強している最中に紹介されているコマンド
            > insmodでモジュールをロード
            > rmmodでモジュールをアンロード
+
+Related> rmmod
+       > lsmod
+       > modprobe
 
 Reference> https://qiita.com/iwatake2222/items/1fdd2e0faaaa868a2db2
