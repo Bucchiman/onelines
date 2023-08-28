@@ -2,3 +2,7 @@ Command> netsh interface show all
 
 Keywords> powershell
         > portfowarding
+
+
+
+Reference> https://qiita.com/yabeenico/items/15532c703974dc40a7f5
