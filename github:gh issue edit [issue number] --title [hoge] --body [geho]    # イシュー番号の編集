@@ -1,0 +1,15 @@
+Command> gh issue edit [issue number] --title [hoge] --body [geho]   # イシュー番号の編集
+
+
+Keywords> github
+
+Description>
+           >
+           >
+           >
+           >
+           >
+           >
+
+
+Reference> https://dev.classmethod.jp/articles/i-tried-operations-around-issue-with-github-cli-20/

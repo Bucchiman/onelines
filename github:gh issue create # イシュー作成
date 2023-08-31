@@ -1,0 +1,14 @@
+Command> gh issue create   # イシュー作成
+
+Keywords> github
+
+Description>
+           > $ gh issue create [-a] @me
+           > $ gh issue create [-b | --body] [description]
+           > $ gh issue create [-l | --label] [label name]
+           > $ gh issue create [-m | --milestone] [milestone name]  # 工数日程
+           > $ gh issue create [-p | --project] [project name]
+           > $ gh issue create [-t | --title] [title name]
+           > $ gh issue create [-w | --web]
+
+Reference> https://zenn.dev/gashi/articles/6a9b7bf2b9dfe79e3870
