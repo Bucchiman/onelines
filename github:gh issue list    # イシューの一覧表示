@@ -1,0 +1,19 @@
+Command> gh issue list    # イシューの一覧表示
+
+Keywords> github
+
+Description>
+           > $ gh issue list --web              # ブラウザを開いて表示
+           > $ gh issue list --search "hoge"    # hogeに関して検索
+           > $ gh issue list [-a | --assignee] [login name]
+           > $ gh issue list [-A | --author] [string]   # 作成者名で絞り込む
+           > $ gh issue list [-l | --label] [label name]
+           > $ gh issue list [-L | --limit] [print num]
+           > $ gh issue list [--mention] [@name]  # メンション名で絞り込む
+           > $ gh issue list [-m | --milestone] [number]   # マイルストーンで絞り込み
+           > $ gh issue list [-s | --state] [open | close | all]
+           > $ gh issue list [-w | --web]
+
+
+Reference> https://dev.classmethod.jp/articles/i-tried-operations-around-issue-with-github-cli-20/
+         > https://zenn.dev/gashi/articles/6a9b7bf2b9dfe79e3870
