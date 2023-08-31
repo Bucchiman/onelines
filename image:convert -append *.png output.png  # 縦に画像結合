@@ -1,0 +1,7 @@
+Command> convert -append *.png output.png     # 縦に画像結合
+
+Keywords> image
+
+Description>
+
+Reference> https://qiita.com/udoP_/items/8495aac075dbca5df143
