@@ -1,5 +1,7 @@
 Command> tar tvf [tar file]
 
+Keywords> verbose
+
 TL;DR> ファイルの中身確認
 
 Reference> https://atmarkit.itmedia.co.jp/ait/articles/1608/18/news021.html
