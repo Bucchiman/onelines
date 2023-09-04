@@ -1,0 +1,16 @@
+Command> git status -sb
+
+
+TL;DR> ブランチとショートコメントを表示
+
+Keywords> git
+
+Description>
+           > $ git status --help   # 確認
+           > -s
+           >    出力結果のコメントを短縮にする
+           > -b
+           >    ブランチ名表示
+           >
+
+Reference> https://qiita.com/yuku_t/items/e58cbecf13407446bd50
