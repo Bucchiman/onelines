@@ -1,0 +1,7 @@
+Command> declare -f
+
+TL;DR> 関数一覧表示
+
+Keywords> zsh
+
+Reference> gulliver
