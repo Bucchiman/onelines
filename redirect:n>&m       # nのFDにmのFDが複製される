@@ -1,0 +1,14 @@
+Command> n>&m
+
+TL;DR> nのFDにmのFDが複製される
+
+Keywords> redirect
+
+Description>
+           > &の意味
+           > - 複製を意味する
+           > 2>&1 .. FD=2にFD=1を複製する
+           >
+           >
+           >
+
