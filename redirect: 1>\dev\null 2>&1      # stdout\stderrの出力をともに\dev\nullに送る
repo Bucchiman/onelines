@@ -1,3 +1,0 @@
-Command> 1>/dev/null 2>&1      # stdout/stderrの出力をともに/dev/nullに送る
-
-Keywords> redirect
