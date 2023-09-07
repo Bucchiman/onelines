@@ -1,5 +1,7 @@
 Command> git submodule add git@github.com:Bucchiman/abeja_works.git achievement  # サブモジュール追加
 
+TL;DR> サブモジュール追加
+
 Keywords> git
         > submodule
 
@@ -7,19 +9,21 @@ Description>
            > 外部のgitリポジトリを自分のgitリポジトリのサブディレクトリとして登録し、特定のcommitを参照する仕組み
            >
            > 0.
-           >           myprojects/
-           >                |----- .git/
-           >                +----- hello.c
+           >    $ tree myprojects
+           >    > myprojects/
+           >    >      |----- .git/
+           >    >      +----- hello.c
            >
            > 1. サブモジュール追加
+           >    $ pwd
+           >    > /path/to/myprojects
            >    $ git submodule add https://github.com/Bucchiman/submodule.git submodule
-           >
-           >           myprojects/
-           >                |----- .git/
-           >                |----- hello.c
-           >                +----- submodule/
-           >                           |----- .git/
-           >                           +----- 8ucchiman.cpp
+           >    > myprojects/
+           >    >      |----- .git/
+           >    >      |----- hello.c
+           >    >      +----- submodule/
+           >    >                 |----- .git/
+           >    >                 +----- 8ucchiman.cpp
            >
            > 2. 親リポジトリで状態を確認
            >    $ git status
@@ -73,6 +77,7 @@ Description>
            >    $ git commit -m "update submodule: submodule"
            >
            > 4. リポジトリAで別のコミットをチェックアウト (重要)
+           >    submoduleの理解しづらい点は、親リポジトリと子リポジトリのコミットハッシュIDが連動しないことである
            >    $ git checkout ^HEAD
            >    $ git status
            >    > HEAD detached at 45db3c1
