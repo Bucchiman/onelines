@@ -1,0 +1,43 @@
+Command> sudo tcpdump -tn -i any icmp
+
+TL;DR> スニッフィング
+
+Keywords>
+        > tcp
+        > ip
+
+Description>
+           > $ # ターミナル01
+           > $ sudo tcpdump -tn -i any icmp
+           >
+           > $ # ターミナル02
+           > $ ping -c 3 8.8.8.8
+           >
+           >
+           > IP 192.168.11.42 > 8.8.8.8: ICMP echo request, id 24204, seq 0, length 64
+           > IP 8.8.8.8 > 192.168.11.42: ICMP echo reply, id 24204, seq 0, length 64
+           > IP 192.168.11.42 > 8.8.8.8: ICMP echo request, id 24204, seq 1, length 64
+           > IP 8.8.8.8 > 192.168.11.42: ICMP echo reply, id 24204, seq 1, length 64
+           > IP 192.168.11.42 > 8.8.8.8: ICMP echo request, id 24204, seq 2, length 64
+           > IP 8.8.8.8 > 192.168.11.42: ICMP echo reply, id 24204, seq 2, length 64
+           >
+           >
+           > IP 8.8.8.8 > 192.168.11.42: ICMP echo reply, id 24204, seq 0, length 64
+           >    -------   -------------
+           >    送信元     送信先
+           >
+           >
+           > -t: 自国に関する情報を出力しないように指定
+           > -n: ipアドレスをそのまま表示する
+           > -i: 
+           >
+           >
+           >
+           >
+           > wiresharkもスニッフィングに便利なツール
+           > スニッフィングはパケット通信の覗き見のこと
+           >
+           >
+           >
+
+

@@ -1,0 +1,14 @@
+Command> ping -c 3 8.8.8.8
+
+Keywords> tcp
+        > ip
+
+TL;DR> 8.8.8.8アドレスから応答が3回ある
+
+Description>
+           > 8.8.8.8
+           > Googleが運用する公開DNSサーバのIPアドレス
+           >
+           >
+
+Reference> 
