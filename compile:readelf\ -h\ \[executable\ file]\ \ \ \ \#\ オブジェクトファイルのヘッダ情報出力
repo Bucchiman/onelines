@@ -1,0 +1,9 @@
+Command> readelf -h
+
+Arguments> [executable file]
+
+Keywords> compile
+
+TL;DR> オブジェクトファイルのヘッダ情報出力
+
+Reference> https://tanakamura.github.io/pllp/docs/linker.html
