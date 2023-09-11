@@ -1,0 +1,14 @@
+Command> gcc -v
+
+TL;DR> コンパイラがデフォルトで参照するパスを表示、その他背後で呼び出されるコマンドを表示できる
+
+Keywords> gcc
+
+Arguments> [c file]
+
+Related> cc1
+       > as
+       > collect2
+
+Reference> https://qiita.com/seriru13/items/c2f5192615162c4c3f47
+         > https://tanakamura.github.io/pllp/docs/linker.html
