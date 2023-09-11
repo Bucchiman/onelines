@@ -1,5 +1,0 @@
-Command> gcc -v main.c # コンパイラがデフォルトで参照するパスを表示
-
-Keywords> gcc
-
-Reference> https://qiita.com/seriru13/items/c2f5192615162c4c3f47

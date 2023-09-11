@@ -1,0 +1,44 @@
+Command> objdump -d
+
+TL;DR> オブジェクトファイルの逆アセンブル
+
+Auguments> [object file]
+
+Keywords> disassemble
+
+Description>
+           >
+           > # c言語のソースコード付きで逆アセンブルする
+           > $ cc -g -c func.c
+           > $ objdump -S -d func.o
+           >
+           >************************************************************
+           >
+           > nvim main.s
+           > ```
+           >        .global main
+           > main:
+           >        return
+           > ```
+           > $ gcc -static
+           > $ objdump -d
+           >
+           > 結果は大量の命令が出力されていることがわかる
+           > この大量の命令は、 libcと呼ばれるライブラリ等の命令。
+           > 以下がリンクされるもの
+           > - libc
+           >    printf
+           >    malloc
+           > x86_64 x Linux : glibc (The GNU C Library)
+           > Windows        : msvcrt
+           > - startup routine
+           > - libgcc
+           >************************************************************
+           >
+           >
+
+
+
+Reference> https://kaworu.jpn.org/c/ELF%E5%AE%9F%E8%A1%8C%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%82%92objdump%E3%81%A7C%E3%81%AE%E3%82%BD%E3%83%BC%E3%82%B9%E3%82%B3%E3%83%BC%E3%83%89%E4%BB%98%E3%81%8D%E3%81%A7%E9%80%86%E3%82%A2%E3%82%BB%E3%83%B3%E3%83%96%E3%83%AB%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95
+         > https://zenn.dev/kaityo256/articles/what_is_linker
+         > https://tanakamura.github.io/pllp/docs/linker.html
