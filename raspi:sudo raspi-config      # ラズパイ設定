@@ -1,0 +1,7 @@
+Command> sudo raspi-config
+
+Keywords> raspi
+
+TL;DR> ラズパイ設定
+
+Reference> https://dev.classmethod.jp/articles/raspberrypi-and-bme280/
