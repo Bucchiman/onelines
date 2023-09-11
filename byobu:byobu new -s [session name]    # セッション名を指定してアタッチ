@@ -1,0 +1,9 @@
+Command> byobu new -s 
+
+ARGUMENTS> [session name]
+
+TL;DR> セッション名を指定してアタッチ
+
+Keywords> byobu
+
+Reference> https://qiita.com/miyashiiii/items/90ba726dd331ae103b7b
