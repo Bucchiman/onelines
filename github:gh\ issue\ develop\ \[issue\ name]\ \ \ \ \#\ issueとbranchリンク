@@ -1,0 +1,11 @@
+Command> gh issue develop
+
+Arguments> [issue number]
+
+TL;DR> issueとbranchリンク
+
+Keywords> github
+
+Alias>
+
+Reference> https://cli.github.com/manual/gh_issue_develop

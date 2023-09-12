@@ -1,0 +1,19 @@
+Command> gh issue delete
+
+Arguments> [issue number]
+
+TL;DR> issue削除
+
+Keywords> github
+
+Alias> 
+
+Description>
+           > --yes
+           >    削除の確認
+           >
+           >
+           >
+
+
+Reference> https://cli.github.com/manual/gh_issue_delete

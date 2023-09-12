@@ -1,8 +1,0 @@
-Command> gh issue create -t "issue title" -F [md file]    # issue作成
-
-
-Keywords> github
-
-
-
-Reference> https://qiita.com/narikkyo/items/0c15308267140892ea1e
