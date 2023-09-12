@@ -1,0 +1,24 @@
+Command> gh issue close
+
+Arguments> [issue number]
+
+TL;DR> close issue
+
+Keywords> github
+
+
+Description>
+           > $ gh issue close [issue number] [flags]
+           >
+           > - flags
+           >    - c, comment (string)
+           >    - r, reason  (string)
+           >    - R, repo (HOST|OWNER|REPO)
+           >
+           >
+           >
+           >
+           >
+
+
+Reference> https://cli.github.com/manual/gh_issue_close
