@@ -1,0 +1,10 @@
+Command> gh issue transfer
+
+Arguments> [issue number] [destination-repo]
+
+TL;DR> issueを他のリポジトリに転送
+
+Keywords> github
+
+
+Reference> https://cli.github.com/manual/gh_issue_transfer

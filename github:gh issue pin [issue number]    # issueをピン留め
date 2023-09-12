@@ -1,0 +1,13 @@
+Command> gh issue pin
+
+Arguments> [issue number]
+
+TL;DR> issueをピン留め
+
+Keywords> github
+
+Scene01> gh issue pin 23
+Scene02> gh issue pin https://github.com/owner/repo/issues/23
+
+
+Reference> https://cli.github.com/manual/gh_issue_pin
