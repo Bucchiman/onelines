@@ -1,0 +1,10 @@
+Command> gh project create
+
+TL;DR> create a project
+
+Keywords> github
+        > project
+
+Example> gh project create --owner monalisa --title "a new project"    # create a new project owned by monalisa
+
+Reference> https://cli.github.com/manual/gh_project_create

@@ -1,0 +1,15 @@
+Command> gh project delete
+
+Arguments> [project number]
+
+TL;DR> Delete a project
+
+Keywords> github
+        > project
+
+Description>
+
+
+Example> gh project delete 1 --owner "@me"
+
+Reference> https://cli.github.com/manual/gh_project_delete

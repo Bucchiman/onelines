@@ -1,0 +1,21 @@
+Command> gh project edit
+
+Arguments> [project number]
+
+TL;DR> Edit a project
+
+Keywords> github
+        > project
+
+Description>
+           > -d, --description   <string>
+           > --format            <string>
+           > --owner             <string>
+           > --readme            <string>
+           > --title             <string>
+           > --visibility        <PUBLIC|PRIVATE>
+           >
+
+Example> gh project edit 1 --owner monalisa --title "New title"
+
+Reference> https://cli.github.com/manual/gh_project_edit
