@@ -1,6 +1,27 @@
-Command> gh pr list   # プルリクの一覧表示
+Command> gh pr list
+
+TL;DR> プルリクの一覧表示
 
 Keywords> github
         > pull_request
 
-Reference> 
+Description>
+           > -a, --assignee <string>
+           > -A, --author   <string>
+           > -B, --base     <string> base branch
+           > -d, --draft             draft stage
+           > -H, --head     <string> head branch
+           > -q, --jq       <expression> json output
+           > --json         <fields> output json
+           > -l, --label    <string>
+           > -L, --limit    <int>    maximum number of items to fetch
+           > -S, --search   <query>
+           > -s, --state    <string> open | closed | merged | all
+           > -t, --template <string>
+
+Scene01> gh pr list --author "@me"                     # List PRs authored by you
+Scene02> gh pr list --label bug --label "priority"     # List only PRs with all of the given labels
+Scene03> gh pr list --search "status:success review:required"
+Scene04> gh pr list --search "<SHA>" --state merged
+
+Reference> https://cli.github.com/manual/gh_pr_list

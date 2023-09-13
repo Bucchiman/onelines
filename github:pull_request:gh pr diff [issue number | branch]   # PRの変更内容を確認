@@ -1,0 +1,14 @@
+Command> gh pr diff
+
+Arguments> [issue number | branch]  # 無しの場合, current branch
+
+TL;DR> PRの変更内容を確認
+
+Keywords> github
+        > pull_request
+
+
+
+
+Reference> https://cli.github.com/manual/gh_pr_diff
+

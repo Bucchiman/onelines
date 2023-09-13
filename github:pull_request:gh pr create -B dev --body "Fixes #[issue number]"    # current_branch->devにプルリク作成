@@ -1,4 +1,8 @@
-Command> gh pr create -H develop -B master --label enhancement --title "Fix bug" --body ""  # develop->masterにプルリク作成
+Command> gh pr create -B dev --body "Fixes #"
+
+Arguments> [issue number]
+
+TL;DR> current_branch->devにプルリク作成
 
 Keywords> github
         > pull_request
@@ -19,11 +23,22 @@ Description>
            >            question            Further information is requested          
            >            wontfix             This will not be worked on                
            >
-           > # 一連の流れ
-           > $ gh pr create -H [current branch] -B master --title "Fix bug" --body ""
-           > $ gh pr merge -m -d
-           > $ git fetch origin --prune
+           > -m --milestone <name>
+           > --no-maintainer-edit
+           > -p --project <name>
+           > --recover <string>
+           > -r --reviewer <handle>
+           > -T --template <file>
            >
+
+Scene01> gh pr create -H [current branch] -B master --title "Fix bug" --body ""
+       > gh pr merge -m -d
+       > git fetch origin --prune
+
+Scene02> gh pr create --title "The bug is fixed" --body "Everything works again"
+Scene03> gh pr create --reviewer monalisa,hubot  --reviewer myorg/team-name
+Scene04> gh pr create --project "Roadmap"
+Scene05> gh pr create --base develop --head monalisa:feature
 
 Reference> https://zenn.dev/donchan922/articles/65bb47508923abab677b
            https://dev.classmethod.jp/articles/shuntaka9576-gh/
