@@ -1,0 +1,12 @@
+Command> gh issue develop $1 --base $2
+
+Arguments> $1=[issue number]
+         > $2=[branch]
+
+TL;DR> base branchからissue numberに関するbranch作成
+
+Keywords> github
+        > issue
+
+
+Reference> https://cli.github.com/manual/gh_issue_develop
