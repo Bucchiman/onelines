@@ -1,0 +1,10 @@
+Command> gh alias delete
+
+Arguments> [alias]
+
+TL;DR> Delete an alias
+
+Keywords> github
+        > alias
+
+Reference> https://cli.github.com/manual/gh_alias_delete

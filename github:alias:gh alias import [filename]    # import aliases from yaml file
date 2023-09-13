@@ -1,0 +1,22 @@
+Command> gh alias import
+
+Arguments> [filename(yaml)]
+
+TL;DR> import aliases from yaml file
+
+Keywords> github
+        > alias
+
+
+Description>
+           > - yaml fileの書き方
+           > bugs: issue list --label=bug
+           > igrep: '!gh issue list --label="$1" | grep "$2"'
+           > features: |-
+           >    issue list
+           >    --label=enhancment
+
+
+Example> gh alias import aliases.yml
+
+Reference> https://cli.github.com/manual/gh_alias_import
