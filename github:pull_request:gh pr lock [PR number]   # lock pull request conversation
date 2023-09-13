@@ -1,0 +1,12 @@
+Command> gh pr lock
+
+Arguments> [PR number]
+
+TL;DR> Lock pull request conversation
+
+Keywords> github
+        > pull_request
+
+Reference> https://cli.github.com/manual/gh_pr_lock
+
+
