@@ -1,0 +1,12 @@
+Command> gh project item-archive
+
+Arguments> [project number]
+
+TL;DR> Archive an item in a project
+
+Keywords> github
+        > project
+
+Example> gh project item-archive 1 --owner "@me" --id <item-ID>
+
+Reference> https://cli.github.com/manual/gh_project_item-archive

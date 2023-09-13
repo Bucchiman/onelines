@@ -1,0 +1,13 @@
+Command> gh project list
+
+Arguments> [project number]
+
+TL;DR> List the items in a project
+
+Keywords> github
+        > project
+
+
+Example> gh project item-list 1 --owner "@me"
+
+

@@ -1,0 +1,9 @@
+Command> gh project item-list
+
+Arguments> [project number]
+
+Keywords> List the items in a project
+
+Example> gh project item-list 1 --owner "@me"
+
+Reference> https://cli.github.com/manual/gh_project_item-list

@@ -1,0 +1,14 @@
+Command> gh project item-craete
+
+Arguments> [project number]
+
+TL;DR> Create a draft issue item in a prject
+
+Keywords> github
+        > project
+
+Description>
+
+Example> gh project item-create 1
+
+Reference> https://cli.github.com/manual/gh_project_item-create
