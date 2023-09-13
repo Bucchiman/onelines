@@ -5,6 +5,7 @@ Arguments> [issue number]
 TL;DR> issueをピン留め
 
 Keywords> github
+        > issue
 
 Scene01> gh issue pin 23
 Scene02> gh issue pin https://github.com/owner/repo/issues/23

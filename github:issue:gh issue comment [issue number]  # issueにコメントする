@@ -2,6 +2,9 @@ Command> gh issue comment [issue number]
 
 TL;DR> issueにコメントする
 
+Keywords> github
+        > issue
+
 Description>
            > オプション説明
            >    -b|--body <text>

@@ -5,6 +5,7 @@ Arguments> [issue number] [destination-repo]
 TL;DR> issueを他のリポジトリに転送
 
 Keywords> github
+        > issue
 
 
 Reference> https://cli.github.com/manual/gh_issue_transfer

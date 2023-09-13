@@ -3,6 +3,7 @@ Command> gh issue unlock
 Arguments> [issue number]
 
 Keywords> github
+        > issue
 
 
 Scene01> gh issue unpin 23

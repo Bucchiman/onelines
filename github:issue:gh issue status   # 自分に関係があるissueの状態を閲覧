@@ -2,6 +2,7 @@ Command> gh issue status    # 自分に関係があるissueの状態を閲覧
 
 
 Keywords> github
+        > issue
 
 
 Reference> https://zenn.dev/gashi/articles/6a9b7bf2b9dfe79e3870

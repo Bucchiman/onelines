@@ -1,6 +1,7 @@
 Command> gh issue list    # イシューの一覧表示
 
 Keywords> github
+        > issue
 
 Description>
            > $ gh issue list --web              # ブラウザを開いて表示

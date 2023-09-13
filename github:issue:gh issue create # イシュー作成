@@ -1,6 +1,7 @@
 Command> gh issue create   # イシュー作成
 
 Keywords> github
+        > issue
 
 Description>
            > $ gh issue create [-a] @me

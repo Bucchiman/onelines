@@ -5,5 +5,6 @@ Arguments> [issue number]
 TL;DR> unlock issue
 
 Keywords> github
+        > issue
 
 Reference> https://cli.github.com/manual/gh_issue_unlock
