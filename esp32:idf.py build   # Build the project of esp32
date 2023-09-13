@@ -1,0 +1,13 @@
+Command> idf.py build
+
+TL;DR> build the project for esp32
+
+
+Keywords> esp32
+
+Description>
+           > # before
+           > $ get_idf
+
+
+Reference> https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/linux-macos-setup.html
