@@ -1,0 +1,9 @@
+Command> gh issue unlock
+
+Arguments> [issue number]
+
+TL;DR> unlock issue
+
+Keywords> github
+
+Reference> https://cli.github.com/manual/gh_issue_unlock

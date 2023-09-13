@@ -1,0 +1,9 @@
+Command> gh issue lock
+
+Arguments> [issue number]
+
+TL;DR> lock issue
+
+Keywords> github
+
+Reference> https://cli.github.com/manual/gh_issue_lock

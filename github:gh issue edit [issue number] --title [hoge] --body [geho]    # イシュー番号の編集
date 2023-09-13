@@ -1,5 +1,8 @@
-Command> gh issue edit [issue number] --title [hoge] --body [geho]   # イシュー番号の編集
+Command> gh issue edit 
 
+Arguments> [issue number]
+
+TL;DR> issue番号の内容編集
 
 Keywords> github
 
