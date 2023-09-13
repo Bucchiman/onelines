@@ -1,0 +1,13 @@
+Command> gh config get
+
+Arguments> [key]
+
+Keywords> github
+        > config
+
+TL;DR> config keyのvalueを表示
+
+
+Example> gh config get git_protocol     # -> https
+
+Reference> https://cli.github.com/manual/gh_config_get

@@ -1,8 +1,9 @@
-Command> gh label create refactoring --description "Refactoring" --color FFCB2     # create label
-
+Command> gh label create refactoring --description "Refactoring" --color FFCB2
 
 Keywords> github
         > label
+
+TL;DR> create label
 
 
 Description>

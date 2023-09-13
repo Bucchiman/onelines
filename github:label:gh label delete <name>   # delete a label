@@ -1,0 +1,9 @@
+Command> gh label delete
+
+TL;DR> Delete a label
+
+Keywords> github
+        > label
+
+
+Reference> https://cli.github.com/manual/gh_label_delete
