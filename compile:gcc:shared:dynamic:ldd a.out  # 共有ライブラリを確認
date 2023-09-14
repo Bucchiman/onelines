@@ -8,10 +8,24 @@ Description>
            >  -r 足りないオブジェクトや関数についてレポート
            >  -u 使用されていない依存関係を表示
            >  -v 全ての情報を表示
+           >
+           > 共有ライブラリは/lib, /usr/libに配置されている
+           > - 共有ライブラリの検索パス追加方法
+           >    1. /etc/ld.so.confファイルに設定
+           >        $ vi /etc/ld.so.conf      # 検索パス追加
+           >        $ ldconfig                # 更新
+           >    2. LD_LIBRARY_PATHの設定
+           >        $ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/test/lib
 
-Keywords> gcc
+
+
+Example> ldd /bin/more
+
+Keywords> compile
+        > gcc
         > shared
         > dynamic
 
 Reference> https://webkaru.net/linux/ldd-command/
          > https://tech.pjin.jp/blog/2020/12/01/linux-shared-library-management
+         > https://www.infraexpert.com/infra/linux07.html
