@@ -1,0 +1,8 @@
+Command> gh repo unarchie
+
+TL;DR> アーカイブ状態を元に戻す
+
+Keywords> github
+        > repo
+
+Reference> https://cli.github.com/manual/gh_repo_unarchive
