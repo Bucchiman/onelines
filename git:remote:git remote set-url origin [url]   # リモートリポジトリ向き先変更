@@ -1,0 +1,21 @@
+Command> git remote set-url origin
+
+TL;DR> リモートリポジトリの向き先変更
+
+Keywords> git
+        > remote
+
+Description>
+           > リポジトリのURLを変更する際に調査
+           >
+           >
+
+Example>
+       > git remote -v     # url確認
+       > git remote set-url origin [url]  # url変更
+       > git push origin HEAD     # 変更先にpush
+       >
+
+Related> git remote -v
+
+Reference> https://nishinatoshiharu.com/gitlab-to-github/

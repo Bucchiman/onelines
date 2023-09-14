@@ -1,5 +1,7 @@
 Command> ldd a.out  # 共有ライブラリを確認
 
+Arguments> [executable file]
+
 Description>
            > オプション
            >  -d 足りないオブジェクトについてレポート

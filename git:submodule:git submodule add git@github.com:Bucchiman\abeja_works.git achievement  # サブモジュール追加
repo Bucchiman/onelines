@@ -1,4 +1,6 @@
-Command> git submodule add git@github.com:Bucchiman/abeja_works.git achievement  # サブモジュール追加
+Command> git submodule add
+
+Arguments> [repo url] [submodule name]
 
 TL;DR> サブモジュール追加
 
@@ -94,3 +96,4 @@ Description>
 
 
 Reference> https://qiita.com/sotarok/items/0d525e568a6088f6f6bb
+         > https://maku77.github.io/p/dsctaq7/

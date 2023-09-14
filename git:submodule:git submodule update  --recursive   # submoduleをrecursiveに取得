@@ -1,0 +1,9 @@
+Command> git submodule update --recursive
+
+Keywords> git
+        > submodule
+
+TL;DR> submoduleをrecursiveに取得
+
+
+Reference> https://maku77.github.io/p/dsctaq7/

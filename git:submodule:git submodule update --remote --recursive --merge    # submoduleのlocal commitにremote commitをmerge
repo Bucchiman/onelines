@@ -1,0 +1,9 @@
+Command> git submodule update --remote --recursive --merge
+
+Keywords> git
+        > submodule
+
+TL;DR> submoduleのlocal commitにremote commitをmerge
+
+
+Reference> https://maku77.github.io/p/dsctaq7/
