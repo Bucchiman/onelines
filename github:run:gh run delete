@@ -1,0 +1,13 @@
+Command> gh run delete
+
+Arguments> [run-id]
+
+TL;DR> Delete a workflow run
+
+Keywords> github
+        > run
+
+Example01> gh run delete    # Interactive mode
+Example02> gh run delete 12345
+
+Reference> https://cli.github.com/manual/gh_run_delete

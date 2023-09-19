@@ -1,0 +1,20 @@
+Command> gh run download
+
+Arguments> [run-id]
+
+Keywords> github
+        > run
+
+Descripiton>
+           > -D, --dir <string>
+           >    The directory to download artifacts into
+           > -n, --name <stringArray>
+           >    Download artifacts that match any of the given names
+           > -p, --pattern <stringArray>
+           >    Download artifacts that match a glob pattern
+
+Example01> gh run download     # Interactive mode
+Example02> gh run download [run-id]
+Example03> gh run download [run-id] -n <name>
+
+Reference> https://cli.github.com/manual/gh_run_download
