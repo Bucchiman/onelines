@@ -1,0 +1,9 @@
+Command> dotnet new tui --sdk-version
+
+TL;DR> switch version
+
+Keywords> dotnet
+
+Related> dotnet --list-sdks    # version list
+
+Reference> https://lifetime-engineer.com/dotnet-version-switch/

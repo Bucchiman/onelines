@@ -1,0 +1,8 @@
+Command> dotnet --list-sdks
+
+TL;DR> sdk一覧表示
+
+Keywords> dotnet
+
+
+Reference> https://lifetime-engineer.com/dotnet-version-switch/
