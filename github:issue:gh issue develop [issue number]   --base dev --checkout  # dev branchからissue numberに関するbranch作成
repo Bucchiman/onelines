@@ -1,4 +1,4 @@
-Command> gh issue develop $1 --base $2
+Command> gh issue develop $1 --base $2 --checkout
 
 Arguments> $1=[issue number]
          > $2=[branch]
