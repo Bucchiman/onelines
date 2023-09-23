@@ -1,0 +1,10 @@
+Command> rustup toolchan list
+
+Keywords> rust
+
+TL;DR> install list (バージョン指定)
+
+Related> rustup default [version]   # switch toolchain
+       > rustup toolchain add [version]    # install version
+
+Reference> https://ushitora.net/archives/3920
