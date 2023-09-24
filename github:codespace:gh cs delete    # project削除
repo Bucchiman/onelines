@@ -1,0 +1,6 @@
+Command> gh cs delete
+
+Keywords> github
+        > codespace
+
+Reference> https://cli.github.com/manual/gh_codespace_delete
