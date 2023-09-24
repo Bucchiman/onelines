@@ -2,6 +2,16 @@ Command> ldconfig -v  # shared libraryの設定
 
 
 Description>
+           > 共有ライブラリは/lib, /usr/libに配置されている
+           >                                                
+           > - 共有ライブラリの検索パス追加方法
+           >    1. /etc/ld.so.confファイルに設定
+           >        $ vi /etc/ld.so.conf      # 検索パス追加
+           >        $ ldconfig                # 更新
+           >    2. LD_LIBRARY_PATHの設定
+           >        $ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/test/lib
+           >
+           >
 
 Keywords> gcc
         > shared
@@ -10,3 +20,4 @@ Keywords> gcc
 
 Command> https://linuxcommand.net/ldconfig/
        > https://tech.pjin.jp/blog/2020/12/01/linux-shared-library-management
+       > https://www.infraexpert.com/infra/linux07.html

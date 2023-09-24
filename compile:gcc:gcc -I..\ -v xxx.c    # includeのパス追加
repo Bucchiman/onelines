@@ -1,0 +1,10 @@
+Command> gcc -I../ -v xxx.c
+
+Keywords> compile
+        > gcc
+
+TL;DR> includeのパス追加
+
+
+Description>
+
