@@ -1,0 +1,16 @@
+Command> gh cs cp -e $1 $2
+
+Arguments> $1 [source path]
+         > $2 [dest path]
+
+TL;DR> codespaceのscp
+
+Keywords> github
+        > codespace
+
+Example01> gh codespace cp -e README.md 'remote:/workspaces/$RepositoryName/'
+Example02> gh codespace cp -e 'remote:~/*.go' ./gofiles/
+Example03> gh codepsace cp -e 'remote:/workspaces/myproj/go.{mod,sum}' ./gofiles/
+Example04> gh codespace cp -e -- -F $HOME/.ssh/codespaces_config 'remote:~/*.go' ./gofiles/
+
+Reference> https://cli.github.com/manual/gh_codespace_cp

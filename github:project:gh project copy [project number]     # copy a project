@@ -1,0 +1,20 @@
+Command> gh project copy
+
+Arguments> [project number]
+
+TL;DR> copy a project
+
+Keywords> github
+        > project
+
+Description>
+           > --drafts
+           >.--format       <string>
+           > --source-owner <string>
+           > --target-owner <string>
+           > --title        <string>
+           >
+
+Example01> gh project copy 1 --source-owner monalisa --target-owner github --title "a new project" # copy project "1" owned by monalisa to github
+
+Reference> https://cli.github.com/manual/gh_project_copy

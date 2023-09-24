@@ -1,0 +1,16 @@
+Command> gh pr review
+
+Arguments> [PR number | branch]
+
+TL;DR> Add a review to a PR
+
+Keywords> github
+        > pull_request
+
+Example01> gh pr review --approve
+Example02> gh pr review --comment -b "interesting"
+Example03> gh pr review 123
+Example04> gh pr review 123 -r -b "needs more ASCII art"
+
+
+Reference> https://cli.github.com/manual/gh_pr_review

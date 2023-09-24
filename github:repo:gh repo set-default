@@ -1,0 +1,9 @@
+Command> gh repo set-default
+
+TL;DR> 
+
+Keywords> github
+        > repo
+
+
+Reference> https://cli.github.com/manual/gh_repo_set-default

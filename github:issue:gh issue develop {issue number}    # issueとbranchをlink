@@ -1,0 +1,22 @@
+Command> gh issue develop
+
+Arguments> [issue number]
+
+TL;DR> issueとbranchをlink
+
+Keywords> github
+        > issue
+
+Description>
+           > -b, --base    <string>   Name of the base branch you want to make your new branch fram
+           > --branch-repo <string>
+           > -c, --checkout           Checkout the branch after creating it
+           > -l, --list               List linked branches for the issue
+           > -n, --name    <string>   Name of the branch to create
+           >
+           >
+           >
+
+
+
+Reference> https://cli.github.com/manual/gh_issue_develop

@@ -1,0 +1,8 @@
+Command> gh config clear-cache
+
+Keywords> github
+        > config
+
+TL;DR> キャッシュクリア
+
+Reference> https://cli.github.com/manual/gh_config_clear-cache

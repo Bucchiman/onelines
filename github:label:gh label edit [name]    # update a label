@@ -1,0 +1,11 @@
+Command> gh label edit
+
+Arguments> [name]
+
+TL;DR> update a label
+
+Keywords> github
+        > label
+
+
+Reference> https://cli.github.com/manual/gh_label_edit

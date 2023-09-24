@@ -1,0 +1,10 @@
+Command> gh repo deploy-key delete
+
+Arguments> [key-id]
+
+TL;DR> Delete a deploy key from a repo
+
+Keywords> github
+        > repo
+
+Reference> https://cli.github.com/manual/gh_repo_deploy-key_delete

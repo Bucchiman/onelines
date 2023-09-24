@@ -1,0 +1,13 @@
+Command> gh cs view
+
+TL;DR> view a codespace
+
+Keywords> github
+        > codespace
+
+Example01> gh cs view
+Example02> gh cs view -c codespace-name-12345
+Example03> gh cs view --json
+Example04> gh cs view --json displayName,machineDisplayName,state
+
+Reference> https://cli.github.com/manual/gh_codespace_view

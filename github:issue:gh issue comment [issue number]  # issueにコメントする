@@ -1,0 +1,20 @@
+Command> gh issue comment [issue number]
+
+TL;DR> issueにコメントする
+
+Keywords> github
+        > issue
+
+Description>
+           > オプション説明
+           >    -b|--body <text>
+           >        コメントを引数でわたす
+           >    -F|--body-file <file>
+           >        コメントのファイルを引数で渡す
+           >    -e|--editor
+           >    -w|--web
+           >        ブラウザでコメントする
+           >    -R|--repo <[HOST/]OWNER/REPO>
+           >        別のリポジトリを選択する
+
+Reference> https://cli.github.com/manual/gh_issue_comment

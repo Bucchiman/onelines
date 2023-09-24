@@ -1,0 +1,9 @@
+Command> gh cs ports
+
+TL;DR> list ports
+
+Keywords> github
+        > codespace
+
+
+Reference> https://cli.github.com/manual/gh_codespace_ports

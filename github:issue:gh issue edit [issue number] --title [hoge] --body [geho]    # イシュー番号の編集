@@ -1,0 +1,39 @@
+Command> gh issue edit 
+
+Arguments> [issue number]
+
+TL;DR> issue番号の内容編集
+
+Keywords> github
+        > issue
+
+Description>
+           > --add-assignee     <login>
+           > --add-label        <name>
+           > --add-project      <name>
+           > -b, --body         <string>
+           > -F, --body-file    <file>
+           > --remove-assignee  <login>
+           > --remove-label     <name>
+           > --remove-project   <name>
+           > -t, --title        <string>
+           >
+           >
+           >
+           >
+           >
+           >
+
+SCENE01> gh issue edit 23 --title "I found a bug" --body "Nothing works"
+SCENE02> gh issue edit 23 --add-label "bug,help wanted" --remove-label "core"
+SCENE03> gh issue edit 23 --add-assignee "@me" --remove-assignee monalisa,hubot
+SCENE04> gh issue edit 23 --add-project "Roadmap" --remove-project v1,v2
+SCENE05> gh issue edit 23 --milestone "Version 1"
+SCENE06> gh issue edit 23 --body-file body.txt
+SCENE07> gh issue edit 23 34 --add-label "help wanted"
+
+
+
+Reference> https://dev.classmethod.jp/articles/i-tried-operations-around-issue-with-github-cli-20/
+
+

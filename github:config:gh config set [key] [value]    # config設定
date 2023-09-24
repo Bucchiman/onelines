@@ -1,0 +1,13 @@
+Command> gh config set
+
+TL;DR> config設定
+
+Keywords> github
+        > config
+
+Example01> gh config set editor vim
+Example02> gh config set editor "code --wait"
+Example03> gh config set git_protocol ssh --host github.com
+Example04> gh config set prompt disabled 
+
+Reference> https://cli.github.com/manual/gh_config_set

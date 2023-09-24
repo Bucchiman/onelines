@@ -1,0 +1,11 @@
+Command> gh issue develop $1 --checkout
+
+Arguments> $1 = issue number
+
+TL;DR> $1のissueのbranchにcheckout
+
+Keywords> github
+        > issue
+
+
+Reference> https://cli.github.com/manual/gh_issue_develop

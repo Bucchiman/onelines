@@ -1,0 +1,12 @@
+Command> gh workflow enable
+
+Arguments> [workflow id]
+
+TL;DR> workflow有効
+
+Keywords> github
+        > workflow
+
+
+Reference> https://cli.github.com/manual/gh_workflow_enable
+

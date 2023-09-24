@@ -1,0 +1,13 @@
+Command> gh cs ssh
+
+TL;DR> codespaceにssh接続
+
+Keywords> github
+        > codespace
+
+Setting>
+       > $ gh codespace ssh --config > $HOME/.ssh/codespaces
+       > $ printf 'Match all\nInclude ~/.ssh/codespaces\n' >> $HOME/.ssh/config
+
+Reference> https://github.com/orgs/community/discussions/4233
+         > https://cli.github.com/manual/gh_codespace_ssh

@@ -1,0 +1,9 @@
+Command> gh run return
+
+TL;DR> Rerun an entire run, only failed jobs, or a specific job from a run
+
+Keywords> github
+        > run
+
+
+Reference> https://cli.github.com/manual/gh_run_rerun

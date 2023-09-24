@@ -1,0 +1,44 @@
+Command> gh pr create -B dev --body "Fixes #"
+
+Arguments> [issue number]
+
+TL;DR> current_branch->devにプルリク作成
+
+Keywords> github
+        > pull_request
+
+Description>
+           > # option
+           > -B --base  The branch into which you want your code merged (マージしたいコードのブランチ)
+           > -H --head  The branch that contains commits for your pull request(default: current branch)
+           > -t --title Title for the pull request
+           > -b --body  String body for the pull request
+           > -l --label bug                 Something isn't working                   
+           >            documentation       Improvements or additions to documentation
+           >            duplicate           This issue or pull request already exists 
+           >            enhancement         New feature or request                    
+           >            good first issue    Good for newcomers                        
+           >            help wanted         Extra attention is needed                 
+           >            invalid             This doesn't seem right                   
+           >            question            Further information is requested          
+           >            wontfix             This will not be worked on                
+           >
+           > -m --milestone <name>
+           > --no-maintainer-edit
+           > -p --project <name>
+           > --recover <string>
+           > -r --reviewer <handle>
+           > -T --template <file>
+           >
+
+Scene01> gh pr create -H [current branch] -B master --title "Fix bug" --body ""
+       > gh pr merge -m -d
+       > git fetch origin --prune
+
+Scene02> gh pr create --title "The bug is fixed" --body "Everything works again"
+Scene03> gh pr create --reviewer monalisa,hubot  --reviewer myorg/team-name
+Scene04> gh pr create --project "Roadmap"
+Scene05> gh pr create --base develop --head monalisa:feature
+
+Reference> https://zenn.dev/donchan922/articles/65bb47508923abab677b
+           https://dev.classmethod.jp/articles/shuntaka9576-gh/
