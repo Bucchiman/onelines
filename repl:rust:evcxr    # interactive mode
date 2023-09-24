@@ -1,0 +1,18 @@
+Command> evcxr
+
+Keywords> rust
+        > repl
+
+TL;DR> interactive mode, REPL
+
+Install> cargo install evcxr_repl
+
+Description>
+           > rustc version: >=1.70.0
+           >
+           > $ rustup toolchain add 1.70    # 1.70インストール
+           > $ rustup toolchain list        # バージョン一覧
+           > $ rustup default 1.70 ...
+           >
+
+Reference> https://zenn.dev/shinyay/articles/hello-rust-day077
