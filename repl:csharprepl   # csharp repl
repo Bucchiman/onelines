@@ -6,4 +6,7 @@ TL;DR> REPL
 Keywords> repl
         > csharp
 
+Install> dotnet tool install -g csharprepl
+
+
 Reference> https://github.com/waf/CSharpRepl
