@@ -1,0 +1,11 @@
+Command> ip netns list
+
+TL;DR> namespace一覧
+
+Keywords> namespace一覧
+
+
+Related> sudo ip netns add helloworld
+
+
+Reference> Linuxで動かしながら学ぶTCP/IPネットワーク入門
