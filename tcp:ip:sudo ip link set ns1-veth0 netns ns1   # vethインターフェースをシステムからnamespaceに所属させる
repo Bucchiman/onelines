@@ -1,0 +1,11 @@
+Command> sudo ip link set ns1-veth0 netns ns1
+
+TL;DR> vethインターフェースをシステムからnamespaceに所属させる
+
+Keywords> tcp
+        > ip
+
+Related>
+
+
+Reference> Linuxで動かしながら学ぶTCP/IPネットワーク入門

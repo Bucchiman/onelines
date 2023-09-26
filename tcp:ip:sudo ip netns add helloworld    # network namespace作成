@@ -1,0 +1,11 @@
+Command> sudo ip netns add helloworld
+
+TL;DR> network namespace作成
+
+
+Keywords> tcp
+        > ip
+
+Related> ip netns list
+
+Reference> Linuxで動かしながら学ぶTCP/IPネットワーク入門
