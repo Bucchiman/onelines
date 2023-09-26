@@ -1,0 +1,10 @@
+Command> sudo ip netns exec helloworld ip address show
+
+TL;DR> helloworld namespace環境でコマンドを実行
+
+Keywords> tcp
+        > ip
+
+Related> 
+
+Reference> Linuxで動かしながら学ぶTCP/IPネットワーク入門
