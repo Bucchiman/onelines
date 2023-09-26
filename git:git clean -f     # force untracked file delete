@@ -1,0 +1,8 @@
+Command> git clean -f
+
+TL;DR> force untracked file delete
+
+Keywords> git
+
+
+Reference> https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/How-to-use-the-git-clean-command#:~:text=Steps%20to%20delete%20untracked%20Git%20files&text=Run%20git%20clean%20%2Df%20to,f%20%2Dx%20to%20remove%20untracked%20.
