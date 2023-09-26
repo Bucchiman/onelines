@@ -4,5 +4,10 @@ TL;DR> 新規セッションにアタッチ
 
 Keywords> byobu
 
+Description>
+           > セッションが1つある場合、そこにアタッチ
+           > セッションが複数ある場合、どのセッションか聞かれる
+           >
+           >
 
 Reference> https://qiita.com/miyashiiii/items/90ba726dd331ae103b7b

@@ -1,0 +1,10 @@
+Command> byobu rename -t $1 $2
+
+Arguments> $1: [session name]
+         > $2: [new session name]
+
+TL;DR> session名変更
+
+Keywords> byobu
+
+Reference> https://askubuntu.com/questions/196290/name-a-byobu-session

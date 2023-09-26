@@ -1,0 +1,7 @@
+Command> byobu a -t
+
+Arguments> [session name]
+
+TL;DR> セッション名を指定してアタッチ
+
+Keywords> byobu
