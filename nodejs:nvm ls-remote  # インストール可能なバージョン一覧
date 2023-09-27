@@ -1,0 +1,9 @@
+Command> nvm ls-remote
+
+TL;DR> インストール可能なバージョン一覧
+
+Keywords> nodejs
+
+
+
+Reference> https://www.tohoho-web.com/ex/nodejs.html
