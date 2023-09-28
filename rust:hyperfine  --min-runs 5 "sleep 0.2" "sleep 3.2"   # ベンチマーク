@@ -1,0 +1,17 @@
+Command> hyperfine --min-runs 5 "sleep 0.2" "sleep 3.2"
+
+TL;DR> ベンチマーク
+
+Keywords> rust
+
+
+Install> sudo apt install -y hyperfine
+       > sudo port selfupdate
+       > sudo port install hyperfine
+       > winget install hyperfine
+       > cargo install --locked hyperfine
+
+
+Description>
+
+Reference> https://github.com/sharkdp/hyperfine

@@ -1,0 +1,9 @@
+Command>
+
+TL;DR> diff関連
+
+Install> cargo install git-delta
+       > port install git-delta
+       > winget install dandaison.delta
+
+Reference> https://dandavison.github.io/delta/get-started.html

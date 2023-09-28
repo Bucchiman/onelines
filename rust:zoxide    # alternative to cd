@@ -1,0 +1,7 @@
+Command> z
+
+TL;DR> alternative to cd
+
+Install> cargo install zoxide --locked
+
+Reference> https://github.com/ajeetdsouza/zoxide
