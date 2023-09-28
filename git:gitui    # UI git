@@ -1,3 +1,9 @@
 Command> gitui   # UI git
 
 Keywords> git
+
+
+Install> cargo install gitui
+
+
+Reference> https://github.com/extrawurst/gitui
