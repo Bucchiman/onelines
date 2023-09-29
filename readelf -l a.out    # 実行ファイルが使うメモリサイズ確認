@@ -1,0 +1,7 @@
+Command> readelf -l a.out
+
+Arguments>
+
+Keywords> 
+
+Reference> https://tanakamura.github.io/pllp/docs/asm_language.html
