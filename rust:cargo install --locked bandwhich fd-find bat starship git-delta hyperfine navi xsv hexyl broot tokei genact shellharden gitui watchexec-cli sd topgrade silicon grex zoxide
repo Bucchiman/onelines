@@ -1,0 +1,5 @@
+Command> cargo install --locked bandwhich fd-find bat starship git-delta hyperfine navi xsv hexyl broot tokei genact shellharden gitui watchexec-cli sd topgrade silicon grex zoxide
+
+Keywords> rust
+
+Reference> https://wonderwall.hatenablog.com/entry/rust-command-line-tools
