@@ -1,0 +1,29 @@
+Command> sed -e "s/bucchiman/8ucchiman/g" sample.txt
+
+
+Keywords> sed
+
+TL;DR> 一致した文字列をすべて置換
+
+Description> $ cat sample.txt
+           >  > #例：sample.txt
+           >  > 1.bucchiman	bucchiman
+           >  > 2.bucchiman
+           >  > 
+           >  > #	上記のsample.txtのファイルに対して、実行した場合下記のような結果を取得できます。
+           >  > #	1行目の2つ目の「bucchiman」は変換されません。
+           >  > 1.bucchiman	bucchiman
+           >  > 2.bucchiman
+           >
+           > $ sed -e "s/bucchiman/8ucchiman/g" sample.txt
+           >  > #例：sample.txt
+           >  > 1.8ucchiman	8ucchiman
+           >  > 2.8ucchiman
+           >  > 
+           >  > #	上記のsample.txtのファイルに対して、実行した場合下記のような結果を取得できます。
+           >  > #	1行目の2つ目の「8ucchiman」は変換されません。
+           >  > 1.8ucchiman	8ucchiman
+           >  > 2.8ucchiman
+
+
+Reference> https://tech-blog.rakus.co.jp/entry/20211022/sed
