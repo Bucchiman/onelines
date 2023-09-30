@@ -1,0 +1,8 @@
+Command> ssh-add -K $HOME/.ssh/id_rsa
+
+TL;DR>  (Macのみ?)ssh-agentに鍵の登録, 永続でパスフレーズを聞かれなくする
+
+Keywords> ssh
+
+
+Reference> https://qiita.com/onokatio/items/397a5899a0ec16c7e60a
