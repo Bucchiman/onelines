@@ -1,0 +1,31 @@
+Command> nvm use $1
+
+Arguments> $1: [nodejs version]
+
+TL;DR> nodejs=16.0バージョンに切り替え
+
+
+Install> $ wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
+
+Setup> $ # in .zshrc
+     > export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+     > [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+
+Description>
+           > npm: パッケージマネージャ
+           > nvm: Nodejsのバージョン管理 (バージョンを切り替えて作業するのが一般的だから)
+           >
+           >
+           >
+           >
+           >
+           >
+
+
+Example> nvm install --lts
+       > nvm use --lts
+
+Related> nvm install 16
+
+Refernce> https://github.com/nvm-sh/nvm
+        > https://www.tohoho-web.com/ex/nodejs.html
