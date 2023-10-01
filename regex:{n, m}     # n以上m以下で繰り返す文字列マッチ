@@ -1,0 +1,27 @@
+
+TL;DR> n以上m以下で繰り返す文字列マッチ
+
+
+Keywords> regex
+
+Example01>
+         > (検索文字列)
+         > デグー{1,3}
+         >
+         > (マッチ文字列)
+         > デグー
+         > デグーー
+         > デグーーー
+
+Example02>
+         > (検索文字列)
+         > デグー{,2}
+         >
+         > (マッチ文字列)
+         > デグ
+         > デグー
+         > デグーー
+
+
+
+Reference> https://armadillo.atmark-techno.com/blog/15992/12568

@@ -1,0 +1,15 @@
+TL;DR> *の前の文字列を0回以上繰り返す文字列とマッチ
+
+Keywords> regex
+
+Example01>
+         > (検索文字列)
+         > デグー*
+         >
+         > (マッチ文字列)
+         > デグ
+         > デグー
+         > デグーー
+
+
+Reference> https://armadillo.atmark-techno.com/blog/15992/12568

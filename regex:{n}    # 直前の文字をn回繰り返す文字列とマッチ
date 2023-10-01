@@ -1,0 +1,14 @@
+
+TL;DR> 直前の文字をn回繰り返す文字列とマッチ
+
+Keywords> regex
+
+Example01>
+         > デグー{3}
+         > -> デグーーー
+         >
+         >
+         >
+         >
+
+Reference> https://armadillo.atmark-techno.com/blog/15992/12568

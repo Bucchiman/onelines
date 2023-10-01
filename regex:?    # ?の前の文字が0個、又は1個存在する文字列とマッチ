@@ -1,0 +1,17 @@
+
+TL;DR> ?の前の文字が0個, 又は1個存在する文字列とマッチ
+
+
+Keywords> regex
+
+
+Example>
+       > (検索文字列)
+       > Armadillo-IoT_A6E?
+       >
+       > (マッチ文字列)
+       > Armadillo-IoT_A6
+       > Armadillo-IoT_A6E
+       >
+
+Reference> https://armadillo.atmark-techno.com/blog/15992/12567
