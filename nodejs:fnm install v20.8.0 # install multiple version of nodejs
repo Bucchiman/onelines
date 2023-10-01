@@ -1,5 +1,10 @@
 Command> fnm install v20.8.0
 
+TL;DR> install multiple version of nodejs
+
 Keywords> nodejs
+
+Example01> fnm install --lts
+Example02> fnm install 17
 
 Reference> https://www.freecodecamp.org/news/fnm-fast-node-manager/
