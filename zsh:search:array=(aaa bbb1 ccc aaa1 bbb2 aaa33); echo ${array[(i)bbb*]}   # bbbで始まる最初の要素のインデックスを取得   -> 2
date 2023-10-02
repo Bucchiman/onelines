@@ -1,0 +1,12 @@
+Command> array=(aaa bbb1 ccc aaa1 bbb2 aaa33); echo ${array[(i)bbb*]}     # -> 2
+
+Keywords>
+        > zsh
+        > search
+
+TL;DR> bbbで始まる最初の要素のインデックスを取得
+
+Example01> array=(aaa bbb1 ccc aaa1 bbb2 aaa33); echo ${array[(i)xxx*]}     # -> 7
+Example02> array=(aaa bbb1 ccc aaa1 bbb2 aaa33); echo ${array[(I)bbb*]}     # -> 5   # 逆順
+
+Reference> https://qiita.com/mollifier/items/f897b3fddd2d10369333

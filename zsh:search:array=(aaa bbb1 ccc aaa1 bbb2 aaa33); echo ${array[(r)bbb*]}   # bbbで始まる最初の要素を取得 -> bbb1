@@ -1,0 +1,11 @@
+Command> array=(aaa bbb1 ccc aaa1 bbb2 aaa33); echo ${array[(r)bbb*]}  # -> bbb1
+
+TL;DR> bbbで始まる最初の要素を取得
+
+Keywords>
+        > zsh
+        > search
+
+Example> array=(aaa bbb1 ccc aaa1 bbb2 aaa33); echo ${array[(R)bbb*]}  # -> bbb2 # 逆順
+
+Reference> https://qiita.com/mollifier/items/f897b3fddd2d10369333
