@@ -1,0 +1,13 @@
+Command> sed -e "/$1/d" $2
+
+Arguments> $1: pattern
+         > $2: file
+
+TL;DR> delete line matched with pattern
+
+Keywords> sed
+
+Description>
+           > ファイルに上書きしたい場合はiオプション
+
+Reference> 
