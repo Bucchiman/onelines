@@ -1,1 +1,0 @@
-Command> ssh-add -K .ssh/id_rsa          # ssh-agentに鍵の登録

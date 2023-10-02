@@ -1,0 +1,11 @@
+Command> sudo ip link add ns1-veth0 type veth peer name ns2-veth0
+
+
+TL;DR> veth(vertual ethernet device)によるnamespace同士の接続
+
+Keywords>
+        > tcp
+        > ip
+
+
+Reference> Linuxで動かしながら学ぶTCP/IPネットワーク入門

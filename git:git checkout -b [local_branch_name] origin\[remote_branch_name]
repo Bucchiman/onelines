@@ -1,0 +1,10 @@
+Command> git checkout -b $1 origin/$2
+
+Arguments> $1: local_branch_name
+         > $2: remote_branch_name
+
+Keywords> git
+
+TL;DR> リモートブランチからローカルブランチ作成
+
+Reference> https://qiita.com/YusukeSuzuki@github/items/3bd5752783fd2c2f8805

@@ -1,0 +1,10 @@
+Command> ip link show
+
+TL;DR> network interfaceの確認
+
+
+Keywords>
+        > tcp
+        > ip
+
+Reference> Linuxで動かしながら学ぶTCP/IPネットワーク入門
