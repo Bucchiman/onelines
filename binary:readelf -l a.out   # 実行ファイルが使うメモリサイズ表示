@@ -1,0 +1,7 @@
+Command> readelf -l a.out
+
+TL;DR> 実行ファイルが使うメモリサイズ表示
+
+Keywords> binary
+
+Reference> https://tanakamura.github.io/pllp/docs/asm_language.html
