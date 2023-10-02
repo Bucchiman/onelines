@@ -1,0 +1,14 @@
+
+
+TL;DR> 前の文字を1回以上繰り返す文字列とのマッチ
+
+Example01>
+         > (検索文字列)
+         > デグー+
+         >
+         > (マッチ文字列)
+         > デグー
+         > デグーーー
+         >
+
+Reference> https://armadillo.atmark-techno.com/blog/15992/12568
