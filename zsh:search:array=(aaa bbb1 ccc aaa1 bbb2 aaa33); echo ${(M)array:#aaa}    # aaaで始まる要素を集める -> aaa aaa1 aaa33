@@ -1,0 +1,10 @@
+Command> array=(aaa bbb1 ccc aaa1 bbb2 aaa33); echo ${(M)array:#aaa}  # -> aaa aaa1 aaa33
+
+TL;DR> aaaで始まる要素を集める
+
+Keywords>
+        > zsh
+        > search
+
+
+Reference> https://qiita.com/mollifier/items/f897b3fddd2d10369333
