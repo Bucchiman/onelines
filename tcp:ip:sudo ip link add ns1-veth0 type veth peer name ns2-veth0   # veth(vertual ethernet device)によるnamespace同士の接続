@@ -1,11 +1,40 @@
 Command> sudo ip link add ns1-veth0 type veth peer name ns2-veth0
 
 
-TL;DR> veth(vertual ethernet device)によるnamespace同士の接続
+TL;DR> veth(vertual ethernet device)の作成(システム上に所属)
 
 Keywords>
         > tcp
         > ip
 
+Description>
+           >
+           >  +- system-----------+
+           >  |   veth作成        |
+           >  |   - ns1-veth0     |
+           >  |   - ns2-veth0     |
+           >  +-------------------+
+           >
+           >  +----+----+      +----+----+
+           >  |   ns1   |      |   ns2   |
+           >  +---------+      +---------+
+           >
+           >
+           >
+           >
+           >
+           >
+           >
+
+Method>
+      >  1. network namespace作成
+      > *2. veth(Virtual Ethernet Device)作成
+      >  3. vethをnetwork namespaceの領域に移す
+      >  4. IPアドレス付与
+      >  5. network interfaceをUPにする
+      >
+
+Related> sudo ip netns add helloworld   # namespace作成をまず行う
+       > ip link show     # vethを作った後、linkを確認
 
 Reference> Linuxで動かしながら学ぶTCP/IPネットワーク入門
