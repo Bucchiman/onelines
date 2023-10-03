@@ -2,10 +2,31 @@ Command> sudo ip netns add helloworld
 
 TL;DR> network namespace作成
 
-
 Keywords> tcp
         > ip
 
-Related> ip netns list
+Description>
+           >
+           >
+           >  +----+----+
+           >  |   ns1   |
+           >  +---------+
+           >
+           >
+           >
+           >
+           >
+           >
+           >
+
+Method>
+      > *1. network namespace作成
+      >  2. veth(Virtual Ethernet Device)作成
+      >  3. vethをnetwork namespaceの領域に移す
+      >  4. IPアドレス付与
+      >
+      >
+
+Related> ip netns list  # 作った後, network namespace一覧表示
 
 Reference> Linuxで動かしながら学ぶTCP/IPネットワーク入門

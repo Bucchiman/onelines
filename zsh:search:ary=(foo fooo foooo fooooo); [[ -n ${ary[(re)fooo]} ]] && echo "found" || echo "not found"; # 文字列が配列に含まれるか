@@ -1,0 +1,25 @@
+Command> ary=(foo fooo foooo fooooo); [[ -n ${ary[(re)fooo]} ]] && echo "found" || echo "not found";  # -> found
+
+TL;DR> 文字列が配列に含まれるか
+
+Keywords> zsh
+
+
+Description>
+           > reフラグ: 完全一致の時
+           > $ ary=$(foo fooo foooo fooooo)
+           > $ [[ -n ${ary[(re)fo]} ]] && echo 'found' || echo 'not found'
+           >  > not found
+           >
+           > $ [[ -n ${ary[(re)fooo]} ]] && echo 'found' || echo 'not found'
+           >  > found
+           >
+           > rフラグ: パターン検索
+           > $ [[ -n ${ary[(r)fo*]} ]] && echo 'found' || echo 'not found'
+           >  > found
+           >
+           > $ [[ -n ${ary[(re)fo*]} ]] && echo 'found' || echo 'not found'
+           >  > not found
+
+
+Reference> https://qiita.com/kyanagi/items/6bada2bc75578898736d
