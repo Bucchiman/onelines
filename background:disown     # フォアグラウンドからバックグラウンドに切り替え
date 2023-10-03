@@ -1,0 +1,21 @@
+Command> disown
+
+
+
+TL;DR>
+
+
+Description>
+           > フォアグラウンドからバックグラウンドに切り替え
+           > コマンド実行 -> Ctrl-Z -> disown
+           >
+           > # ジョブテーブル
+           > - シェルはセッションに紐づくジョブテーブルを持つ
+           >    - バッグラウンドジョブを登録している
+           > - jobsコマンドで一覧表示
+           >    - ここに見えるジョブはexit時にSIGHUPを送る
+           >    - nohupの場合、ジョブテーブルに見えてもSIGHUPを送らない
+           > - ジョブテーブルから消すには、disownを使う
+
+Reference> https://qiita.com/yushin/items/732043ee23281f19f983
+         > https://www.glamenv-septzen.net/view/847
