@@ -1,0 +1,17 @@
+Command> glab mr approve $1
+
+Arguments> $1: issue number
+
+TL;DR> approve merge requests
+
+Keywords>
+        > gitlab
+        > mr
+
+Example01> glab mr approve 235
+Example02> glab mr approve 123 345
+Example03> glab mr approve branch-1
+Example04> glab mr approve branch-2 branch-3
+Example05> glab mr approve    # Finds open merge request from current branch
+
+Reference> https://gitlab.com/gitlab-org/cli/-/blob/main/docs/source/mr/approve.md

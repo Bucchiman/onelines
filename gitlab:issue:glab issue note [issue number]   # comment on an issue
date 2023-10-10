@@ -1,0 +1,12 @@
+Command> glab issue note $1
+
+Arguments> $1: [issue number]
+
+TL;DR> Comment on an issue
+
+Keywords>
+        > gitlab
+        > issue
+
+
+Reference> https://gitlab.com/gitlab-org/cli/-/blob/main/docs/source/issue/note.md
