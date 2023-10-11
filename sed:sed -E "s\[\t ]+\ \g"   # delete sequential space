@@ -1,0 +1,9 @@
+Command> sed -E "s/[\t ]+/ /g" $1
+
+Arguments> $1: filename
+
+TL;DR> delete sequential space
+
+Keywords> sed
+
+Reference> https://tech-blog.rakus.co.jp/entry/20211022/sed

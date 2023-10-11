@@ -1,0 +1,7 @@
+Command> echo 'Hello hello hELLO' | sed -e 's/hello/world/gi'
+
+Keywords> sed
+
+TL;DR> ignore upper/lower with "i" option
+
+Reference> https://maku77.github.io/sed/sed/ignore-case.html

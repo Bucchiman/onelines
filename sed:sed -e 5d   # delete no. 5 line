@@ -1,0 +1,9 @@
+Command> sed -e 5d
+
+Arguments> $1: [file name]
+
+TL;DR> delete no. 5 line
+
+Keywords> sed
+
+Reference> https://tech-blog.rakus.co.jp/entry/20211022/sed

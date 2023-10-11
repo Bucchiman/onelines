@@ -1,0 +1,9 @@
+Command> sed -n -e 1,5p $1
+
+Arguments> $1: sample.txt
+
+TL;DR> print no.1,5
+
+Keywords> sed
+
+Reference> https://tech-blog.rakus.co.jp/entry/20211022/sed

@@ -1,0 +1,10 @@
+Command> sed  -e "1,5d" $1
+
+Arguments> $1: sample.txt
+
+TL;DR> delete no.1,5 lines
+
+Keywords>
+        > sed
+
+Reference> https://tech-blog.rakus.co.jp/entry/20211022/sed

@@ -1,0 +1,11 @@
+Command> echo "Hello World!" | sed "s/\(.*\)/\U\1/"
+
+Keywords> sed
+
+
+Related> echo "Hello World!" | tr [a-z] [A-Z]
+       > echo "Hello World!" | tr [A-Z] [a-z]
+       > echo "Hello World!" | tr [:lower:] [:upper:]
+       > echo "Hello World!" | tr [:upper:] [:lower:]
+       > echo "Hello World!" | awk '{print toupper($0)}'
+       > echo "Hello World!" | sed '{print tolower($0)}'

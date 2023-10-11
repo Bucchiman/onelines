@@ -1,0 +1,9 @@
+Command> sed -n /sed/s/GNU/gnu/p $1
+
+Arguments> $1: [file name]
+
+
+Keywords> sed
+
+
+Reference> https://atmarkit.itmedia.co.jp/ait/articles/1610/17/news015.html

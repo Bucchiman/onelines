@@ -1,0 +1,8 @@
+Command> sed -n s/sed/SED/pg $1
+
+Arguments> $1: [file name]
+
+
+Keywords> sed
+
+Reference> https://atmarkit.itmedia.co.jp/ait/articles/1610/17/news015.html

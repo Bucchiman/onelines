@@ -1,0 +1,9 @@
+Command> sed -i "s/ /\t/g" $1
+
+Arguments> $1: sample.txt
+
+TL;DR> space to tab
+
+Keywords> sed
+
+Reference> https://tech-blog.rakus.co.jp/entry/20211022/sed

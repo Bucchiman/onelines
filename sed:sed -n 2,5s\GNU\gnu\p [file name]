@@ -1,0 +1,9 @@
+Command> sed -n 2,5s/GNU/gnu/p
+
+Arguments> [file name]
+
+Keywords> sed
+
+TL;DR> 
+
+Reference> https://atmarkit.itmedia.co.jp/ait/articles/1610/17/news015.html

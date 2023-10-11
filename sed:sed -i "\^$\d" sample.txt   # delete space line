@@ -1,0 +1,9 @@
+Command> sed -i "/^$/d" $1
+
+Arguments> $1: file name
+
+TL;DR> delete space line
+
+Keywords> sed
+
+Reference> https://tech-blog.rakus.co.jp/entry/20211022/sed

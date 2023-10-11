@@ -1,0 +1,5 @@
+Command> echo xx34 | sed -E 's/xx(.)/-& -/g'
+
+Keywords> sed
+
+Reference> https://hydrocul.github.io/wiki/commands/sed.html
