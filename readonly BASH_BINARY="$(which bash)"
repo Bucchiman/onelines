@@ -1,0 +1,10 @@
+Command> readonly BASH_BINARY="$(which bash)"
+
+TL;DR> Set readonly variables
+
+
+Keywords> shell
+
+
+Reference> https://xtech.nikkei.com/it/article/COLUMN/20060227/230867/
+         > https://paste.sh/vjJu9QKl#VslhHUveSSRRMYIvOBUAI7GQ
