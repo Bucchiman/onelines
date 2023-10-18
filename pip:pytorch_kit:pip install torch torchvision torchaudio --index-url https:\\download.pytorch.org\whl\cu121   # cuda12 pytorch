@@ -1,0 +1,8 @@
+Command> pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+
+
+Keywords> pip
+        > pytorch_kit
+
+
+Reference> https://pytorch.org/

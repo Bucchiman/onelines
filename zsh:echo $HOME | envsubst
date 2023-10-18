@@ -1,0 +1,7 @@
+Command> !echo $HOME | envsubst
+
+TL;DR> Extract environment variables
+
+Keywords> zsh
+
+Reference> https://dev.classmethod.jp/articles/python3-one-liner-envsubst/
