@@ -1,0 +1,18 @@
+Command> fc-cache -f -v
+
+TL;DR> clear and regenerate your font cache
+
+Keywords> font
+
+Description>
+           > Step1: Pull the fonts to your system (Done)
+           > Step2: Unpack the font archive       (Done)
+           >    - dotfiles/.config/fonts
+           > Step3: Install the fonts
+           >    - $ ln -sf dotfiles/.config/fonts $HOME/.local/share/fonts
+           > Step4: Clear and regenerate your font cache
+           >    - $ fc-cache -f -v
+
+Related> fc-list
+
+Reference> https://medium.com/source-words/how-to-manually-install-update-and-uninstall-fonts-on-linux-a8d09a3853b0

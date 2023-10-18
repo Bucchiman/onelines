@@ -1,0 +1,5 @@
+Command> echo DNDGHPHLD | tr D-ZA-C A-Z  # シーザー暗号:復号化
+
+Keywords> cipher
+
+Reference> 暗号技術のすべて
