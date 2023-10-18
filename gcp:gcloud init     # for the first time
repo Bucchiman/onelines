@@ -1,0 +1,10 @@
+Command> gcloud init
+
+
+TL;DR> for the first time
+
+Keywords> gcp
+
+Install> curl https://sdk.cloud.google.com | zsh
+
+Reference> https://qiita.com/G-awa/items/e6904b040caa0096fba0

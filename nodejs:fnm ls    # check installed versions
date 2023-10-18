@@ -1,5 +1,9 @@
-Command> fnm use system
+Command> fnm ls
+
+TL;DR> check your installed version
+
 
 Keywords> nodejs
+
 
 Reference> https://www.freecodecamp.org/news/fnm-fast-node-manager/
