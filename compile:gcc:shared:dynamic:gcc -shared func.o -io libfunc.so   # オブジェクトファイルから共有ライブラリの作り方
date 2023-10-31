@@ -1,4 +1,6 @@
-Command> dynamic library: gcc -shared func.o -io libfunc.so   # オブジェクトファイルから動的ライブラリの作り方
+Command> gcc -shared func.o -io libfunc.so
+
+TL;DR> オブジェクトファイルから動的ライブラリの作り方
 
 Description> 動的ライブラリはリンク時にリンクに必要な情報のみを実行ファイルに結合し、実際のリンクは実行時に結合されるライブラリ
            > 共有ライブラリとも呼ぶ
