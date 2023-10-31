@@ -1,0 +1,9 @@
+Command> curl -fsSL https:/git.jetpack.iodevbox | bash
+
+TL;DR> 
+
+Keywords>
+        > devbox
+        > install
+
+Reference> https://www.jetpack.io/devbox/docs/quickstart/

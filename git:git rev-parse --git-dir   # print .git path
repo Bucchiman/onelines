@@ -1,0 +1,8 @@
+Command> git rev-parse --git-dir
+
+TL;DR> print repository root (.git path)
+
+Keywords> git
+
+
+Reference> https://qiita.com/P-man_Brown/items/515f0a3e5ad8ca070449
