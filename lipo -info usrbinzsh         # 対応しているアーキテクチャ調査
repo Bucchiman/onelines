@@ -1,0 +1,11 @@
+Command> lipo -info $1
+
+Arguments>
+         > $1: commmand path
+
+
+
+Keywords>
+
+Reference> https://qiita.com/rkunihiro/items/53c7dbcc73d9b135d686
+
