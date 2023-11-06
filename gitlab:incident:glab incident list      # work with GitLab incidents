@@ -1,0 +1,9 @@
+Command> glab incident list
+
+TL;DR> work with gitlab incidents
+
+Keywords> gitlab
+        > incident
+
+
+Reference> https://gitlab.com/gitlab-org/cli/-/tree/main/docs/source/incident
