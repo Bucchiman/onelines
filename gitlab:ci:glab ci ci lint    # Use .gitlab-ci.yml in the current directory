@@ -1,0 +1,13 @@
+Command> glab ci ci lint
+
+TL;DR> Use .gitlab-ci.yml in the current directory
+
+Keywords> gitlab
+        > ci
+
+Example01> glab ci lint
+Example02> glab ci lint .gitlab-ci.yml
+Example03> glab ci lint path/to/.gitlab-ci.yml
+
+Reference> https://gitlab.com/gitlab-org/cli/-/blob/main/docs/source/ci/ci/lint.md
+         > https://gitlab.com/gitlab-org/cli/-/blob/main/docs/source/ci/lint.md

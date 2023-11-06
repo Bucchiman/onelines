@@ -1,0 +1,9 @@
+Command> glab ci list
+
+TL;DR> get the list of ci/cd pipelines
+
+Keywords> gitlab
+        > ci
+
+
+Reference> https://gitlab.com/gitlab-org/cli/-/blob/main/docs/source/ci/list.md
