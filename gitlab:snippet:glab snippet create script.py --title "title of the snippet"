@@ -1,0 +1,13 @@
+Command> glab snippet create script.py --title "title of the snippet"
+
+Arguments> $1: script path
+         > $2: flags
+
+TL;DR> Create snippet
+
+Keywords> gitlab
+        > snippet
+
+
+
+Reference> https://gitlab.com/gitlab-org/cli/-/blob/main/docs/source/snippet/create.md

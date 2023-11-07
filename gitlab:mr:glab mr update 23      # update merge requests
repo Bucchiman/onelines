@@ -1,0 +1,12 @@
+Command> glab mr update $1
+
+Argument> $1: id, branch
+
+Keywords> gitlab
+        > mr
+
+Example01> glab mr update 23 --ready
+Example02> glab mr update 23 --draft
+Example03> glab mr update --draft  # Updates MR related to current branch
+
+Reference> https://gitlab.com/gitlab-org/cli/-/blob/main/docs/source/mr/update.md

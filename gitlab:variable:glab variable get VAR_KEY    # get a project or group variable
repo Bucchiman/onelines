@@ -1,0 +1,12 @@
+Command> glab variable get VAR_KEY
+
+TL;DR> get a project or group varibale
+
+Keywords> gitlab
+        > variable
+
+Example01> glab variable get VAR_KEY
+Example02> glab variable get -g GROUP VAR_KEY
+Example03> glab variable get -s SCOPE VAR_KEY
+
+Reference> https://gitlab.com/gitlab-org/cli/-/blob/main/docs/source/variable/get.md
