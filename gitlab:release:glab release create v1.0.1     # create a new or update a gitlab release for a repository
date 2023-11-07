@@ -1,0 +1,38 @@
+Command> glab release create $1
+
+Arguments> $1: version (v1.0.1)
+
+TL;DR> create a new or update a gitlab release for a repository
+
+Keywords> gitlab
+        > release
+
+
+
+Example01> glab release create v1.0.1   # Interactively create a release
+Example02> glab release create v1.0.1 --notes "bugfix release"    # Non-interactively create a release by specifying a note
+Example03> glab release create v1.0.1 -F changelog.md     # Use release notes from a file
+Example04> glab release create v1.0.1 '/path/to/asset.zip#My display label'      # Upload a release asset with a display name (type will default to 'other')
+Examlpe05> glab release create v1.0.1 '/path/to/asset.png#My display label#image'      # Upload a release asset with a display name and type
+Example06> glab release create v1.0.1 ./dist/*      # Upload all assets in a specified folder (types will default to 'other')
+Example07> glab release create v1.0.1 ./dist/*.tar.gz      # Upload all tarballs in a specified folder (types will default to 'other')
+Example08> glab release create v1.0.1 --assets-links='
+  [
+    {
+      "name": "Asset1", 
+      "url":"https://<domain>/some/location/1", 
+      "link_type": "other", 
+      "filepath": "path/to/file"
+    }
+  ]'                # Create a release with assets specified as JSON object
+
+Description>  -a, --assets-links JSON   JSON string representation of assets links (e.g. `--assets-links='[{"name": "Asset1", "url":"https://<domain>/some/location/1", "link_type": "other", "filepath": "path/to/file"}]')`
+           >  -m, --milestone strings   The title of each milestone the release is associated with
+           >  -n, --name string         The release name or title
+           >  -N, --notes string        The release notes/description. You can use Markdown
+           >  -F, --notes-file file     Read release notes file. Specify `-` as value to read from stdin
+           >  -r, --ref string          If a tag specified doesn't exist, the release is created from ref and tagged with the specified tag name. It can be a commit SHA, another tag name, or a branch name.
+           >  -D, --released-at date    The date when the release is/was ready. Defaults to the current datetime. Expected in ISO 8601 format (2019-03-15T08:00:00Z)
+
+
+Reference> https://gitlab.com/gitlab-org/cli/-/blob/main/docs/source/release/create.md
