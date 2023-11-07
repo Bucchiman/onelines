@@ -1,0 +1,13 @@
+Command> glab variable export
+
+TL;DR> export project or group variables
+
+Keywords> gitlab
+        > variable
+
+Example01> glab variable export
+Example02> glab variable export --per-page 1000 --page 1
+Example03> glab variable export --group gitlab-org
+Example04> glab variable export --group gitlab-org --per-page 1000 --page 1
+
+Reference> https://gitlab.com/gitlab-org/cli/-/blob/main/docs/source/variable/export.md
