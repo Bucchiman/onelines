@@ -1,0 +1,8 @@
+Command> glab release list
+
+TL;DR> list releases
+
+Keywords> gitlab
+        > release
+
+Reference> https://gitlab.com/gitlab-org/cli/-/blob/main/docs/source/release/list.md

@@ -1,0 +1,7 @@
+Command> glab schedule create --cron "0 * * * *" --description "Describe your pipeline here" --ref "main"
+
+Keywords> gitlab
+        > schedule
+
+
+Reference> https://gitlab.com/gitlab-org/cli/-/tree/main/docs/source/schedule

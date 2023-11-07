@@ -1,0 +1,15 @@
+Command> glab ci delete $1 --dry-run
+
+Arguments> $1: ci/cd id
+
+TL;DR> Delete ci/cd pipeline. dry-run option is simulate process
+
+Keywords> gitlab
+        > ci
+
+Example01> glab ci delete 34
+Example02> glab ci delete 12,34,2
+Example03> glab ci delete --status=failed
+
+
+Reference> https://gitlab.com/gitlab-org/cli/-/blob/main/docs/source/ci/delete.md

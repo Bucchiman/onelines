@@ -1,0 +1,6 @@
+Command> glab schedule run 1
+
+Keywords> gitlab
+        > schedule
+
+Reference> https://gitlab.com/gitlab-org/cli/-/tree/main/docs/source/schedule

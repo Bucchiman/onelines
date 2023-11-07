@@ -1,0 +1,9 @@
+Command> glab variable list
+
+Keywords> gitlab
+        > variable
+
+TL;DR> list project or group variables
+
+
+Reference> https://gitlab.com/gitlab-org/cli/-/blob/main/docs/source/variable/list.md

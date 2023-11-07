@@ -1,0 +1,12 @@
+Command> glab ssh-key delete
+
+TL;DR> interactive mode
+
+Keywords> gitlab
+        > ssh-key
+
+Example01> glab ssh-key delete 7750633       # Delete SSH key with ID as argument
+Example02> glab ssh-key delete           # Interactive
+
+
+Reference> https://gitlab.com/gitlab-org/cli/-/blob/main/docs/source/ssh-key/delete.md

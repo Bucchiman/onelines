@@ -1,0 +1,9 @@
+Command> glab repo search title
+
+
+Example01> glab project search title
+Example02> glab repo search title
+Example03> glab project find title
+Example04> glab project lookup title
+
+Reference> https://gitlab.com/gitlab-org/cli/-/blob/main/docs/source/repo/search.md

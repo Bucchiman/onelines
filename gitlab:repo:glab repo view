@@ -1,0 +1,23 @@
+Command> glab repo view
+
+
+Keywords> gitlab
+        > repo
+
+
+Example>
+# view project information for the current directory (must be a git repository)
+$ glab repo view
+
+# view project information of specified name
+$ glab repo view my-project
+$ glab repo view user/repo
+$ glab repo view group/namespace/repo
+
+# specify repo by full [git] URL
+$ glab repo view git@gitlab.com:user/repo.git
+$ glab repo view https://gitlab.company.org/user/repo
+$ glab repo view https://gitlab.company.org/user/repo.git
+
+
+Reference> https://gitlab.com/gitlab-org/cli/-/blob/main/docs/source/repo/view.md

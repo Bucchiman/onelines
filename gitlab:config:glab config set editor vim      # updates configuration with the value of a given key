@@ -1,0 +1,13 @@
+Command> glab config set $1 $2
+
+Arguments> $1: key
+         > $2: value
+
+Keywords> gitlab
+        > config
+
+Example01>  glab config set editor vim
+Example02>  glab config set token xxxxx -h gitlab.com
+Example03>  glab config set check_update false --global
+
+Reference> https://gitlab.com/gitlab-org/cli/-/blob/main/docs/source/config/set.md
