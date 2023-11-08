@@ -1,0 +1,12 @@
+Command> glab mr issues $1
+
+Arguments> $1: issue number
+
+Keywords> gitlab
+        > mr
+
+Example01> glab mr issues 46
+Example02> glab mr issues branch
+Example03> glab mr issues  # use checked out branch
+
+Reference> https://gitlab.com/gitlab-org/cli/-/blob/main/docs/source/mr/issues.md

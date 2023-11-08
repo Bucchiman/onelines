@@ -1,0 +1,16 @@
+Command> glab mr rebase $1
+
+Argument> $1: [id | branch]
+
+TL;DR> Automatically rebase the source_branch of the merge request against its target_branch
+
+Keywords> gitlab
+        > mr
+
+Example01> glab mr rebase 123
+Example02> glab mr rebase  # get from current branch
+Example03> glab mr rebase branch
+Example04> glab mr rebase branch --skip-ci
+
+
+Reference> https://gitlab.com/gitlab-org/cli/-/blob/main/docs/source/mr/rebase.md

@@ -1,0 +1,15 @@
+Command> glab mr reopen $1
+
+Argument> $1: [id | branch]
+
+TL;DR> reopen merge requests
+
+Keywords> gitlab
+        > mr
+
+Example01> glab mr reopen 123
+Example02> glab mr reopen 123 456 789
+Example03> glab mr reopen branch-1 branch-2
+Example04> glab mr reopen  # use checked out branch
+
+Reference> https://gitlab.com/gitlab-org/cli/-/blob/main/docs/source/mr/reopen.md

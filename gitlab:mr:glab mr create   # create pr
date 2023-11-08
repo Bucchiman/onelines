@@ -1,0 +1,17 @@
+Command> glab mr create
+
+TL;DR> create pr
+
+Keywords>
+        > gitlab
+        > mr
+
+
+Example01> glab mr new
+Example02> glab mr create -a username -t "fix annoying bug"
+Example03> glab mr create -f --draft --label RFC
+Example04> glab mr create --fill --web
+Example05> glab mr create --fill --fill-commit-body --yes
+
+
+Reference> https://gitlab.com/gitlab-org/cli/-/blob/main/docs/source/mr/create.md

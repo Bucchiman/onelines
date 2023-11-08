@@ -1,0 +1,15 @@
+Command> glab ci status
+
+Keywords> gitlab
+        > ci
+
+TL;DR> view a running ci/cd pipeline on current branch
+
+
+Example01> glab ci status --live
+Example02> glab ci status --compact // more compact view
+Example03> glab ci status --branch=master   // Get pipeline for master branch
+Example04> glab ci status   // Get pipeline for current branch
+
+
+Reference> https://gitlab.com/gitlab-org/cli/-/blob/main/docs/source/ci/status.md

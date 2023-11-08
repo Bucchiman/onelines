@@ -1,0 +1,14 @@
+Command> glab incident close $1
+
+Arguments> $1: id
+
+TL;DR> close an incident
+
+Keywords> gitlab
+        > incident
+
+
+Example01> glab incident close 123
+Example02> glab incident close https://gitlab.com/NAMESPACE/REPO/-/issues/incident/123
+
+Reference> https://gitlab.com/gitlab-org/cli/-/blob/main/docs/source/incident/close.md

@@ -1,0 +1,10 @@
+Command> glab issue board create
+
+TL;DR> create issue board
+
+Keywords>
+        > gitlab
+        > issue
+
+
+Reference> https://gitlab.com/gitlab-org/cli/-/blob/main/docs/source/issue/board/index.md

@@ -1,0 +1,7 @@
+Command> glab repo list
+
+Keywords> gitlab
+        > repo
+
+
+Reference> https://gitlab.com/gitlab-org/cli/-/blob/main/docs/source/repo/list.md

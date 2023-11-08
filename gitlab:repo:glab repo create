@@ -1,0 +1,12 @@
+Command> glab repo create
+
+Keywords> gitlab
+        > repo
+
+Example01> glab repo create  # create a repository under your account using the current directory name
+Example02> glab repo create --group glab-cli # create a repository under a group using the current directory name
+Example03> glab repo create my-project  # create a repository with a specific name
+Example04> glab repo create glab-cli/my-project  # create a repository for a group
+
+
+Reference> https://gitlab.com/gitlab-org/cli/-/blob/main/docs/source/repo/create.md

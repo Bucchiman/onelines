@@ -1,0 +1,11 @@
+Command> glab issue update $1
+
+Arguments> $1: issue number
+
+Keywords>
+        > gitlab
+        > issue
+        >
+
+
+Reference> https://gitlab.com/gitlab-org/cli/-/blob/main/docs/source/issue/update.md

@@ -1,0 +1,12 @@
+Command> glab repo archive profclems/glab
+
+
+Example01> glab repo archive profclems/glab
+Example02> glab repo archive  # Downloads zip file of current repository
+Example03> glab repo archive profclems/glab mydirectory  # Downloads repo zip file into mydirectory
+Example04> glab repo archive profclems/glab --format=zip   # Finds repo for current user and download in zip format
+
+Keywords> gitlab
+        > repo
+
+Reference> https://gitlab.com/gitlab-org/cli/-/blob/main/docs/source/repo/archive.md

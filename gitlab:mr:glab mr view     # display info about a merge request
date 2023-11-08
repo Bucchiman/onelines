@@ -1,0 +1,8 @@
+Command> glab mr view
+
+TL;DR> display info about a merge request
+
+Keywords> gitlab
+        > mr
+
+Reference> https://gitlab.com/gitlab-org/cli/-/blob/main/docs/source/mr/view.md

@@ -1,0 +1,18 @@
+Command> glab release download $1
+
+Arguments> $1: tag (v1.1.0)
+
+TL;DR> download all the assets from the specified release tag
+
+Keywords> gitlab
+        > release
+
+Description>  -n, --asset-name stringArray   Download only assets that match the name or a glob pattern
+           >  -D, --dir string               Directory to download the release assets to (default ".")
+
+Example01> glab release download     # Download all assets from the latest release
+Example02> glab release download v1.1.0       # Download all assets from the specified release tag
+Example03> glab release download v1.10.1 --asset-name="*.tar.gz"     # Download assets with names matching the glob pattern
+
+
+Reference> https://gitlab.com/gitlab-org/cli/-/blob/main/docs/source/release/download.md

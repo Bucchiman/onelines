@@ -1,0 +1,17 @@
+Command> glab mr close $1
+
+Arguments> $1: 
+
+
+Keywords>
+        > gitlab
+        > mr
+
+Example01> glab mr close 1
+Example02> glab mr close 1 2 3 4  # close multiple branches at once
+Example03> glab mr close  # use checked out branch
+Example04> glab mr close branch
+Example05> glab mr close username:branch
+Example06> glab mr close branch -R another/repo
+
+Reference> https://gitlab.com/gitlab-org/cli/-/blob/main/docs/source/mr/close.md

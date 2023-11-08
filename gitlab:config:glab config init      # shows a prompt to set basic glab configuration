@@ -1,0 +1,9 @@
+Command> glab config init
+
+TL;DR> shows a prompt to set basic glab configuration
+
+Keywords> gitlab
+        > config
+
+
+Reference> https://gitlab.com/gitlab-org/cli/-/blob/main/docs/source/config/init.md
