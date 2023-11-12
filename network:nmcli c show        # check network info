@@ -1,0 +1,7 @@
+Command> nmcli c show
+
+Keywords> network
+
+TL;DR> check network info
+
+Reference> https://qiita.com/x5dwimpejx/items/69c9fda4f34d97b0e24b
