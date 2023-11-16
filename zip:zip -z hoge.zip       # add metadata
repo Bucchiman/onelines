@@ -1,0 +1,13 @@
+Command> zip -z $1.zip
+
+Arguments> $1: zip file
+
+TL;DR> add metadata
+
+Keywords> zip
+
+Related> unzip -z $1.zip
+
+
+Reference> https://stackoverflow.com/questions/66800511/how-to-add-additional-metadata-to-a-zip-file-using-a-bash-script
+         > https://superuser.com/questions/337112/zip-file-with-metadata
