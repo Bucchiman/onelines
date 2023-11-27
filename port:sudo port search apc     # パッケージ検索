@@ -1,0 +1,10 @@
+Command> sudo port search $1
+
+Arguments> $1: パッケージ
+
+TL;DR> パッケージ検索
+
+Keywords> port
+
+
+Rerference> https://www.karakaram.com/macports-howto/

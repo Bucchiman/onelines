@@ -1,0 +1,9 @@
+Command> sudo port variants $1
+
+Arguments> $1: パッケージ名
+
+TL;DR> パッケージの持つオプション表示
+
+Keywords> port
+
+Rference> https://www.karakaram.com/macports-howto/

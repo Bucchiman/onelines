@@ -1,0 +1,9 @@
+Command> sudo port info $1
+
+Arguments> $1: パッケージ名
+
+TL;DR> パッケージの詳細情報
+
+Keywords> port
+
+Reference> https://www.karakaram.com/macports-howto/

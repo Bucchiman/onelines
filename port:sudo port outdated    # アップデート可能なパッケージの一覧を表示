@@ -1,0 +1,7 @@
+Command> sudo port outdated
+
+TL;DR> アップデート可能なパッケージの一覧を表示
+
+Keywords> port
+
+Reference> https://www.karakaram.com/macports-howto/

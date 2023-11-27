@@ -1,0 +1,7 @@
+Command> jobs -l
+
+TL;DR> job-pid list
+
+Keywords> ps
+
+Reference> https://webkaru.net/linux/jobs-command/

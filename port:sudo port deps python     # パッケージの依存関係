@@ -1,0 +1,11 @@
+Command> sudo port deps $1
+
+Arguments> $1: パッケージ名
+
+TL;DR> パッケージの依存関係
+
+
+Keywords> port
+
+
+Reference> https://www.karakaram.com/macports-howto/

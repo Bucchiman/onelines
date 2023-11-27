@@ -1,0 +1,10 @@
+Command> sudo port deactivate $1
+
+Arguments> $1: パッケージ名
+
+TL;DR> パッケージ無効
+
+Keywords> port
+
+
+Reference> https://www.karakaram.com/macports-howto/

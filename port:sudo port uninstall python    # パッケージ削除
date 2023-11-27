@@ -1,0 +1,9 @@
+Command> sudo port uninstall $1
+
+Arguments> $1: パッケージ名
+
+Keywords> port
+
+TL;DR> パッケージ削除
+
+Reference> https://www.karakaram.com/macports-howto/

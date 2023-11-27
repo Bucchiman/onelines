@@ -1,0 +1,9 @@
+Command> sudo port activate $1
+
+Arguments> $1: package name
+
+TL;DR> パッケージ有効
+
+Keywords> port
+
+Reference> https://www.karakaram.com/macports-howto/
