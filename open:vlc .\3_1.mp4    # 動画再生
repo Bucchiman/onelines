@@ -1,0 +1,7 @@
+Command> vlc $1
+
+Arguments> $1: video file name
+
+Keywords> open
+
+TL;DR> 動画再生

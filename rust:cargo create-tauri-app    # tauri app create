@@ -1,0 +1,5 @@
+Command> cargo create-tauri-app
+
+Keywords> rust
+
+TL;DR> tauri app create

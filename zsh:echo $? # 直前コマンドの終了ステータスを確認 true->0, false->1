@@ -1,4 +1,6 @@
-Command> echo $? 直前コマンドの終了ステータスを確認 true->0, false->1
+Command> echo $?
+
+TL;DR> 直前コマンドの終了ステータスを確認 true->0, false->1
 
 Description>
 
