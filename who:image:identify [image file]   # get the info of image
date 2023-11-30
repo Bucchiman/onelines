@@ -1,0 +1,11 @@
+Command> identify --verbose $1
+
+Arguments> $1: [image file]
+
+TL;DR> get the info of image
+
+Keywords> who
+        > image
+
+
+Reference> https://ostechnix.com/how-to-view-image-metadata-on-linux/

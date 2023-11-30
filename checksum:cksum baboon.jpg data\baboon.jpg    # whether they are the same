@@ -1,0 +1,12 @@
+Command> cksum $1 $2
+
+Arguments> $1: file01
+         > $2: file02
+
+
+TL;DR> whether they are the same
+
+
+Keywords> checksum
+
+Reference> https://www.freecodecamp.org/news/file-last-modified-in-inux-how-to-check-if-two-files-are-same/

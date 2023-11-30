@@ -1,0 +1,10 @@
+Command> exiftool $1
+
+Arguments> $1: image name
+
+TL;DR> get the info of the image
+
+Keywords> who
+        > image
+
+Reference> https://ostechnix.com/how-to-view-image-metadata-on-linux/

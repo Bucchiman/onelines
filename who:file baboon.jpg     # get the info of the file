@@ -1,0 +1,9 @@
+Command> file $1
+
+Arguments> $1: file name
+
+TL;DR> get the info of the file
+
+Keywords> who
+
+Reference> https://ostechnix.com/how-to-view-image-metadata-on-linux/

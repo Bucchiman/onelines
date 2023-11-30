@@ -1,0 +1,9 @@
+Command> yq $1
+
+Arguments> $1: yaml file
+
+TL;DR> show yaml file
+
+Keywords> yaml
+
+Refeernce> https://zenn.dev/musyu/articles/a2ffd081b0eb077cf7b5
