@@ -1,0 +1,14 @@
+Command> mogrify -comment "$1" $2
+
+Arguments> $1: message to add metadata
+         > $2: image file name
+
+TL;DR> add metadata to image file
+
+Keywords> image
+        > metadata
+
+Related> identify -verbose baboon.jpg
+       ❯ exiftool -Description='some notes' baboon.jpg
+
+Reference> https://www.linuxquestions.org/questions/ubuntu-63/how-to-add-metadata-to-png-file-572785/

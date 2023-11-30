@@ -1,0 +1,13 @@
+Command> exiftool -Description='$1' $2
+
+Arguments> $1: comment to add as metadata
+         > $2: jpg image name
+
+TL;DR>  add metadata to jpeg (not png)
+
+Keywords> image
+        > metadata
+
+Related> mogrify -comment "8ucchiman was here" baboon.jpg    # add metadata to image file
+
+Reference> https://askubuntu.com/questions/1358340/add-a-tag-to-jpeg-using-exiftool
