@@ -1,0 +1,14 @@
+Command> arch
+
+TL;DR> show architecture
+
+Keywords> architecture
+
+Related> gcc -v
+       > uname -m
+       > arch
+       > dpkg --print-architecture
+
+
+Reference> https://open-groove.net/linux/architecture-check/
+         > https://blog.framinal.life/entry/2020/04/22/041548

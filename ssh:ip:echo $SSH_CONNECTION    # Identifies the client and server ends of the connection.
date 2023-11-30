@@ -1,0 +1,22 @@
+Command> echo $SSH_CONNECTION
+
+TL;DR> Identifies the client and server ends of the connection.
+
+Keywords> ssh
+        > ip
+
+
+Description>
+           >  The variable contains four space-separated values:
+           >        1. client IP address
+           >        2. client port number
+           >        3. server IP address
+           >        4. server port number.
+           >
+           > e.g.
+           >    192.168.7.21 57868 192.168.6.4 22
+           >    ------------ ----- ----------- --
+           >         1         2        3       4
+           >
+
+Reference> https://unix.stackexchange.com/questions/120080/what-are-ssh-tty-and-ssh-connection
