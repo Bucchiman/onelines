@@ -1,0 +1,30 @@
+Command> docker-compose build
+
+TL;DR> build service
+
+Keywords> docker
+
+Description>
+           > docker-compose.yml
+           >   | web:                               <- service
+           >   |   build: .                         <- Dockerfile path
+           >   |   environment:
+           >   |     DISABLE_SPRING: "1"
+           >   |     DB_USERNAME: "root"
+           >   |     DB_PASSWORD: "root"
+           >   |     DB_HOST: "db"
+           >   |   ports:
+           >   |     - "3000:3000"
+           >   |   volumes:
+           >   |     - ".:/var/local/rails5_product"
+           >   |   links:
+           >   |     - "db"
+           >   |
+           >   | db:                                <- service
+           >   |   image: mysql:5.6                 <- pull remote image
+           >   |   environment:
+           >   |     MYSQL_ROOT_PASSWORD: "root"
+
+
+
+Reference> https://qiita.com/wasanx25/items/d47caf37b79e855af95f
