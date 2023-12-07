@@ -1,0 +1,8 @@
+Command> devbox generate Dockerfile
+
+TL;DR> generate dockerfile
+
+Keywords> devbox
+
+
+Reference> https://www.jetpack.io/devbox/docs/cli_reference/devbox_generate_dockerfile/
