@@ -1,4 +1,4 @@
-Commnand> git config --get remote.origin.url
+Command> git config --get remote.origin.url
 
 Keywords> git
         > config
