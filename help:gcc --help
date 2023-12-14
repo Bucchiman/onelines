@@ -2,6 +2,13 @@ Command> gcc --help
 
 Keywords> help
 
+
+Options
+-fno-asynchronous-unwind-tables     : exception handling data
+-nostdlib                           : not use standard library
+-Wl,--entry=func,--oformat=binary   : linker instructions(to flat binary)
+
+
 Description>
            > # 任意の場所にあるヘッダーファイルを読み込みたいとき
            > - gcc -Iオプションにパスを追加
