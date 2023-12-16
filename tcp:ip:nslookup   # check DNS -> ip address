@@ -1,0 +1,10 @@
+Command> nslookup
+
+TL;DR> check DNS -> ip address
+
+Keywords> tcp
+        > ip
+
+
+
+Reference> https://server-setting.info/centos/network-config-c7.html

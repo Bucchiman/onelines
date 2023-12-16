@@ -1,0 +1,8 @@
+Command> git config --get remote.origin.url
+
+Keywords> git
+        > config
+
+TL;DR> get origin url
+
+Reference> 

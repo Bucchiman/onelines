@@ -1,0 +1,9 @@
+Command> evince $1
+
+Arguments> $1: pdf file
+
+TL;DR> pdf preview
+
+Keywords> open
+
+Reference> https://help.gnome.org/users/evince/stable/commandline.html.en

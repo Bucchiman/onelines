@@ -1,8 +1,0 @@
-Command> cargo build
-
-
-TL;DR> create target/debug/[project name]
-
-Keywords> rust
-
-Reference> cookbook rust

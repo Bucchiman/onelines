@@ -3,6 +3,34 @@ Command> gcc -I../ -v xxx.c
 Keywords> compile
         > gcc
 
+Example>
+       > $ tree
+       > .--- main.c
+       >   +- header/
+       >         +- bucchiman.h
+       >
+       > - main.c
+       > ```c
+       > #include <bucchiman.h>
+       > #include <stdio.h>
+       > int main(int argc, char** argv) {
+       >        print_all(argc, argv);
+       > }
+       > ```
+       >
+       > - bucchiman.h
+       > ```
+       > #include <stdio.h>
+       > void print_all(int argc, char **argv) {
+       >    for (int i=0; i<argc; i++) {
+       >        printf("i: %d, arg: %s\n", i, argv[i]);
+       >    }
+       > }
+       > ```
+       >
+       > $ gcc -I ./header main.c
+
+
 TL;DR> includeのパス追加
 
 
