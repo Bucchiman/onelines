@@ -107,3 +107,16 @@ target_compile_definitions(a.out PUBLIC
 #
 # -> 
 target_link_libraries(target PUBLIC -lhoge)
+
+
+
+# find_package
+- module mode
+    - search for Find<package>.cmake
+    - cmake install to (e.g. /usr/loocal/share/cmake-2.8/Modules)
+    - cmake install to (e.g. /opt/local/share/cmake-3.24/Modules)
+    - CMAKE_MODULE_PATH
+
+- config mode
+    - [search for <package>.Config.cmake/<lower-case-package>config.cmake]
+    - <package>_DIR変数で検索対象のパスを指定
