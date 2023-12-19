@@ -1,0 +1,14 @@
+Command> pytest -v --duration=0
+
+TL;DR> report test time
+
+Keywords> pytest
+
+Description>
+           > テストコードの定義関数ごとの時間を表示する。
+           > 処理時間の結果について、1つの定義関数につき setup/call/teardown に分かれることに注意。
+           >
+           >
+
+
+Reference> https://qiita.com/kg1/items/4e2cae18e9bd39f014d4
