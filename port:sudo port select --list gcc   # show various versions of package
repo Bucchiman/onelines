@@ -1,0 +1,7 @@
+Command> sudo port select --list $1
+
+Arguments> $1: package(e.g. gcc)
+
+TL;DR> show various versions of package
+
+Keywords> port

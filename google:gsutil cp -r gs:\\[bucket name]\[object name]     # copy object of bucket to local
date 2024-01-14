@@ -1,0 +1,10 @@
+Command> gsutil cp -r gs://$1/$2
+
+TL;DR> copy object of bucket to local
+
+Arguments> $1: bucket name
+         > $2: object name
+
+Keywords> google
+
+Reference> 

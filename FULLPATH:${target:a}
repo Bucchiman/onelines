@@ -1,0 +1,5 @@
+Command> ${target:a}
+
+Keywords> FULLPATH
+
+Reference> https://tecadmin.net/how-to-extract-filename-extension-in-shell-script/

@@ -1,0 +1,7 @@
+Command> gsutil rb gs://$1
+
+Arguments> $1: bucket name
+
+TL;DR> remove bucket
+
+Keywords> google:

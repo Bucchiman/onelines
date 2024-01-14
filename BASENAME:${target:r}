@@ -1,0 +1,6 @@
+Command> ${target:r}
+
+Keywords> BASENAME
+
+
+Reference> https://tecadmin.net/how-to-extract-filename-extension-in-shell-script/

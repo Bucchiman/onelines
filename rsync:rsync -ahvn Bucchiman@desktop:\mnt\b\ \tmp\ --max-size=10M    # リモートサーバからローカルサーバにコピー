@@ -1,0 +1,13 @@
+Command> rsync -arhvn Bucchiman@desktop:/mnt/b/ /tmp/ --max-size=10M
+
+TL;DR> sync from remote server to local server
+
+Keywords> rsync
+
+Description>
+           > -a なるべくコピー元のファイルと同一条件で同期
+           > -h ファイルサイズ
+           > -v verbose
+           > -n --dry-run 対象ファイルを確認 (同期のテスト)
+
+Reference> https://qiita.com/bezeklik/items/22e791df7187958d76c1

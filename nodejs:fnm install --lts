@@ -1,0 +1,5 @@
+Command> fnm install --lts
+
+Keywords> nodejs
+
+Reference> https://github.com/Schniz/fnm/blob/master/docs/commands.md
