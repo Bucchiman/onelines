@@ -1,0 +1,5 @@
+Command> colcon test-result --all
+
+TL;DR> result in build/
+
+Keywords> ros2

@@ -1,0 +1,5 @@
+Command> ros2 pkg create --build-type ament_cmake hello_world --dependencies rclcpp hello_world_msgs
+
+Keywords> ros2
+
+TL;DR> create sample project

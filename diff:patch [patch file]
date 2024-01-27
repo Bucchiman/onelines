@@ -1,0 +1,7 @@
+Command> patch $1
+
+Arguments> $1: [patch file]
+
+
+
+Keywords> diff

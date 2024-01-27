@@ -1,0 +1,25 @@
+Command> netstat -ant
+
+
+TL;DR> show status of tcp (e.g. ip address, port)
+
+Keywords> tcp
+        > ip
+
+
+Description> 
+           > Active Internet connections (including servers)
+           > Proto Recv-Q Send-Q  Local Address          Foreign Address        (state)    
+           > -----                -------------          ---------------
+           > プロトコル種類       接続元, (ip.port)      接続先, (ip.port)
+           > tcp4       0      0  10.68.133.129.65326    142.251.42.174.443     ESTABLISHED
+           > tcp4       0      0  10.68.133.129.65325    216.239.32.116.443     ESTABLISHED
+           > tcp4       0      0  10.68.133.129.65324    52.152.143.207.443     ESTABLISHED
+           > tcp4       0      0  10.68.133.129.65321    172.217.175.35.443     ESTABLISHED
+           > tcp4       0      0  10.68.133.129.65316    172.217.175.35.443     ESTABLISHED
+           > tcp4       0      0  10.68.133.129.65315    172.217.175.35.443     ESTABLISHED
+           > tcp4       0      0  10.68.133.129.65314    172.217.31.130.443     ESTABLISHED
+           > tcp4       0      0  10.68.133.129.65308    3.218.204.119.443      ESTABLISHED
+ 
+
+ Reference> https://xtech.nikkei.com/it/article/COLUMN/20100308/345506/

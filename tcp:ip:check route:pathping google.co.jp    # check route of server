@@ -1,0 +1,11 @@
+Command> pathping $1
+
+Arguments> $1: domain name
+
+TL;DR> check route of server
+
+Keywords> tcp
+        > ip
+        > check route
+
+Reference> https://atmarkit.itmedia.co.jp/ait/articles/0108/30/news003.html

@@ -1,0 +1,4 @@
+Command> arduino-cli core install arduino:avr --config-file ./arduino15/arduino-cli.yaml
+
+
+Keywords> arduino

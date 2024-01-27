@@ -3,6 +3,7 @@ Command> traceroute -n 8.8.8.8
 Keywords>
         > tcp
         > ip
+        > check_route
 
 TL;DR> パケット通信のデータ送信を観察, パケットが目的地までに通る道順
 

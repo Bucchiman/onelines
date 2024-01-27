@@ -1,0 +1,3 @@
+Command> arduino-cli upload -p \dev\cu.usbmodem14201 --fqbn arduino:avr:uno MyTestSketch --config-file .\arduino15\arduino-cli.yaml
+
+Keywords> arduino

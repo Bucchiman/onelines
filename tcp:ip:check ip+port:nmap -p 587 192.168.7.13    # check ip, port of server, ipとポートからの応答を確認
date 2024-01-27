@@ -1,0 +1,12 @@
+Command> nmap -p $1 $2
+
+Arguments> $1: port
+         > $2: ip
+
+TL;DR> check ip, port of server, ipとポートからの応答を確認
+
+Keywords> tcp
+        > ip
+        > ip+port
+
+

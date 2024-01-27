@@ -1,7 +1,11 @@
-Command> ping -c 3 8.8.8.8
+Command> ping -c $1 $2
+
+Arguments> $1: count response
+         > $2: ip address
 
 Keywords> tcp
         > ip
+        > check ip
 
 TL;DR> 8.8.8.8アドレスから応答が3回ある
 

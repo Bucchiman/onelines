@@ -1,0 +1,5 @@
+Command> arduino-cli config init --dest-dir $HOME/.arduino15
+
+Keywords> arduino
+
+Reference> 

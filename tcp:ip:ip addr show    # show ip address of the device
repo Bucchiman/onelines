@@ -1,5 +1,7 @@
 Command> ip addr show
 
+TL;DR> show ip address of the device
+
 Keywords>
         > tcp
         > ip

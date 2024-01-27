@@ -1,0 +1,7 @@
+Command> for f (**\*) echo $f
+
+TL;DR> show recurssively files under the directory
+
+Keywords> zsh
+
+

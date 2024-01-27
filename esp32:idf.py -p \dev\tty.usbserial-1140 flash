@@ -1,0 +1,5 @@
+Command> idf.py -p /dev/tty.usbserial-1140 flash
+
+Keywords> esp32
+
+Reference> jetpack.io/devbox/docs/installing_devbox/
