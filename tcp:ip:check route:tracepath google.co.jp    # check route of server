@@ -1,0 +1,11 @@
+Command> tracepath $1
+
+Arguments> $1: ip address or dns
+
+TL;DR> check route of server
+
+Keywords> tcp
+        > ip
+        > check route
+
+Reference> https://engineers-life.com/linux_command/network_linux/linux_tracepath_tarceroute/
