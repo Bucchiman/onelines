@@ -1,0 +1,93 @@
+Command> ros2 action list
+
+TL;DR> one of the communication types and are intended for long running tasks
+
+Keywords> ros2
+
+Description>
+           > +------------------------+       +-----------------+       +------------------------+
+           > |                        |       |                 |       |                        |
+           > |    *Action Client*     |       |     *Action*    |       |    *Action Server*     |
+           > |                        |       |                 |       |                        |
+           > | Goal: Service Client   |       | Goal Service:   |       | Goal: Service Server   |
+           > |                        |------>|     Request     |------>|                        |
+           > |                        |<------|     Response    |<------|                        |
+           > |                        |       |                 |       |                        |
+           > | Feedback: Subscriber   |<------| Feedback: Topic |<------| Feedback: Subscriber   |
+           > |                        |       |                 |       |                        |
+           > | Result: Service Client |       | Result Service: |       | Result: Service Server |
+           > |                        |------>|     Request     |------>|                        |
+           > |                        |<------|     Response    |<------|                        |
+           > +------------------------+       +-----------------+       +------------------------+
+           >
+           > e.g.
+           > (terminal1) $ ros2 run turtlesim turtlesim_node
+           > (terminal2) $ ros2 run turtlesim turtle_teleop_key
+           > (terminal3) $ ros2 node info /turtlesim 
+           > (terminal3)   /turtlesim
+           > (terminal3)     Subscribers:
+           > (terminal3)       /parameter_events: rcl_interfaces/msg/ParameterEvent
+           > (terminal3)       /turtle1/cmd_vel: geometry_msgs/msg/Twist
+           > (terminal3)     Publishers:
+           > (terminal3)       /parameter_events: rcl_interfaces/msg/ParameterEvent
+           > (terminal3)       /rosout: rcl_interfaces/msg/Log
+           > (terminal3)       /turtle1/color_sensor: turtlesim/msg/Color
+           > (terminal3)       /turtle1/pose: turtlesim/msg/Pose
+           > (terminal3)     Service Servers:
+           > (terminal3)       /clear: std_srvs/srv/Empty
+           > (terminal3)       /kill: turtlesim/srv/Kill
+           > (terminal3)       /reset: std_srvs/srv/Empty
+           > (terminal3)       /spawn: turtlesim/srv/Spawn
+           > (terminal3)       /turtle1/set_pen: turtlesim/srv/SetPen
+           > (terminal3)       /turtle1/teleport_absolute: turtlesim/srv/TeleportAbsolute
+           > (terminal3)       /turtle1/teleport_relative: turtlesim/srv/TeleportRelative
+           > (terminal3)       /turtlesim/describe_parameters: rcl_interfaces/srv/DescribeParameters
+           > (terminal3)       /turtlesim/get_parameter_types: rcl_interfaces/srv/GetParameterTypes
+           > (terminal3)       /turtlesim/get_parameters: rcl_interfaces/srv/GetParameters
+           > (terminal3)       /turtlesim/list_parameters: rcl_interfaces/srv/ListParameters
+           > (terminal3)       /turtlesim/set_parameters: rcl_interfaces/srv/SetParameters
+           > (terminal3)       /turtlesim/set_parameters_atomically: rcl_interfaces/srv/SetParametersAtomically
+           > (terminal3)     Service Clients:
+           > (terminal3)
+           > (terminal3)     Action Servers:
+           > (terminal3)       /turtle1/rotate_absolute: turtlesim/action/RotateAbsolute
+           > (terminal3)     Action Clients:
+           > (terminal3) $ ros2 node info /teleop_turtle
+           > (terminal3)   /teleop_turtle
+           > (terminal3)     Subscribers:
+           > (terminal3)       /parameter_events: rcl_interfaces/msg/ParameterEvent
+           > (terminal3)     Publishers:
+           > (terminal3)       /parameter_events: rcl_interfaces/msg/ParameterEvent
+           > (terminal3)       /rosout: rcl_interfaces/msg/Log
+           > (terminal3)       /turtle1/cmd_vel: geometry_msgs/msg/Twist
+           > (terminal3)     Service Servers:
+           > (terminal3)       /teleop_turtle/describe_parameters: rcl_interfaces/srv/DescribeParameters
+           > (terminal3)       /teleop_turtle/get_parameter_types: rcl_interfaces/srv/GetParameterTypes
+           > (terminal3)       /teleop_turtle/get_parameters: rcl_interfaces/srv/GetParameters
+           > (terminal3)       /teleop_turtle/list_parameters: rcl_interfaces/srv/ListParameters
+           > (terminal3)       /teleop_turtle/set_parameters: rcl_interfaces/srv/SetParameters
+           > (terminal3)       /teleop_turtle/set_parameters_atomically: rcl_interfaces/srv/SetParametersAtomically
+           > (terminal3)     Service Clients:
+           > (terminal3)   
+           > (terminal3)     Action Servers:
+           > (terminal3)   
+           > (terminal3)     Action Clients:
+           > (terminal3)       /turtle1/rotate_absolute: turtlesim/action/RotateAbsolute
+           > (terminal3) $ ros2 action list
+           > (terminal3)   /turtle1/rotate_absolute
+           > (terminal3) $ ros2 action list -t
+           > (terminal3)   /turtle1/rotate_absolute [turtlesim/action/RotateAbsolute]
+           > (terminal3) $ ros2 action info /turtle1/rotate_absolute
+           > (terminal3)   Action: /turtle1/rotate_absolute
+           > (terminal3)   Action clients: 1
+           > (terminal3)       /teleop_turtle
+           > (terminal3)   Action servers: 1
+           > (terminal3)       /turtlesim
+
+
+Related> ros2 run turtlesim turtlesim_node
+       > ros2 run turtlesim turtle_teleop_key
+       > ros2 node info /turtilesim
+       > ros2 node info /teleop_turtle
+
+Reference> https://docs.ros.org/en/humble/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Actions/Understanding-ROS2-Actions.html
