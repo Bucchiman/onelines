@@ -1,0 +1,9 @@
+Command> npx create-react-app $1 --template typescript
+
+Arguments> $1: project name
+
+TL;DR> create template of react
+
+Keywords> react
+
+Reference> https://create-react-app.dev/docs/adding-typescript/

@@ -1,0 +1,9 @@
+Command> unzip -t $1
+
+Arguments> $1: zip file
+
+TL;DR> show files
+
+Keywords> zip
+
+Reference> https://mokuzine.net/linux-zip/
