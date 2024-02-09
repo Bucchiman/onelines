@@ -4,4 +4,7 @@ Description> -x exclude
            > -r reccusive
            > -j ディレクトリ構造を無視(ディレクトリ内のファイルを1階層ディレクトリ内にぶっこんんでzip生成)
 
+Related> zip -r FILENAME.zip FILE_DIR -x "*.DS_Store" "*__MACOSX*"
+
 Reference> https://blog.nekonium.com/zip/
+         > https://qiita.com/seyself/items/ae47f1c22a7375a736f3
