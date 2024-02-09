@@ -1,0 +1,13 @@
+Command> convert lena.jpg -resize $2x$3 $4
+
+Arguments> $1: image name
+         > $2: resize size
+         > $3: resize size
+         > $4: resize image name
+
+TL;DR> resize image
+
+Keywords> image
+
+Reference> https://imagemagick.biz/archives/93
+           https://legacy.imagemagick.org/Usage/resize/
