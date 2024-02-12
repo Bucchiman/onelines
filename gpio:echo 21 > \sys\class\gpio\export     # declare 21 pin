@@ -1,0 +1,14 @@
+Command> echo 21 > /sys/class/gpio/export
+
+Command> declare pin
+
+Keywords> gpio
+
+Description>
+           > GPIO制御
+           > - echoで直接制御
+           > - RPi.GPIOライブラリ
+           > - WiringPiライブラリ
+
+
+Reference> https://tool-lab.com/raspberrypi-startup-24/

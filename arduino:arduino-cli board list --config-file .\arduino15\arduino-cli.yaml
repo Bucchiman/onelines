@@ -1,4 +1,0 @@
-Command> arduino-cli board list --config-file ./arduino15/arduino-cli.yaml
-
-
-Keywords> arduino

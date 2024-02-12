@@ -1,0 +1,10 @@
+Command> gpio -g mode 20 out
+
+TL;DR> set output
+
+
+Keywords> gpio
+
+
+
+Reference> https://tool-lab.com/raspberrypi-startup-24/
