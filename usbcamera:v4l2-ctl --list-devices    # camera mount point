@@ -1,0 +1,7 @@
+Command> v4l2-ctl --list-devices
+
+TL;DR> camera mount point
+
+Keywords> usbcamera
+
+Reference> https://askubuntu.com/questions/1336962/how-can-i-tell-which-of-these-video-devices-is-a-webcam
