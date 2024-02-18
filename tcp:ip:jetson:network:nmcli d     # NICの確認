@@ -3,6 +3,9 @@ Command> nmcli d
 TL;DR> NICの確認
 
 Keywords> network
+        > tcp
+        > ip
+        > jetson
 
 
 Reference> https://qiita.com/x5dwimpejx/items/69c9fda4f34d97b0e24b

@@ -1,4 +1,6 @@
-Command> sudo i2cdetect -y 1   # I2Cは複数台接続が可能で、デバイス識別するためにアドレスがある
+Command> sudo i2cdetect -y 1
+
+Keywords> I2Cは複数台接続が可能で、デバイス識別するためにアドレスがある
 
 Description>
            > 出力結果の読み方
@@ -14,7 +16,9 @@ Description>
            >  70: -- -- -- -- -- -- -- --
            >
            > このデバイスのアドレスが0x68ということ
+           > read/write register via 0x68 address
 
 Keywords> raspi
 
 Reference> https://www.raspberrypirulo.net/entry/raspberrypi-i2c
+         > http://seminarinfo.html.xdomain.jp/RaspberryPiLinux6/RaspberryPi%E6%B4%BB%E7%94%A86%E2%91%A1D-2.pdf
