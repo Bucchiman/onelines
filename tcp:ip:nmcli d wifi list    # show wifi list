@@ -1,0 +1,8 @@
+Command> nmcli d wifi list
+
+TL;DR> show wifi list
+
+Keywords> tcp
+        > ip
+
+Reference> https://zenn.dev/tetsu_koba/articles/b4495387488df5

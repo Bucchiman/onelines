@@ -1,0 +1,5 @@
+Command> rsync -ahuv dir/ dir/
+
+Keyworkds> rsync
+
+TL;DR> 追加分のみをコピー

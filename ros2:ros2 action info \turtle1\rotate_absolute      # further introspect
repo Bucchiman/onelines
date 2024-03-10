@@ -1,0 +1,35 @@
+Command> ros2 action info $1
+
+Arguments> $1: action name
+
+TL;DR> further introspect
+
+Keywords> ros2
+
+Description>
+           >
+           > +------------------------+       +-----------------+       +------------------------+
+           > |                        |       |                 |       |                        |
+           > |    *Action Client*     |       |     *Action*    |       |    *Action Server*     |
+           > |                        |       |                 |       |                        |
+           > | Goal: Service Client   |       | Goal Service:   |       | Goal: Service Server   |
+           > |                        |------>|     Request     |------>|                        |
+           > |                        |<------|     Response    |<------|                        |
+           > |                        |       |                 |       |                        |
+           > | Feedback: Subscriber   |<------| Feedback: Topic |<------| Feedback: Subscriber   |
+           > |                        |       |                 |       |                        |
+           > | Result: Service Client |       | Result Service: |       | Result: Service Server |
+           > |                        |------>|     Request     |------>|                        |
+           > |                        |<------|     Response    |<------|                        |
+           > +------------------------+       +-----------------+       +------------------------+
+           >
+           > $ ros2 action info /turtle1/rotate_absolute
+           > Action: /turtle1/rotate_absolute
+           > Action clients: 1
+           >    /teleop_turtle
+           > Action servers: 1
+           >    /turtlesim
+           >
+
+
+Reference> https://docs.ros.org/en/humble/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Actions/Understanding-ROS2-Actions.html

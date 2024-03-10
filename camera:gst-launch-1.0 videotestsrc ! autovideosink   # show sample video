@@ -1,0 +1,5 @@
+Command> gst-launch-1.0 videotestsrc ! autovideosink
+
+TL;DR> show sample video
+
+Keywords> camera
