@@ -1,0 +1,1 @@
+gpio:echo 21 > \sys\class\gpio\export     # declare pin

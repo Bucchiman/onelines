@@ -1,0 +1,9 @@
+Command> v4l2-ctl --all
+
+TL;DR> show camera config
+
+Keywords> usbcamera
+
+Install> sudo apt install v4l-utils
+
+Reference> https://www.prototype00.com/2021/11/v4l2-ctl-usbcam.html

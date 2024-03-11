@@ -1,0 +1,11 @@
+Command> diskutil unmount $1
+
+Arguments> $1: disk
+
+TL;DR> unmount disk
+
+Keywords> disk
+        > mount
+
+
+Reference> https://qiita.com/earth55/items/88015f3499411e3eab51

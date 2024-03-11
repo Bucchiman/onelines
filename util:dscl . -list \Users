@@ -1,0 +1,7 @@
+
+Command> dscl . -list /Users
+
+
+Keywords> util
+
+Reference> https://qiita.com/tropical_penguin/items/be8baccb4114e02c071c

@@ -1,0 +1,9 @@
+Command> arduino-cli core upgrade
+
+TL;DR> upgrade the installed cores
+
+
+Keywords> arduino
+
+
+Reference> https://www.woolseyworkshop.com/wp-content/uploads/WoolseyWorkshop_Cheatsheet_ArduinoCommandLine_v1.5.pdf
