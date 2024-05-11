@@ -1,0 +1,10 @@
+Command> csvlens hoge.csv
+
+Keywords> rust
+
+TL;DR> csv preview
+
+Install> cargo install csvlens
+
+
+Reference> https://github.com/YS-L/csvlens

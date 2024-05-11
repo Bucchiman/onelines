@@ -1,0 +1,11 @@
+Command> kaggle competitions download -c titanic
+
+
+Keywords> kaggle
+
+
+TL;DR> download sample dataset
+
+
+Description> kaggle create api
+           > Download kaggle.json from kaggle
