@@ -1,0 +1,9 @@
+
+Command> pyenv virtualenvs
+
+TL;DR> list existing virtualenvs
+
+Keywords> pyenv
+
+
+Reference> https://github.com/malexer/cheatsheets/blob/master/pyenv.md

@@ -1,5 +1,6 @@
 Command> idf.py menuconfig
 
+TL;DR> graphical configuration
 
 Keywords> esp32
 

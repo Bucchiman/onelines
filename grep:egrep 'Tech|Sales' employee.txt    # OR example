@@ -1,0 +1,8 @@
+Command> egrep 'Tech|Sales' employee.txt
+
+TL;DR> OR example
+
+
+Keywords> grep
+
+Reference> https://www.thegeekstuff.com/2011/10/grep-or-and-not-operators/
