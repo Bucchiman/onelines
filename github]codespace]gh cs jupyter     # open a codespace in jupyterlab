@@ -1,0 +1,8 @@
+Command> gh cs jupyter
+
+TL;DR> Open a codespace in jupyterlab
+
+Keywords> github
+        > codespace
+
+Reference> https://cli.github.com/manual/gh_codespace_jupyter

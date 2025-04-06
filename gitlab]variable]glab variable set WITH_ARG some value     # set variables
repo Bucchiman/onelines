@@ -1,0 +1,16 @@
+Command> glab variable set WITH_ARG "some value"
+
+TL;DR> set variables
+
+Keywords> gitlab
+        > variable
+
+Example01> glab variable set WITH_ARG "some value"
+Example02> glab variable set FROM_FLAG -v "some value"
+Example03> glab variable set FROM_ENV_WITH_ARG "${ENV_VAR}"
+Example04> glab variable set FROM_ENV_WITH_FLAG -v"${ENV_VAR}"
+Example05> glab variable set FROM_FILE < secret.txt
+Example06> cat file.txt | glab variable set SERVER_TOKEN
+Example07> cat token.txt | glab variable set GROUP_TOKEN -g mygroup --scope=prod
+
+Reference> https://gitlab.com/gitlab-org/cli/-/blob/main/docs/source/variable/set.md

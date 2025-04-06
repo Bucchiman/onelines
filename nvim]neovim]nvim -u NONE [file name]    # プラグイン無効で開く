@@ -1,0 +1,9 @@
+Command> nvim -u NONE $1
+
+Arguments> $1: file name
+
+Keywords> neovim
+        > nvim
+
+
+Reference> https://qiita.com/simeji/items/41f4c1bd4e9a2b3c1526

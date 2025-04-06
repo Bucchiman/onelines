@@ -1,0 +1,34 @@
+Command> pdftk input.pdf update_info_utf8 title "Your Title" author "Author Name" output output.pdf
+
+TL;DR> add metadata for pdf file
+
+Keywords> metadata
+
+
+Others>
+      > import PyPDF2
+      > 
+      > pdf_path = 'your_file.pdf'
+      > pdf_writer = PyPDF2.PdfFileWriter()
+      > pdf_reader = PyPDF2.PdfFileReader(pdf_path)
+      > 
+      > # Add metadata
+      > pdf_writer.addMetadata({
+      >     '/Title': 'Your Title',
+      >     '/Author': 'Author Name',
+      >     '/Subject': 'Subject',
+      >     '/Keywords': 'Keyword1, Keyword2',
+      > })
+      > 
+      > # Add pages
+      > for page_num in range(pdf_reader.numPages):
+      >     page = pdf_reader.getPage(page_num)
+      >     pdf_writer.addPage(page)
+      > 
+      > # Save to a new PDF file
+      > with open('output.pdf', 'wb') as output_pdf:
+      >     pdf_writer.write(output_pdf)
+      >
+
+
+Reference> chatgpt: How to add metadata with pdf file?

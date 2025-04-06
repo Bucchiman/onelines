@@ -1,0 +1,3 @@
+ Command> find . -type d -name "*output*" -exec rm -r {} +
+
+ Keywords> rm

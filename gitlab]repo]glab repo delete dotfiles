@@ -1,0 +1,13 @@
+Command> glab repo delete dotfiles
+
+
+Keywords> gitlab
+        > repo
+
+Example01> glab repo delete dotfiles   # delete a personal repo
+Example02> glab repo delete mygroup/dotfiles    # delete a repo in GitLab group or another repo you have write access
+Example03> glab repo delete myorg/mynamespace/dotfiles
+
+
+
+Reference> https://gitlab.com/gitlab-org/cli/-/blob/main/docs/source/repo/delete.md

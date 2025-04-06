@@ -1,0 +1,21 @@
+Command> ld --verbose  # リンカがデフォルトでライブラリを探しにいくディレクトリが決まっている
+
+Description>
+           > - リンクとは
+           > アセンブラされた複数のオブジェクトファイル(*.o)を結合する作業
+           > 結合時にオブジェクトファイルの関数呼び出し個所を実際の関数呼び出しのメモリ番地に置換する
+           >
+           > - ロードとは
+           > 実行形式を読み込み、プログラムヘッダに従ってメモリ上に配置
+           >
+           > - オブジェクトファイル
+           > .text, .rodata, .data, .bssセクションがある
+           >
+           > - リンカスクリプト
+           > 
+
+Keywords> linker
+        > static
+
+Reference> https://qiita.com/seriru13/items/c2f5192615162c4c3f47
+         > https://qiita.com/saikoro-steak/items/e5089a2b33b52d5410bd

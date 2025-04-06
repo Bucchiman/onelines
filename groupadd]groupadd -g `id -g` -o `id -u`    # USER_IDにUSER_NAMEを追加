@@ -1,0 +1,5 @@
+Command> groupadd -g `id -g` -o `id -u`  # USER_IDにUSER_NAMEを追加
+
+Description> 
+
+Reference> https://eng-entrance.com/linux-command-groupadd

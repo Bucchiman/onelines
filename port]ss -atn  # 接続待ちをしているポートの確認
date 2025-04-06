@@ -1,0 +1,26 @@
+Command> ss -atn # 接続待ちをしているポートの確認
+
+Description>
+           > - a
+           >    すべてのソケットを表示
+           > - n
+           >    サービス名に変換せずに表示
+           > - t
+           >    tcp情報のみ表示
+           > - u
+           >    udp情報のみ表示
+           >
+           > - 結果の例
+           > State      Recv-Q     Send-Q    Local Address:Port     Peer Address:Port       Process
+           > LISTEN     0          128             0.0.0.0:2022          0.0.0.0:*
+           > LISTEN     0          4096      127.0.0.53%lo:53            0.0.0.0:*
+           >
+           >    - Recv-Q             ... 受信キューの数
+           >    - Send-Q             ... 送信キューの数
+           >    - Local Address:Port ... サーバー側のIPまたはソケットファイル、ポートを表示
+           >    - Peer Address:Port  ... 通信している側のIPまたはソケットファイル、ポートを表示
+           >
+
+Keywords> port
+
+Reference> https://www.linuxmaster.jp/linux_skill/2009/02/linux-4.html

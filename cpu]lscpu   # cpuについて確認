@@ -1,0 +1,7 @@
+Command> lscpu   # cpuについて確認
+
+Keywords> cpu
+
+Description>
+
+Reference> https://askubuntu.com/questions/133111/how-can-i-check-if-my-cpu-is-amd64-compatible

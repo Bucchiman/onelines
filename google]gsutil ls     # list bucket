@@ -1,0 +1,5 @@
+Command> gsutil ls
+
+TL;DR> list bucket
+
+Keywords> google

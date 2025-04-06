@@ -1,0 +1,8 @@
+Command> glab ssh-key list
+
+TL;DR> get a list of currently authenticated users SSH keys
+
+Keywords> gitlab
+        > ssh-key
+
+Reference> https://gitlab.com/gitlab-org/cli/-/blob/main/docs/source/ssh-key/list.md

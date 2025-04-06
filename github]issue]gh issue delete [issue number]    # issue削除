@@ -1,0 +1,11 @@
+Command> gh issue delete $1
+
+Arguments> $1: [issue number]
+
+TL;DR> issue削除
+
+Keywords> github
+        > issue
+
+
+Reference>

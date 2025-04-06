@@ -1,0 +1,4 @@
+Command> source /opt/ros/humble/setup.zsh   # source the setup files
+
+
+Reference> https://docs.ros.org/en/humble/Tutorials/Beginner-CLI-Tools/Configuring-ROS2-Environment.html

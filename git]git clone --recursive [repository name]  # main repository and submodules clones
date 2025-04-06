@@ -1,0 +1,13 @@
+Command> git clone --recursive $1
+
+Arguments> $1: [repository name]
+
+
+TL;DR> main repository and submodules clones
+
+Keywords>
+        > git
+
+
+
+Reference> https://qiita.com/kentarosasaki/items/3e670567c0512b9d411e

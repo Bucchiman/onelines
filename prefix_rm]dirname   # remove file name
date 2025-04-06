@@ -1,0 +1,8 @@
+Command> dirname $1
+
+Arguments> $1: absolute path
+
+
+Keywords> prefix_rm
+
+Reference> https://atmarkit.itmedia.co.jp/ait/articles/1801/26/news013.html

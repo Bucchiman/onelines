@@ -1,0 +1,1 @@
+Command> export cur_path=`pwd`; cd \mnt\c\Users\yk.iwabuchi\git\dotfiles; rsync -auvz --exclude {'.git','.gitignore'} . jupiter:git\dotfiles; cd $cur_path;

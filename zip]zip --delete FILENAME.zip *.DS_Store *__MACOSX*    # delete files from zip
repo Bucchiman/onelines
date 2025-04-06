@@ -1,0 +1,7 @@
+Command> zip --delete FILENAME.zip "*.DS_Store" "*__MACOSX*"
+
+TL;DR> delete files from zip
+
+Keywords> zip
+
+Reference> https://qiita.com/seyself/items/ae47f1c22a7375a736f3

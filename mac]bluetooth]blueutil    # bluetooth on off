@@ -1,0 +1,6 @@
+Command> blueutil   # bluetoth on off
+
+Keywords> mac
+        > bluetooth
+
+Reference> https://ports.macports.org/port/blueutil/

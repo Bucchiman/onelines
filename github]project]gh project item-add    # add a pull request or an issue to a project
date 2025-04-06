@@ -1,0 +1,12 @@
+Command> gh project item-add
+
+Arguments> [project number]
+
+TL;DR> Add a pull request or an issue to a project
+
+Keywords> github
+        > project
+
+Example> gh project item-add 1 --owner monalisa --url https://github.com/monalisa/myproject/issues/23
+
+Reference> https://cli.github.com/manual/gh_project_item-add

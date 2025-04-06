@@ -1,0 +1,20 @@
+Command> glab release delete $1
+
+Arguments> $1: version(v1.1.0)
+
+TL;DR> delete release asstes to gitlab release
+
+Keywords> gitlab
+        > release
+
+
+
+Example01> glab release delete v1.1.0'      # Delete a release (with a confirmation prompt')
+Example02> glab release delete v1.0.1 -y     # Skip the confirmation prompt and force delete
+Example03> glab release delete v1.0.1 --with-tag      # Delete release and associated tag
+
+Description>  -t, --with-tag   Delete associated tag
+           >  -y, --yes        Skip confirmation prompt
+
+
+Reference> https://gitlab.com/gitlab-org/cli/-/blob/main/docs/source/release/delete.md

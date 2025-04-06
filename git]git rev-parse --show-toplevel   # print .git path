@@ -1,0 +1,7 @@
+Command> git rev-parse --show-toplevel
+
+TL;DR> print .git absolute path
+
+Keywords> git
+
+Reference> https://qiita.com/P-man_Brown/items/515f0a3e5ad8ca070449

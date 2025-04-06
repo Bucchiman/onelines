@@ -1,0 +1,9 @@
+Command> sudo port install $1
+
+Arguments> $1: パッケージ名
+
+TL;DR> パッケージのインストール
+
+Keywords> port
+
+Reference> https://www.karakaram.com/macports-howto/

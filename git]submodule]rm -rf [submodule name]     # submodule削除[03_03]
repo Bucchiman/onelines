@@ -1,0 +1,16 @@
+Command> rm -rf ./git/modules/
+
+Arguments> [submodule name]
+
+TL;DR> submoduleの削除 [03/03]
+
+Keywords> git
+        > submodule
+
+Alias> gsubrm
+
+Description> $ git submodule deinit -f 追加したサブモジュール
+           > $ git rm -f 追加したサブモジュール
+           > $ rm -rf .git/modules/追加したサブモジュール 
+
+Reference> https://qiita.com/k_yamashita/items/040c04f8798d2384806e

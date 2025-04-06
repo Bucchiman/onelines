@@ -1,0 +1,5 @@
+Command> zsh -d -f; source [.zshrc file]   # 読み込んだzshrcをクリア
+
+Keywords> zsh
+
+Reference> https://unix.stackexchange.com/questions/131716/start-zsh-with-a-custom-zshrc

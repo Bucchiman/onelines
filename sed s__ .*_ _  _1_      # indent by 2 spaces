@@ -1,0 +1,5 @@
+Command> cat hoge | sed 's/\(.*\)/  \1/'
+
+Keywords> indent by 2 spaces
+
+Reference> https://superuser.com/questions/1044405/shell-script-output-indentation

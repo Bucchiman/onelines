@@ -1,0 +1,7 @@
+Command> ffmpeg -i input.mp4 -crf 35 -vf scale=800:-1 output.gif      # lightweight
+
+
+
+Keywords> ffmpeg
+
+Reference> https://marketing-wizard.biz/blog/tools/ffmpeg-gif-size/

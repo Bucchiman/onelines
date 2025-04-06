@@ -1,0 +1,8 @@
+Command> local ginfo=gitlab@bucchiman; [[ $ginfo =~ "gitlab" ]] && echo "contain gitlab"
+
+TL;DR> containg string or not
+
+Keywords> zsh
+
+
+Reference> https://itpfdoc.hitachi.co.jp/manuals/3020/30203S3530/JPAS0134.HTM

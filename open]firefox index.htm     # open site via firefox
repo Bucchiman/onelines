@@ -1,0 +1,6 @@
+Command> firefox $1
+
+Argument> $1: [index.hml]
+
+
+Keywords> open

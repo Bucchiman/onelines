@@ -1,0 +1,23 @@
+Command> /usr/lib/gcc/x86_64-linux-gnu/10/cc1
+
+Arguments> [c file]
+
+TL;DR> cをassembleに変換する(だけ)
+
+Keywords> compile
+
+
+Description>
+           >
+           >
+           >
+           >
+           >
+           >
+           >
+           >
+
+
+
+Reference> https://tanakamura.github.io/pllp/docs/linker.html
+

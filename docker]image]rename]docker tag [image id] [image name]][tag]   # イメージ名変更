@@ -1,0 +1,12 @@
+Command> docker tag [image id] [image name]:[tag]   # イメージ名変更
+
+Keywords>
+        > docker
+        > image
+        > rename
+
+
+Description>
+
+
+Reference> https://sleepless-se.net/2019/04/14/change-docker-image-and-tag-name/

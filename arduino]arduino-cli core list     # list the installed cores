@@ -1,0 +1,7 @@
+Command> arduino-cli core list
+
+TL;DR> list the installed cores
+
+Keywords> arduino
+
+Reference> https://www.woolseyworkshop.com/wp-content/uploads/WoolseyWorkshop_Cheatsheet_ArduinoCommandLine_v1.5.pdf

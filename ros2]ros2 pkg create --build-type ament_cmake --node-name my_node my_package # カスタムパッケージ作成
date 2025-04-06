@@ -1,0 +1,5 @@
+Command> ros2 pkg create --build-type ament_cmake --node-name my_node my_package # カスタムパッケージ作成
+
+Description>
+
+Reference> https://docs.ros.org/en/humble/Tutorials/Beginner-Client-Libraries/Creating-Your-First-ROS2-Package.html

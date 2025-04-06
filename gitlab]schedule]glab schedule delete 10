@@ -1,0 +1,8 @@
+Command> glab schedule delete 10
+
+
+Keywords> gitlab
+        > schedule
+
+
+Reference> https://gitlab.com/gitlab-org/cli/-/tree/main/docs/source/schedule

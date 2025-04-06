@@ -1,0 +1,63 @@
+Command> ldd $1
+
+Arguments> $1: exec file (e.g. a.out)
+
+Motivation> to know why it is possible to build main.cpp using 'glut' library.
+          > search 'glut' library path.
+
+Keywords> search library from exec
+        > compile
+        > gcc
+        > shared
+        > dynamic
+
+TL;DR> search using library from exec file.
+
+
+Arguments> [executable file]
+
+Description>
+           > オプション
+           >  -d 足りないオブジェクトについてレポート
+           >  -r 足りないオブジェクトや関数についてレポート
+           >  -u 使用されていない依存関係を表示
+           >  -v 全ての情報を表示
+           >
+           > 共有ライブラリは/lib, /usr/libに配置されている
+           > - 共有ライブラリの検索パス追加方法
+           >    1. /etc/ld.so.confファイルに設定
+           >        $ vi /etc/ld.so.conf      # 検索パス追加
+           >        $ ldconfig                # 更新
+           >    2. LD_LIBRARY_PATHの設定
+           >        $ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/test/lib
+
+
+
+Example01> ldd /bin/more
+Example02> ldd main
+         > > linux-vdso.so.1 (0x00007ffd9c3b7000)
+         > > libglut.so.3 => /lib/x86_64-linux-gnu/libglut.so.3 (0x00007f7e48252000)
+         > > libGLU.so.1 => /lib/x86_64-linux-gnu/libGLU.so.1 (0x00007f7e481e0000)
+         > > libGL.so.1 => /lib/x86_64-linux-gnu/libGL.so.1 (0x00007f7e48158000)
+         > > libstdc++.so.6 => /lib/x86_64-linux-gnu/libstdc++.so.6 (0x00007f7e47f76000)
+         > > libc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00007f7e47d84000)
+         > > libX11.so.6 => /lib/x86_64-linux-gnu/libX11.so.6 (0x00007f7e47c45000)
+         > > libm.so.6 => /lib/x86_64-linux-gnu/libm.so.6 (0x00007f7e47af6000)
+         > > libXi.so.6 => /lib/x86_64-linux-gnu/libXi.so.6 (0x00007f7e47ae4000)
+         > > libXxf86vm.so.1 => /lib/x86_64-linux-gnu/libXxf86vm.so.1 (0x00007f7e47add000)
+         > > libgcc_s.so.1 => /lib/x86_64-linux-gnu/libgcc_s.so.1 (0x00007f7e47ac2000)
+         > > libGLdispatch.so.0 => /lib/x86_64-linux-gnu/libGLdispatch.so.0 (0x00007f7e47a0a000)
+         > > libGLX.so.0 => /lib/x86_64-linux-gnu/libGLX.so.0 (0x00007f7e479d6000)
+         > > /lib64/ld-linux-x86-64.so.2 (0x00007f7e484e9000)
+         > > libxcb.so.1 => /lib/x86_64-linux-gnu/libxcb.so.1 (0x00007f7e479aa000)
+         > > libdl.so.2 => /lib/x86_64-linux-gnu/libdl.so.2 (0x00007f7e479a4000)
+         > > libXext.so.6 => /lib/x86_64-linux-gnu/libXext.so.6 (0x00007f7e4798f000)
+         > > libXau.so.6 => /lib/x86_64-linux-gnu/libXau.so.6 (0x00007f7e47989000)
+         > > libXdmcp.so.6 => /lib/x86_64-linux-gnu/libXdmcp.so.6 (0x00007f7e47981000)
+         > > libbsd.so.0 => /lib/x86_64-linux-gnu/libbsd.so.0 (0x00007f7e47965000)
+
+
+
+Reference> https://webkaru.net/linux/ldd-command/
+         > https://tech.pjin.jp/blog/2020/12/01/linux-shared-library-management
+         > https://www.infraexpert.com/infra/linux07.html

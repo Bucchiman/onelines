@@ -1,0 +1,9 @@
+Command> sudo port -u upgrade $1
+
+Arguments> $1: パッケージ名
+
+TL;DR> パッケージを個別で更新
+
+Keywords> port
+
+Reference> https://www.karakaram.com/macports-howto/

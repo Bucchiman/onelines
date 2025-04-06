@@ -1,0 +1,12 @@
+Command> 3>&1 1>&2 2>&3-
+
+TL;DR> stdout/stderrを逆にする
+
+Keywords> redirect
+
+
+Description>
+           > 3>&1      # FD=3をFD=1に変換
+           > 1>&2      # FD=1をFD=2に変換
+           > 2>&3-     # FD=2をFD=3に変換
+

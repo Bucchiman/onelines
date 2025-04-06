@@ -1,0 +1,11 @@
+Command> array=(aaa bbb1 ccc aaa1 bbb2 aaa33); echo ${array:#aaa}
+
+
+TL;DR> aaaで始まる要素を除去 -> bbb1 ccc bbb2
+
+
+Keywords> zsh
+        > search
+
+
+Reference> 

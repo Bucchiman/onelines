@@ -1,0 +1,14 @@
+Command> glab variable delete $1
+
+Arguments> $1: key
+
+TL;DR> Delete a project or group variable
+
+Keywords> gitlab
+        > variable
+
+Example01> glab variable delete VAR_NAME
+Example02> glab variable delete VAR_NAME --scope=prod
+Example03> glab variable delete VARNAME -g mygroup
+
+Reference> https://gitlab.com/gitlab-org/cli/-/blob/main/docs/source/variable/delete.md

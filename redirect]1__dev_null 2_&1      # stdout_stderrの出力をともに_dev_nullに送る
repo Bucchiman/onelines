@@ -1,0 +1,21 @@
+Command> 1>/dev/null 2>&1      # stdout/stderrの出力をともに/dev/nullに送る
+
+TL;DR> stdout/stderrの出力を共に/dev/nullに送る
+
+Keywords> redirect
+
+
+Description>
+           > 1>/dev/null     FD=1を/dev/nullに変換
+           > 2>&1            FD=2をFD=1に変換, FD=1は/dev/nullなのでFD=2も/dev/null
+           >
+           >
+           >
+           >
+           >
+           >
+           >
+           >
+           >
+           >
+

@@ -1,0 +1,8 @@
+Command> youtube-dl 'https://www.youtube.com/watch?v=kEtPkCW4LOE' -x --audio-format wav
+
+TL;DR> only audio
+
+Keywords> youtube
+
+
+Reference> https://knooto.info/youtube-dl/

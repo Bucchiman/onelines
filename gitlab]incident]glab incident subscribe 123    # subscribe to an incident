@@ -1,0 +1,16 @@
+Command> glab incident subscribe $1
+
+Arguments> $1: id
+
+TL;DR> subscribe to an incident
+
+
+
+Keywords> gitlab
+        > incident
+
+Example01> glab incident subscribe 123
+Example02> glab incident sub 123
+Example03> glab incident subscribe https://gitlab.com/OWNER/REPO/-/issues/incident/123
+
+Reference> https://gitlab.com/gitlab-org/cli/-/blob/main/docs/source/incident/subscribe.md

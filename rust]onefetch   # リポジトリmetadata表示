@@ -1,0 +1,13 @@
+Command> onefetch
+
+TL;DR> リポジトリmetadata表示
+
+Keywords> rust
+
+Install> cargo install onefetch
+       > sudo add-apt-repository ppa:o2sh/onefetch
+       > sudo apt-get update
+       > sudo apt-get install onefetch
+       > winget install onefetch
+
+Reference> https://github.com/o2sh/onefetch

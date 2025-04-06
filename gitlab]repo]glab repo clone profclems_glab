@@ -1,0 +1,15 @@
+Command> glab repo clone profclems/glab
+
+
+Keywords> gitlab
+        > repo
+
+Example01> glab repo clone profclems/glab
+Example02> glab repo clone https://gitlab.com/profclems/glab
+Example03> glab repo clone profclems/glab mydirectory  # Clones repo into mydirectory
+Example04> glab repo clone glab   # clones repo glab for current user 
+Example05> glab repo clone 4356677   # finds the project by the ID provided and clones it
+Example06> glab repo clone -g everyonecancontribute --paginate # Clone all repos in a group
+Example07> GITLAB_HOST=salsa.debian.org glab repo clone myrepo  # Clone from a self-hosted instance
+
+Reference> https://gitlab.com/gitlab-org/cli/-/blob/main/docs/source/repo/clone.md

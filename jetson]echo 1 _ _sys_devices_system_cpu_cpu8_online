@@ -1,0 +1,7 @@
+Command> echo 1 > /sys/devices/system/cpu/cpu8/online
+
+Description>
+
+Keywords> jetson
+
+Reference>

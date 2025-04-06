@@ -1,0 +1,30 @@
+Reference> https://qiita.com/hawk777/items/d2eead1ccd0583808630
+         > https://developer.ridgerun.com/wiki/index.php/NVIDIA_Jetson_Orin/JetPack_5.0.2/Performance_Tuning/Maximizing_Performance
+
+Keywords> jetson
+
+
+Description>
+           > # 固定IP設定
+           >
+           >
+           >
+           >
+           >
+           >
+           >
+           > # パフォーマンス最大
+           > ## Activate CPUs
+           > $ sudo su
+           > $ echo 1 > /sys/devices/system/cpu/cpu8/online
+           > $ echo 1 > /sys/devices/system/cpu/cpu9/online
+           > $ echo 1 > /sys/devices/system/cpu/cpu10/online
+           > $ echo 1 > /sys/devices/system/cpu/cpu11/online
+           >
+           > ## Jetson Clocks
+           > $ sudo jetson_clocks --show     # 現在の環境表示
+           > $ sudo jetson_clocks --store    # 現在の環境Store
+           > $ sudo jetson_clocks            # Max Performance
+           > $ sudo jetson_clocks --restore  # 元の環境に戻す
+
+

@@ -1,0 +1,5 @@
+Command> /bin/ls | fzf --preview="if [[ {} =~ ('.jpg'|'.JPG'|'.jpeg'|'.png'|'.PNG')$ ]]; then catimg -r2 -w$COLUMNS {};elif [ -d {} ]; then /bin/ls --color=always --group-directories-first -H {}; else nl -pba -w1 -s' ' {};fi"
+
+Keywords> show_picture
+
+Reference> https://www.reddit.com/r/bash/comments/uxds93/add_image_preview_to_fzf/

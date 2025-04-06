@@ -1,0 +1,9 @@
+Command> gh repo rename
+
+Keywords> github
+        > repo
+
+TL;DR> Rename a repo
+
+
+Reference> https://cli.github.com/manual/gh_repo_rename

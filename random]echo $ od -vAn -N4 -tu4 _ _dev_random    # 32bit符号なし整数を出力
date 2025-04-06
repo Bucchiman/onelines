@@ -1,0 +1,9 @@
+Command> echo $(od -vAn -N4 -tu4 < /dev/random)
+
+TL;DR> 32bit符号なし整数を出力
+
+Description>
+
+Keywords> random
+
+Reference> https://www.home-page.xyz/generate_random/

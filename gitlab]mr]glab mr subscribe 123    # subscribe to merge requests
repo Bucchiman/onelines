@@ -1,0 +1,13 @@
+Command> glab mr subscribe $1
+
+TL;DR> subscribe to merge requests
+
+Keywords> gitlab
+        > mr
+
+Example01> glab mr subscribe 123
+Example02> glab mr sub 123
+Example03> glab mr subscribe branch
+Example04> glab mr subscribe 123 branch  # subscribe to multiple MRs
+
+Reference> https://gitlab.com/gitlab-org/cli/-/blob/main/docs/source/mr/subscribe.md

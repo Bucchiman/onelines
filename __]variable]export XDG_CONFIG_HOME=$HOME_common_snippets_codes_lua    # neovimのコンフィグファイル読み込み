@@ -1,0 +1,6 @@
+Command> export XDG_CONFIG_HOME=$HOME/common/snippets/codes/lua
+
+TL;DR> neovimのコンフィグファイル読み込み
+
+Keywords> __
+        > variable

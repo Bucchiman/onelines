@@ -1,0 +1,21 @@
+Command> glxinfo
+
+TL;DR> GLX implementation on linux on a given X display
+
+Description>
+           > # WSL2
+           > $ export LIBGL_ALWAYS_INDIRECT=0
+           >
+           >
+           >
+           >
+           >
+           >
+           >
+           >
+           >
+           >
+
+Reference> https://www.cyberciti.biz/faq/howto-find-linux-vga-video-card-ram/
+         > https://qiita.com/bonnginn/items/300c99906aadb3a11537
+         > https://github.com/microsoft/WSL/issues/5535

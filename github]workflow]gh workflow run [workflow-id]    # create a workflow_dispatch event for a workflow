@@ -1,0 +1,16 @@
+Command> gh workflow run
+
+Arguments> [workflow-id]
+
+Keywords> github
+        > workflow
+
+
+Example01> gh workflow run       # Have gh prompt you for what workflow you'd like to run and interactively collect inputs
+Example02> gh workflow run triage.yml # Run the workflow file 'triage.yml' at the remote's default branch
+Example03> gh workflow run triage.yml --ref my-branch # Run the workflow file 'triage.yml' at a specified ref
+Example04> gh workflow run triage.yml -f name=scully -f greeting=hello # Run the workflow file 'triage.yml' with command line inputs
+Example05> echo '{"name":"scully", "greeting":"hello"}' | gh workflow run triage.yml --json # Run the workflow file 'triage.yml' with JSON via standard input
+
+
+Reference> https://cli.github.com/manual/gh_workflow_run

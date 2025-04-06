@@ -1,0 +1,9 @@
+Command> nmcli r wifi on
+
+TL;DR> wifi on
+
+Keywords> tcp
+        > ip
+        > jetson
+
+Reference> https://zenn.dev/tetsu_koba/articles/b4495387488df5

@@ -1,0 +1,7 @@
+Command> idf.py set-target esp32
+
+TL;DR> configure the target for the project by running
+
+Keywords> esp32
+
+Reference> https://embeddedexplorer.com/esp-idf-macos-tutorial/

@@ -1,0 +1,8 @@
+Command> defaults write com.apple.Finder AppleShowAllFiles true
+
+TL;DR> show hidden files
+
+Keywords> mac
+
+
+Reference> https://www.avast.com/c-mac-show-hidden-files

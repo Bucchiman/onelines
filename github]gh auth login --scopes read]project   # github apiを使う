@@ -1,0 +1,6 @@
+Command> gh auth login --scopes read:project     # github apiを使う
+
+
+Keywords> github
+
+Reference> https://stackoverflow.com/questions/72781886/cannot-list-projectsv2-with-github-cli-due-to-missing-scopes

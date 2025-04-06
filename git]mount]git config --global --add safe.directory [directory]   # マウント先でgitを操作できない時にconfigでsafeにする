@@ -1,0 +1,11 @@
+Command> git config --global --add safe.directory [directory]   # マウント先でgitを操作できない時にconfigでsafeにする
+
+
+Keywords> git
+        > mount
+
+
+
+Reference>
+
+

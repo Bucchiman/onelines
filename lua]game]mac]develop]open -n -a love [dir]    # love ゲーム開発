@@ -1,0 +1,12 @@
+Command> open -n -a love "[dir]"    # love ゲーム開発
+
+
+
+Keywords> lua
+        > game
+        > mac
+        > develop
+
+
+
+Reference> https://love2d.org/wiki/Getting_Started

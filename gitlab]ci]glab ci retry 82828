@@ -1,0 +1,8 @@
+Command> glab ci retry $1
+
+Argument> $1: job-id
+
+TL;DR> Retry a ci/cd job
+
+
+Reference> https://gitlab.com/gitlab-org/cli/-/blob/main/docs/source/ci/retry.md

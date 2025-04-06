@@ -1,0 +1,8 @@
+Command> arduino-cli board list
+
+TL;DR> discover connected boards
+
+Keywords> arduino
+
+
+Reference> https://www.woolseyworkshop.com/wp-content/uploads/WoolseyWorkshop_Cheatsheet_ArduinoCommandLine_v1.5.pdf

@@ -1,0 +1,1 @@
+Command> suffix_remove:basename /home/bucchiman/sample.txt .txt    # 拡張子を末尾で指定

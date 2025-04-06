@@ -1,0 +1,12 @@
+Command> gh pr view
+
+Arguments> [PR number | branch]
+
+TL;DR> View a PR
+
+Keywords> github
+        > pull_request
+
+
+
+Reference> https://cli.github.com/manual/gh_pr_view

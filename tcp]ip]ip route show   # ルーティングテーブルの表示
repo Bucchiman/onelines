@@ -1,0 +1,39 @@
+Command> ip route show
+
+
+Keywords>
+        > tcp
+        > ip
+
+
+TL;DR> ルーティングテーブル表示
+
+
+Description>
+           > 次のパケットを渡すべき相手をルーティングテーブルで管理している
+           > $ ip route show
+           >  > default via 192.168.11.1 dev en0
+           >  > 127.0.0.0/8 via 127.0.0.1 dev lo0
+           >  > 127.0.0.1/32 via 127.0.0.1 dev lo0
+           >  > 169.254.0.0/16 dev en0  scope link
+           >  > 192.168.11.0/24 dev en0  scope link
+           >  > 192.168.11.1/32 dev en0  scope link
+           >  > 192.168.11.42/32 dev en0  scope link
+           >  > 224.0.0.0/4 dev en0  scope link
+           >  > 255.255.255.255/32 dev en0  scope link
+           >
+           > それぞれの行がルーティングエントリに対応
+           > - 宛先
+           > - 次にパケットを渡す相手(next hop)
+           >
+           >  > 127.0.0.0/8 via 127.0.0.1 dev lo0
+           >    ---------       ---------
+           >     宛先            next hop
+           >
+           > フォワーディング... ネクストホップにパケットを渡す作業
+           >
+           >
+           >
+           >
+           >
+

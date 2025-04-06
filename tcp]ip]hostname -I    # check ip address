@@ -1,0 +1,11 @@
+Command> hostname -I
+
+TL;DR> check ip address
+
+Keywords> tcp
+        > ip
+
+Description>
+           > for raspberry pi settings
+
+Reference> https://pimylifeup.com/raspberry-pi-samba/

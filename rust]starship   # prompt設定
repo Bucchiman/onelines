@@ -1,0 +1,17 @@
+Command> 
+
+TL;DR> prompt設定
+
+Keywords> rust
+
+Install> curl -sS https://starship.rs/install.sh | sh
+       > cargo install startship --locked
+
+
+Setup> eval "$(starship init zsh)"
+     >
+     > mkdir ~/.cache/starship
+     > starship init nu | save -f ~/.cache/starship/init.nu
+
+
+Reference> https://github.com/starship/starship

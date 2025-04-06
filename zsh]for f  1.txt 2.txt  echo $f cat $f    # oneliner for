@@ -1,0 +1,7 @@
+Command> for f (1.txt 2.txt) echo $f; cat $f
+
+TL;DR> oneliner for
+
+Keywords> zsh
+
+Reference> 

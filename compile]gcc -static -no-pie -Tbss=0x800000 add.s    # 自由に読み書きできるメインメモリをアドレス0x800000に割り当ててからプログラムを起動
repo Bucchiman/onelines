@@ -1,0 +1,7 @@
+Command> gcc -static -no-pie -Tbss=0x800000 add.s
+
+TL;DR> 自由に読み書きできるメインメモリをアドレス0x800000に割り当ててからプログラムを起動
+
+Keyword> compile
+
+Reference> https://tanakamura.github.io/pllp/docs/asm_language.html

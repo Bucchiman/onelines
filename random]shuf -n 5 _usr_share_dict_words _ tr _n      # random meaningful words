@@ -1,0 +1,7 @@
+Command> shuf -n 5 /usr/share/dict/words | tr '\n' ' '
+
+TL;DR> random meaningful words
+
+Keywords> random
+
+Reference> https://www.baeldung.com/linux/make-random-readable-text-file

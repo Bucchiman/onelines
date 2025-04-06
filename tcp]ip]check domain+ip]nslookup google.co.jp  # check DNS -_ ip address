@@ -1,0 +1,13 @@
+Command> nslookup $1
+
+Arguments> $1: domain name
+
+TL;DR> check DNS -> ip address
+
+Keywords> tcp
+        > ip
+        > check domain+ip
+
+Related> tcp:ip:dig yahoo.co.jp   # convert dns server to ip address
+
+Reference> https://server-setting.info/centos/network-config-c7.html

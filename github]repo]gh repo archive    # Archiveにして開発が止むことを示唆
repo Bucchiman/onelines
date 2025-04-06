@@ -1,0 +1,12 @@
+Command> gh repo archive
+
+TL;DR> Archive a repo. Archiveにして開発が止むことを示唆
+
+Keywords> github
+        > repo
+
+Description>
+
+Related> gh repo unarchive
+
+Reference> https://cli.github.com/manual/gh_repo_archive

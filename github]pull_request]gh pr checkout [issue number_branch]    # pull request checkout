@@ -1,0 +1,24 @@
+Command> gh pr checkout
+
+Arguments> [issue number|branch] [flags]
+
+TL;DR> checkout a pull request
+
+Keywords> github
+        > pull_request
+
+Description>
+           > -b, --branch
+           >    local branch name to use
+           >
+           > --detach
+           >    checkout pr with a detached HEAD
+           >
+           > -f, --force
+           >
+           > --recurse-submodules
+           >
+           >
+
+
+Reference> https://cli.github.com/manual/gh_pr_checkout

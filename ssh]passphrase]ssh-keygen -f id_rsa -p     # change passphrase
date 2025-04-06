@@ -1,0 +1,8 @@
+Command> ssh-keygen -f id_rsa -p
+
+TL;DR> change passphrase
+
+Keywords> ssh
+        > passphrase
+
+Reference> https://qiita.com/nakamoto_yuki/items/8a71d609a2b309cb1f88

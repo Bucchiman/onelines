@@ -1,0 +1,24 @@
+Command> glab release upload $1
+
+TL;DR> upload release assets to gitlab release
+
+Keywords> gitlab
+        > release
+
+
+Example01> glab release upload v1.0.1 '/path/to/asset.zip#My display label'         # Upload a release asset with a display name (type will default to 'other')
+Example02> glab release upload v1.0.1 '/path/to/asset.png#My display label#image'            # Upload a release asset with a display name and type
+Example03> glab release upload v1.0.1 ./dist/*   # Upload all assets in a specified folder (types will default to 'other')
+Example04> glab release upload v1.0.1 ./dist/*.tar.gz     # Upload all tarballs in a specified folder (types will default to 'other')
+Example05> glab release upload v1.0.1 --assets-links='
+  [
+    {
+      "name": "Asset1", 
+      "url":"https://<domain>/some/location/1", 
+      "link_type": "other", 
+      "filepath": "path/to/file"
+    }
+  ]'     # Upload release assets links specified as JSON string
+
+
+Reference> https://gitlab.com/gitlab-org/cli/-/blob/main/docs/source/release/upload.md

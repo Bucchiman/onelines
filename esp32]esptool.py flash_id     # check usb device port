@@ -1,0 +1,5 @@
+Command> esptool.py flash_id
+
+TL;DR> check usb device port
+
+Keywords> esp32

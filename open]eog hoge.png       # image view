@@ -1,0 +1,10 @@
+Command> eog $1
+
+Arguments> $1: png/jpg file name
+
+TL;DR> image view
+
+Keywords> open
+
+
+Reference> 

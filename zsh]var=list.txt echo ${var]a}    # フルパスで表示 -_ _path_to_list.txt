@@ -1,0 +1,27 @@
+Command> var="list.txt"; echo ${var:a};    # フルパスで表示 -> /path/to/list.txt
+
+Keywords> zsh
+
+
+Description>
+           > var="list.txt"
+           > echo ${var:a}
+           >
+           >
+           > 編集子一覧
+           >
+           > - a          : フルパス
+           > - A          : シンボリックリンクを実際のパスに置き換える
+           > - e          : 拡張子だけを残す
+           > - r          : 拡張子の部分を取り除く
+           > - h          : ディレクトリ名の部分だけを残す (dirname)
+           > - t          : ファイル名の部分だけを残す     (basename)
+           > - l          : 全て小文字に置き換える
+           > - u          : 全て大文字に置き換える
+           > - s/old/new  : 最初のoldをnewに置換
+           > - gs/old/new : 全てのoldをnewに置換
+           >
+
+
+
+Reference> https://qiita.com/mollifier/items/7dd72d6a255ce7273d2a

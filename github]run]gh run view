@@ -1,0 +1,12 @@
+Command> gh run view
+
+Arguments> [run-id]
+
+TL;DR> View a summary of a workflow run
+
+Keywords> github
+        > run
+
+Example01> gh run view     # Interactive mode
+
+Reference>

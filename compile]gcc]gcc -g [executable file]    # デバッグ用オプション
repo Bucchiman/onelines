@@ -1,0 +1,9 @@
+Command> gcc -g 
+
+Arguments> [executable file]
+
+TL;DR> デバッグ用オプション
+
+Keywords> compile
+
+Reference> https://stackoverflow.com/questions/21132194/is-it-possible-to-debug-a-gcc-compiled-program-using-lldb-or-debug-a-clang-comp

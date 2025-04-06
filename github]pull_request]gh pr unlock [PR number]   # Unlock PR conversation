@@ -1,0 +1,10 @@
+Command> gh pr unlock
+
+Arguments> [PR number]
+
+TL;DR> Unlock PR conversation
+
+Keywords> github
+        > pull_request
+
+Reference> https://cli.github.com/manual/gh_pr_unlock

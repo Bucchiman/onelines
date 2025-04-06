@@ -1,0 +1,14 @@
+Command> gh pr status
+
+Keywords> github
+        > pull_request
+
+TL;DR> プルリクの状態表示
+
+Description>
+           > -c, --conflict-status
+           > -q, --jq       <expression>
+           > --json         <fields>
+           > -t, --template <string>
+
+Reference> https://cli.github.com/manual/gh_pr_status

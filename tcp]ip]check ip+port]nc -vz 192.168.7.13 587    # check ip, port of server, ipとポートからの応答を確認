@@ -1,0 +1,11 @@
+Command> nc -vz 192.168.7.13 587
+
+TL;DR> check ip, port of server
+     > ipとポートからの応答を確認
+
+Keywords> tcp
+        > ip
+        > ip+port
+
+Reference> https://envader.plus/course/16/scenario/1024
+         > https://reasonable-code.com/linux-remote-port-check/

@@ -1,0 +1,5 @@
+Command> select user();
+
+Description> 現在のユーザーを確認する
+
+Reference> https://qiita.com/Fendo181/items/2be9a0f28fb0805794b0

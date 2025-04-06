@@ -1,0 +1,9 @@
+Command> ndisasm -b 32 $1
+
+Arguments> $1: binary file
+
+TL;DR> disassembler from binary
+
+Keywords> disassemble
+
+Reference> 自作エミュレータで学ぶx86アーキテクチャ コンピュータが動く仕組みを徹底理解

@@ -1,0 +1,8 @@
+Command> ss -anu
+
+TL;DR> check udp port
+
+Keywords> tcp
+        > ip
+
+Reference> https://www.linuxmaster.jp/linux_skill/2009/02/linux-4.html

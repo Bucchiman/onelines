@@ -1,0 +1,9 @@
+Command> readelf -s a.out | c++filt  # シンボルテーブル表示
+
+Description>
+           > c++filt: デマングリング(復元)をする
+           >
+           >
+           >
+
+Reference> https://zenn.dev/kaityo256/articles/what_is_linker

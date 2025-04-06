@@ -1,0 +1,13 @@
+Command> glab ci ci view
+
+TL;DR> Uses current branch
+
+Keywords> gitlab
+        > ci
+
+Example01> glab pipeline ci view   # Uses current branch
+Example02> glab pipeline ci view master  # Get latest pipeline on master branch
+Example03> glab pipeline ci view -b master  # just like the second example
+Example04> glab pipeline ci view -b master -R profclems/glab  # Get latest pipeline on master branch of profclems/glab repo
+
+Reference> https://gitlab.com/gitlab-org/cli/-/blob/main/docs/source/ci/ci/view.md

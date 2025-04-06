@@ -1,0 +1,14 @@
+Command> node $1
+
+Arguments> $1: [file.js]
+
+TL;DR> javascript実行
+
+
+Keywords> nodejs
+
+
+Example> echo 'console.log("Hello world!");' > sample1.js
+       > node sample1.js
+
+Reference> https://www.tohoho-web.com/ex/nodejs.html

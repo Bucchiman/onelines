@@ -1,0 +1,9 @@
+Command> ss -atn
+
+Keywords> tcp
+        > ip
+
+TL;DR> check tcp port
+
+
+Reference> https://www.linuxmaster.jp/linux_skill/2009/02/linux-4.html

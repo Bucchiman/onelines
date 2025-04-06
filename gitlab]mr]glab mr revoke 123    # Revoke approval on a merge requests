@@ -1,0 +1,17 @@
+Command> glab mr revoke $1
+
+Argument> $1: [id | branch]
+
+TL;DR> Revoke approval on a merge requests
+
+Keywords> gitlab
+        > mr
+
+Example01> glab mr revoke 123
+Example02> glab mr unapprove 123
+Example03> glab mr revoke branch
+Example04> glab mr revoke  # use checked out branch
+Example05> glab mr revoke 123 branch 456
+
+
+Reference> https://gitlab.com/gitlab-org/cli/-/blob/main/docs/source/mr/revoke.md

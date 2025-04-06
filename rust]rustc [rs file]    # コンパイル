@@ -1,0 +1,10 @@
+Command> rustc
+
+TL;DR> コンパイル
+
+Keywords> rust
+
+Example> rustc main.rs
+
+
+Reference> 

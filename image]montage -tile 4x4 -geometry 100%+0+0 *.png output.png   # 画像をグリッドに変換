@@ -1,0 +1,6 @@
+Command> montage -tile 4x4 -geometry 100%+0+0 *.png output.png     # 画像をグリッドに変換
+
+
+Keywords> image
+
+Reference> https://qiita.com/udoP_/items/8495aac075dbca5df143

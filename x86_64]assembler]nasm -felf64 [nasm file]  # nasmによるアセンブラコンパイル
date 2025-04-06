@@ -1,0 +1,16 @@
+Command> nasm -felf64 [nasm file]
+
+TL;DR> nasmによるアセンブラコンパイル
+
+Keywords> x86-64
+        > assembler
+
+
+Scene>
+     >
+     > $ nasm -flef64 hello.asm
+     > $ ld hello.o
+     > $ ./a.out
+     >
+
+Reference> https://cs.lmu.edu/~ray/notes/nasmtutorial/

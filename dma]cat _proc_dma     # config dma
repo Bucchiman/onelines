@@ -1,0 +1,11 @@
+Command> cat /proc/dma
+
+TL;DR> config dma
+
+Keywords> dma
+
+Descriptin> $ cat /proc/dma
+          > 3: cascade
+          >    dmaコントローラ同士を接続
+
+Reference> http://linux-network.cocolog-nifty.com/blog/2011/12/dma-8d7f.html

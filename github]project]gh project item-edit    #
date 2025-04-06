@@ -1,0 +1,11 @@
+Command> gh project item-edit
+
+TL;DR> edit 
+
+Keywords> github
+        > project
+
+Example> gh project item-edit --id <item-ID> --field-id <field-ID> --project-id <project-ID> --text "new text"
+
+
+Reference> https://cli.github.com/manual/gh_project_item-edit

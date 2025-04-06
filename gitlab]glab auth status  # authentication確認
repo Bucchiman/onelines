@@ -1,0 +1,8 @@
+Command> glab auth status
+
+Keywords> gitlab
+
+TL;DR> authentication確認
+
+
+Reference> https://gitlab.com/gitlab-org/cli/-/issues/911

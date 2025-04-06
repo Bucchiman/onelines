@@ -1,0 +1,13 @@
+Command> dpkg --print-architecture
+
+TL;DR> show os architecture
+
+Keywords> architecture
+
+Related> gcc -v
+       > uname -m
+       > arch
+       > dpkg --print-architecture
+
+Reference> https://stackoverflow.com/questions/48678152/how-to-detect-386-amd64-arm-or-arm64-os-architecture-via-shell-bash
+         > https://blog.framinal.life/entry/2020/04/22/041548

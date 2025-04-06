@@ -1,0 +1,9 @@
+Command> gh cs list
+
+
+TL;DR> codespace一覧
+
+Keywords> github
+        > codespace
+
+Reference> https://cli.github.com/manual/gh_codespace_list

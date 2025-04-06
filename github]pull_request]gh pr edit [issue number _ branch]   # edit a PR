@@ -1,0 +1,20 @@
+Command> gh pr edit
+
+Arguments> [issue number | branch]
+
+TL;DR> edit a PR
+
+Keywords> github
+        > pull_request
+
+Description>
+           >
+           >
+           >
+           >
+           >
+           >
+           >
+           >
+
+Reference> https://cli.github.com/manual/gh_pr_edit

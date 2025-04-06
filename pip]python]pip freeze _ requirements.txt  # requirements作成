@@ -1,0 +1,7 @@
+Command> pip freeze > requirements.txt
+
+Keywords> pip
+        > python
+
+
+Related> pip install -y requirements.txt

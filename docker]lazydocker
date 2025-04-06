@@ -1,0 +1,6 @@
+Command> lazydocker
+
+
+Install> go install github.com/jesseduffield/lazydocker@latest
+
+Reference> https://github.com/jesseduffield/lazydocker

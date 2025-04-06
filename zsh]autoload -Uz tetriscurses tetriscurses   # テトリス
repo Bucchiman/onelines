@@ -1,0 +1,8 @@
+Command> autoload -Uz tetriscurses; tetriscurses
+
+TL;DR> Tetris!!!!!
+
+Keywords> zsh
+
+
+Reference> https://til.hashrocket.com/posts/wlbgbjszsn-zsh-comes-with-tetris

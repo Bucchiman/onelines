@@ -1,0 +1,13 @@
+Command> gh issue unlock
+
+Arguments> [issue number]
+
+Keywords> github
+        > issue
+
+
+Scene01> gh issue unpin 23
+Scene02> gh issue unpin https://github.com/owner/repo/issues/23
+Scene03> gh issue unpin 23 --repo owner/repo
+
+TL;DR> unlock issue

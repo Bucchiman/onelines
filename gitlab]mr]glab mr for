@@ -1,0 +1,15 @@
+Command> glab mr for
+
+TL;DR> 
+
+
+Keywords>
+        > gitlab
+        > mr
+
+Example01> glab mr for 34   # Create mr for issue 34
+Example02> glab mr for 34 --wip   # Create mr and mark as work in progress
+Example03> glab mr new-for 34
+Example04> glab mr create-for 34
+
+Reference> https://gitlab.com/gitlab-org/cli/-/blob/main/docs/source/mr/for.md

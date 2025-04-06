@@ -1,0 +1,10 @@
+Command> dig -x $1
+
+Arguments> $1: ip address
+
+TL;DR> convert ip address to dns server
+
+Keywords> tcp
+        > ip
+
+

@@ -1,0 +1,10 @@
+Command> glab ci get
+
+TL;DR> get json of a ci/cd pipeline on the current branch
+
+Keywords> gitlab
+        > ci
+
+Example01> glab ci -R some/project -p 12345
+
+Reference> https://gitlab.com/gitlab-org/cli/-/blob/main/docs/source/ci/get.md

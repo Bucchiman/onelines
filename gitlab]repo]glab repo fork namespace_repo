@@ -1,0 +1,11 @@
+Command> glab repo fork namespace/repo
+
+
+Keywords> gitlab
+        > repo
+
+Example01> glab repo fork
+Example02> glab repo fork namespace/repo
+Example03> glab repo fork namespace/repo --clone
+
+Reference> https://gitlab.com/gitlab-org/cli/-/blob/main/docs/source/repo/fork.md

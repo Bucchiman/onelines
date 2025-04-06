@@ -1,0 +1,11 @@
+Command> gsutil mb gs://$1
+
+Arguments> $1: bucket name
+
+TL;DR> make bucket
+
+
+Keywords> google
+
+
+Reference>

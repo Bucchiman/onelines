@@ -1,0 +1,11 @@
+
+Command> git symbolic-ref refs/remotes/origin/HEAD refs/remotes/origin/main
+
+TL;DR> add refs head to main
+
+Keywords> git
+        > error
+
+
+
+Reference> https://stackoverflow.com/questions/45811971/warning-ignoring-broken-ref-refs-remotes-origin-head

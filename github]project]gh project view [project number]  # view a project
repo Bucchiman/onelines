@@ -1,0 +1,12 @@
+Command> gh project view
+
+Arguments> [project number]
+
+Keywords> github
+        > project
+
+
+Example01> gh project view 1
+Example02> gh project view 1 --owner monalisa --web
+
+Reference> https://cli.github.com/manual/gh_project_view

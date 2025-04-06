@@ -1,0 +1,8 @@
+Command> latest_file=`ls -rt | tail -n 1`
+
+TL;DR> 最新ファイルを取得
+
+Keywords> latest_file
+
+
+Reference> https://lanchesters.site/linux-ls-new/

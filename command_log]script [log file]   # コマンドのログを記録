@@ -1,0 +1,15 @@
+Command> script [log file]
+
+Keywords> command_log
+
+TL;DR> コマンドのログを記録
+
+
+Description>
+           > $ exit   # exitで抜けられる
+           >
+           >
+
+Motivation> dockerの環境構築の際、再現性が取れなかったから
+
+Reference> https://dev.classmethod.jp/articles/scriptcommand/

@@ -1,0 +1,17 @@
+Command> glab issue create
+
+TL;DR> create issue
+
+Keywords> gitlab
+        > issue
+
+
+Example01> glab issue create
+Example02> glab issue new           # The same as Example01 (alias version)
+Example03> glab issue create -m release-2.0.0 -t "we need this feature" --label important
+Example04> glab issue new -t "Fix CVE-YYYY-XXXX" -l security --linked-mr 123
+Example05> glab issue create -m release-1.0.1 -t "security fix" --label security --web --recover
+
+
+
+Reference> https://gitlab.com/gitlab-org/cli/-/blob/main/docs/source/issue/create.md

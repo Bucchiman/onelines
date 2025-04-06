@@ -1,0 +1,5 @@
+Command> gh browse [file name] --branch bug-fix    # 特定ブランチの特定ファイルを開く
+
+Keywords> github
+
+Reference> https://cli.github.com/manual/gh_browse

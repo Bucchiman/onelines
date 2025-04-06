@@ -1,0 +1,7 @@
+Command> hexyl -n 256 $(which hexyl)   # alternative for od
+
+
+Keywords> od
+
+
+Reference> https://github.com/sharkdp/hexyl

@@ -1,0 +1,20 @@
+Command> glab mr list
+
+TL;DR> List merge requests
+
+Keywords>
+        > gitlab
+        > mr
+
+Example01> glab mr list --all
+Example02> glab mr ls -a
+Example03> glab mr list --assignee=@me
+Example04> glab mr list --reviewer=@me
+Example05> glab mr list --source-branch=new-feature
+Example06> glab mr list --target-branch=main
+Example07> glab mr list --search "this adds feature X"
+Example08> glab mr list --label needs-review
+Example09> glab mr list --not-label waiting-maintainer-feedback,subsystem-x
+Example10> glab mr list -M --per-page 10
+
+Reference> https://gitlab.com/gitlab-org/cli/-/blob/main/docs/source/mr/list.md

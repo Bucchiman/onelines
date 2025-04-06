@@ -1,0 +1,11 @@
+Command> py-spy record -o profile.svg -- python $1
+
+Arguments> $1: run file
+
+Keywords> rust
+        > profiling
+
+TL;DR> profiling
+
+
+Reference> https://github.com/benfred/py-spy

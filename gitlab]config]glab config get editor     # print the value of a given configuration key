@@ -1,0 +1,10 @@
+Command> glab config get $1
+
+TL;DR> print the value of a given configuration key
+
+Keywords> gitlab
+        > config
+
+
+
+Reference> https://gitlab.com/gitlab-org/cli/-/blob/main/docs/source/config/get.md

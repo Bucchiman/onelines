@@ -1,0 +1,8 @@
+Command> xsv headers worldcitiespop.csv
+
+Keywords> rust
+
+TL;DR> csv編集
+
+
+Reference> https://github.com/BurntSushi/xsv

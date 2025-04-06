@@ -1,0 +1,11 @@
+Command> glab incident reopen $1
+
+Keywords> gitlab
+        > incident
+
+
+Example01> glab incident reopen 123
+Example02> glab incident open 123
+Example03> glab incident reopen https://gitlab.com/NAMESPACE/REPO/-/issues/incident/123
+
+Reference> https://gitlab.com/gitlab-org/cli/-/blob/main/docs/source/incident/reopen.md

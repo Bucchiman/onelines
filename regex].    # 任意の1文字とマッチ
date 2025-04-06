@@ -1,0 +1,23 @@
+TL;DR> 任意の1文字列とマッチ
+
+Keywords> regex
+
+
+Example01>
+         > (検索文字列)
+         > Armadillo-IoT_G.
+         > 
+         > (マッチ文字列)
+         > Armadillo-IoT_G3
+         > Armadillo-IoT_G4
+
+Example02>
+         > (検索文字列)
+         > Armadillo-..0
+         >
+         > (マッチ文字列)
+         > Armadillo-640
+         > Armadillo-610
+         > Armadillo-460
+
+Reference> https://armadillo.atmark-techno.com/blog/15992/12567

@@ -1,0 +1,5 @@
+Command> ros2 daemon stop
+
+TL;DR> stop daemon
+
+Keywords> ros2

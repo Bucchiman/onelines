@@ -1,0 +1,8 @@
+Command> git branch --unset-upstream
+
+TL;DR> error:Your branch is based on 'origin\main', but the upstream is gone.
+
+Keywords> git
+
+
+Reference> https://stackoverflow.com/questions/30590083/how-do-i-rename-both-a-git-local-and-remote-branch-name

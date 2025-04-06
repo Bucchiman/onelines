@@ -1,0 +1,7 @@
+Command> idf.py menuconfig
+
+TL;DR> graphical configuration
+
+Keywords> esp32
+
+Reference> https://embeddedexplorer.com/esp-idf-macos-tutorial/

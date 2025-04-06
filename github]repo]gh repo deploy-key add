@@ -1,0 +1,25 @@
+Command> gh repo deploy-key add
+
+Arguments> [key-file]
+
+TL;DR> add a deploy key to a github repository
+
+Description>
+           > deploy-key = ssh key
+           > deploy-keyを使うと、github上にあるリポジトリから自分のサーバへプロジェクトを起動できる
+           >
+           >
+           > deploy-key vs ssh-key
+           >
+           >             deploy-key            ssh-key
+           >  range     a single repo       Github acount
+           > purpose    to deploy            to use github
+           >
+           >
+
+
+Example> ssh-keygen -t ed25519 -C "my description" -N "" -f ~/.ssh/gh-test    # generate a passwordless SSH key and add it as a deploy key to a repository
+       > gh repo deploy-key add ~/.ssh/gh-test.pub
+
+Reference> https://zenn.dev/takamin55/scraps/aa270b868438e6
+         > https://cli.github.com/manual/gh_repo_deploy-key

@@ -1,0 +1,11 @@
+Command> gh repo sync
+
+Keywords> github
+        > repo
+
+Example01> gh repo sync
+Example02> gh repo sync --branch v1
+Example03> gh repo sync owner/cli-fork
+Example04> gh repo sync owner/repo --source owner2/repo2
+
+Reference> https://cli.github.com/manual/gh_repo_sync

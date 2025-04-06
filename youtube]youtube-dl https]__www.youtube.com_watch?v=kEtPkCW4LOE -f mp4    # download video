@@ -1,0 +1,9 @@
+Command> youtube-dl '$1' -f mp4
+
+Arguments> $1: 'https://www.youtube.com/watch?v=kEtPkCW4LOE'
+
+TL;DR> download video
+
+Keywords> youtube
+
+Reference> https://knooto.info/youtube-dl/

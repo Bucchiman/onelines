@@ -1,0 +1,8 @@
+Command>
+
+Keywords> gcp
+
+Install> curl https://sdk.cloud.google.com | zsh
+
+
+Reference> 

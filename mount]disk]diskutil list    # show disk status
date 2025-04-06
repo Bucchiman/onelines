@@ -1,0 +1,11 @@
+Command> diskutil list
+
+
+TL;DR> show disk status
+
+
+Keywords> disk
+        > mount
+
+
+Reference> https://qiita.com/earth55/items/88015f3499411e3eab51

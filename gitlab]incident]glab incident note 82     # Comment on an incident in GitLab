@@ -1,0 +1,8 @@
+Command> glab incident note $1
+
+Arguments> $1: incident-id
+
+Keywords> gitlab
+        > incident
+
+Reference> https://gitlab.com/gitlab-org/cli/-/blob/main/docs/source/incident/note.md

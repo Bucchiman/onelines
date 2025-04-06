@@ -1,0 +1,8 @@
+Command> gpio -g write 20 1
+
+TL;DR> turn on
+
+Keywords> gpio
+
+
+Reference> https://tool-lab.com/raspberrypi-startup-24/

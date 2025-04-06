@@ -1,0 +1,10 @@
+Command> glab mr todo [<id> | <branch>] [flags]
+
+TL;DR> add a to-do item to merge request
+
+Keywords> gitlab
+        > mr
+
+
+
+Reference> https://gitlab.com/gitlab-org/cli/-/blob/main/docs/source/mr/todo.md

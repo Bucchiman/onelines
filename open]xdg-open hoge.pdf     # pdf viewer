@@ -1,0 +1,9 @@
+Command> xdg-open $1
+
+Arguments> $1: pdf file
+
+TL;DR> pdf viewer
+
+Keywords> open
+
+Reference> https://askubuntu.com/questions/43264/how-to-open-a-pdf-file-from-terminal

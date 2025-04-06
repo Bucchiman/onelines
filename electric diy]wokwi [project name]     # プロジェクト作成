@@ -1,0 +1,22 @@
+Command> wokwi
+
+Auguments>  [project name]
+
+TL;DR> 電子工作用のプロジェクト作成
+
+Keywords> electric diy
+
+
+Description>
+           > 初回設定
+           > 1. [wokwi cl dashboard](https://docs.wokwi.com/wokwi-ci/getting-started)でtoken作成
+           > 2. WOKWI_CLI_TOKENにtokenを設定
+           > 3. wokwi [project name]
+           >
+           >
+           >
+           >
+           >
+
+
+Reference> https://docs.wokwi.com/wokwi-ci/getting-started

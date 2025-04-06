@@ -1,0 +1,22 @@
+Command> gh project close
+
+Arguments> [project number]
+
+TL;DR> Close a project
+
+Keywords> github
+        > project
+
+Description>
+           > --format <string>    output format
+           > --owner  <string>    "@me"
+           > --undo               reopen a closed project
+           >
+           >
+           >
+
+Scene01> gh project close 1 --owner monalisa    # close project "1" owned by monalisa
+Scene02> gh project close 1 --owner github --undo
+
+Reference> https://cli.github.com/manual/gh_project_close
+

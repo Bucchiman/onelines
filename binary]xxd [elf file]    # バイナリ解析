@@ -1,0 +1,11 @@
+Command> xxd
+
+Arguments> [elf file]
+
+TL;DR> バイナリ解析
+
+Keywords> binary
+
+
+
+Reference> https://blueeyes.sakura.ne.jp/2018/05/17/1233/

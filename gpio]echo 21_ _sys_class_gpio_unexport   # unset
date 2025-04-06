@@ -1,0 +1,16 @@
+Command> echo 21> /sys/class/gpio/unexport
+
+TL;DR> unset
+
+
+Keywords> gpio
+
+Description>
+           > GPIO制御
+           > - echoで直接制御
+           > - RPi.GPIOライブラリ
+           > - WiringPiライブラリ
+
+
+Reference> https://tool-lab.com/raspberrypi-startup-24/
+         > https://karaage.hatenadiary.jp/entry/2016/02/19/073000

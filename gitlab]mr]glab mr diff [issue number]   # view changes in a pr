@@ -1,0 +1,16 @@
+Command> glab mr diff $1
+
+Arguments> $1: issue number
+
+TL;DR> view changes in a pr
+
+Keywords>
+        > gitlab
+        > mr
+
+Example01> glab mr diff 123
+Example02> glab mr diff branch
+Example03> glab mr diff  # get from current branch
+Example04> glab mr diff 123 --color=never
+
+Reference> https://gitlab.com/gitlab-org/cli/-/blob/main/docs/source/mr/diff.md

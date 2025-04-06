@@ -1,0 +1,26 @@
+Command> gh project field-create
+
+Arguments> [project number]
+
+TL;DR> create a field in a project
+
+Keywords> github
+        > project
+
+
+Description>
+           > --data-type  <string>
+           > --format
+           > --name
+           > --owner
+           >
+           >
+           >
+           >
+
+
+Example01> gh project field-create 1 --owner "@me" --name "new field" --data-type
+Example02> gh project field-create 1 --owner monalisa --name "new field" --data-type "SINGLE_SELECT" --single-select-options "one, two, three"
+
+
+Reference> https://cli.github.com/manual/gh_project_field-create

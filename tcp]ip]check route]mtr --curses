@@ -1,0 +1,13 @@
+Command> mtr --curses
+
+Arguments> [ip address]
+
+TL;DR> pingと同様、networkの応答を調査
+
+Keywords> tcp
+        > ip
+
+
+Related> ping
+
+Reference> gulliver

@@ -1,0 +1,11 @@
+Command> chown -R [user name]:[group name] [directory]    # 所有権の変更
+
+
+Description>
+
+
+Keywords> group
+
+
+
+Reference> https://devconnected.com/how-to-chown-recursive-on-linux/

@@ -1,0 +1,9 @@
+Command> dmesg -l emrg,alert,crit,err -x --color   # カーネルが出力したメッセージを出力
+
+Description>
+           > カーネルが出力したメッセージを出力
+           >
+           >
+
+
+Reference> https://hana-shin.hatenablog.com/entry/2022/02/24/204441

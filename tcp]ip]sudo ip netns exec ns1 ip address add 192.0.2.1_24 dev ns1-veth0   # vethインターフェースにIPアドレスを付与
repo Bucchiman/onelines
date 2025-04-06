@@ -1,0 +1,35 @@
+Command> sudo ip netns exec ns1 ip address add 192.0.2.1/24 dev ns1-veth0
+
+
+TL;DR> vethインターフェイスにIPアドレスを付与
+
+Keywords> tcp
+        > ip
+
+Description>
+           >
+           > -----------------------------------
+           >       | ns1-veth0      | ns2-veth0
+           >       | 192.0.2.1      | 192.0.2.2
+           >  +----+----+      +----+----+
+           >  |   ns1   |      |   ns2   |
+           >  +---------+      +---------+
+           >
+           >
+           >
+           >
+           >
+           >
+           >
+
+Method>
+      >  1. network namespace作成
+      >  2. veth(Virtual Ethernet Device)作成
+      >  3. vethをnetwork namespaceの領域に移す
+      > *4. IPアドレス付与
+      >  5. network interfaceをUPにする
+      >
+
+Related> sudo ip link set ns1-veth0 netns ns1
+
+Reference> Linuxで動かしながら学ぶTCP/IPネットワーク入門

@@ -1,0 +1,12 @@
+Command> gh project item-delete
+
+Arguments> project number
+
+TL;DR> Delete an item from a project by ID
+
+Keywords> github
+        > project
+
+Example> gh project item-delete 1 --owner "@me" --id <item-ID>
+
+Reference> https://cli.github.com/manual/gh_project_item-delete

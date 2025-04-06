@@ -1,0 +1,10 @@
+Command> byobu kill-session -t
+
+TL;DR> セッション名を指定してkill
+
+ARGUMENTS> [session name]
+
+Keywords> byobu
+
+
+Reference> https://qiita.com/miyashiiii/items/90ba726dd331ae103b7b

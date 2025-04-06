@@ -1,0 +1,8 @@
+Command> gh config list
+
+TL;DR> config key-valueを表示
+
+Keywords> github
+        > config
+
+Reference> https://cli.github.com/manual/gh_config_list

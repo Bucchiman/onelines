@@ -1,0 +1,8 @@
+Command> pipdeptree -p scipy    # パッケージの依存関係表示
+
+Keywords> pip
+        > python
+
+
+
+Reference> https://dev.classmethod.jp/articles/python-pipdeptree_licenses/

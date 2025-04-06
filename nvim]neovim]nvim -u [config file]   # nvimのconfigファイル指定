@@ -1,0 +1,11 @@
+Command> nvim -u [config.file]   # configファイル指定
+
+Description>
+
+
+Keywords> nvim
+        > neovim
+
+Example> nvim -u NONE hoge.rs
+
+Reference> https://qiita.com/simeji/items/41f4c1bd4e9a2b3c1526

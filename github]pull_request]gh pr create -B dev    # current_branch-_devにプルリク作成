@@ -1,0 +1,9 @@
+Command> gh pr create -B dev
+
+Keywords> github
+        > pull_request
+
+
+TL;DR> current_branch->devにプルリク作成
+
+Reference> https://cli.github.com/manual/gh_pr_create

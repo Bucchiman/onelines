@@ -1,0 +1,11 @@
+Command> ssh-copy-id bucchiman@raspi
+
+TL;DR> to ignore passphrase
+
+
+Keywords>
+        > ssh
+        > passphrase
+
+
+Reference> https://zenn.dev/rmt_drums/articles/173b4536f1c6e6

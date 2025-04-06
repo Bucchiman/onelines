@@ -1,0 +1,17 @@
+Command glab ci artifact $1 $2 [flags]
+
+TL;DR> To determine the technical writer assigned to the Stage/Group associated with this page, see https://about.gitlab.com/handbook/product/ux/technical-writing/#assignments
+
+Keywords> gitlab
+        > ci
+
+
+Example01> glab ci artifact main build
+Example02> glab ci artifact main deploy --path="artifacts"
+
+Description>
+           > [-p | --path] string
+           >
+           >
+
+Reference> https://gitlab.com/gitlab-org/cli/-/blob/main/docs/source/ci/artifact.md

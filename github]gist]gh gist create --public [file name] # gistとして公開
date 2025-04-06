@@ -1,0 +1,19 @@
+Command> gh gist create --public [file name]
+
+Arguments> [file name]
+
+TL;DR> gistとして公開
+
+Keywords> github
+        > gist
+
+Example01> gh gist create --public hello.py     # publish file 'hello.py' as a public gist
+Example02> gh gist create hello.py -d "my Hello-World program in Python"       # create a gist with a description
+Example03> gh gist create hello.py world.py cool.txt      # create a gist containing several files
+Example04> gh gist create -      # read from standard input to create a gist
+Example05> cat cool.txt | gh gist create      # create a gist from output piped from another command
+
+Description>
+
+
+Reference> https://qiita.com/KEINOS/items/fcaf458da37e0d7c3f19

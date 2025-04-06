@@ -1,0 +1,5 @@
+Command> unzip [zip file] -d [directory] # ディレクトリ指定
+
+Description>
+
+Reference> https://cutmail.hatenablog.com/entry/20100816/1281952284

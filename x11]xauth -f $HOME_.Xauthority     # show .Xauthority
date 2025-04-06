@@ -1,0 +1,14 @@
+Command> xauth -f $HOME/.Xauthority
+
+TL;DR> show .Xauthority
+
+Keywords> x11
+
+Description>
+           > $ xauth -f $HOME/.Xauthority
+           > $ > list
+           >
+           >
+           >
+
+Reference> https://docs.citrix.com/ja-jp/linux-virtual-delivery-agent/7-15-ltsr/configuration/configure-xauthority.html

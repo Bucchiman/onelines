@@ -1,0 +1,10 @@
+Command> eval `ssh-agent -s`; ssh-add  # パスフレーズ省略
+
+Keywords>
+        > ssh
+        > passphrase
+        >
+
+Description>
+
+Reference> https://stackoverflow.com/questions/17846529/could-not-open-a-connection-to-your-authentication-agent

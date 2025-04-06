@@ -1,0 +1,11 @@
+Command> glab release view $1
+
+Arguments> $1: tag (v1.0.1)
+
+TL;DR> view a release with specified tag name
+
+Keywords> gitlab
+        > release
+
+
+Reference> https://gitlab.com/gitlab-org/cli/-/blob/main/docs/source/release/view.md

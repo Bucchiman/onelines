@@ -1,0 +1,10 @@
+Command> gh workflow disable
+
+Arguments> [workflow-id]
+
+TL;DR> workflow無効
+
+Keywords> github
+        > workflow
+
+Reference> https://cli.github.com/manual/gh_workflow_disable

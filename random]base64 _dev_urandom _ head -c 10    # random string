@@ -1,0 +1,8 @@
+Command> base64 \dev\urandom | head -c 10
+
+TL;DR> random string
+
+Keywords> random
+
+
+Reference> https://www.baeldung.com/linux/make-random-readable-text-file

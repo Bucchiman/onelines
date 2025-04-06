@@ -1,0 +1,12 @@
+Command> termic
+
+Keywords> repl
+        > c
+
+
+Install>
+       > wget "https://raw.githubusercontent.com/hanoglu/TermiC/main/TermiC.sh"
+       > chmod +x TermiC.sh
+       > bash TermiC.sh
+
+Reference> https://github.com/hanoglu/TermiC

@@ -1,0 +1,12 @@
+Command> gh pr merge
+
+Arguments> [PR number | branch]
+
+TL;DR> Merge a PR on github
+
+Keywords> github
+        > pull_request
+
+
+
+Reference> https://cli.github.com/manual/gh_pr_merge

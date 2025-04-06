@@ -1,0 +1,10 @@
+Command> gh gist edit
+
+Arguments> [id]
+
+TL;DR> gist編集
+
+Keywords> github
+        > gist
+
+Reference> https://cli.github.com/manual/gh_gist_edit

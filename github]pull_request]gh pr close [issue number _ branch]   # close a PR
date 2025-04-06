@@ -1,0 +1,12 @@
+Command> gh pr close
+
+Arguments> [issue number | branch]
+
+TL;DR> close a PR
+
+Keywords> github
+        > pull_request
+
+
+Reference> https://cli.github.com/manual/gh_pr_close
+

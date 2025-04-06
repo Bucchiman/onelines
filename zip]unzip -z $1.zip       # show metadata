@@ -1,0 +1,12 @@
+Command> unzipo -z $1.zip
+
+Arguments> $1: zip file
+
+TL;DR> show metadata
+
+Keywords> unzip
+
+Related> zip -z $1.zip
+
+
+Reference> 

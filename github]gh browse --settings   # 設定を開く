@@ -1,0 +1,5 @@
+Command> gh browse --settings      # 設定を開く
+
+Keywords> github
+
+Reference> https://cli.github.com/manual/gh_browse

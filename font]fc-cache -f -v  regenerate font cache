@@ -1,0 +1,15 @@
+Command> fc-cache -f -v
+
+TL;DR> regenerate font cache
+
+
+Keywords>
+        > font
+
+Install>
+       > curl -L -O https://github.com/source-foundry/Hack/releases/download/v3.003/Hack-v3.003-ttf.tar.gz
+       > tar -xzvf Hack-v3.003-ttf.tar.gz
+       > mv ttf/Hack-Regular.ttf ~/.local/share/fonts/Hack-Regular.ttf
+       > fc-cache -f -v
+
+Reference> https://medium.com/source-words/how-to-manually-install-update-and-uninstall-fonts-on-linux-a8d09a3853b0

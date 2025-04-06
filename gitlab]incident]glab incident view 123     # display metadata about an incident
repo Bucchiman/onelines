@@ -1,0 +1,16 @@
+Command> glab incident view $1
+
+Arguments> $1: id
+
+TL;DR> display metadata about an incident
+
+Keywords> gitlab
+        > incident
+
+Example01> glab incident view 123
+Example02> glab incident show 123
+Example03> glab incident view --web 123
+Example04> glab incident view --comments 123
+Example05> glab incident view https://gitlab.com/NAMESPACE/REPO/-/issues/incident/123
+
+Reference> https://gitlab.com/gitlab-org/cli/-/blob/main/docs/source/incident/view.md

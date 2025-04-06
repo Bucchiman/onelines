@@ -1,0 +1,12 @@
+Command> idf.py create-project $1
+
+Arguments> $1: project name
+
+
+TL;DR> start a new project
+
+
+Keywords> esp32
+
+
+Reference> https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-guides/tools/idf-py.html

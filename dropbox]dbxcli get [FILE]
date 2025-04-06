@@ -1,0 +1,5 @@
+Command> dbxcli get [FILE]
+
+Keywords> dropbox
+
+Description> dropbox download file

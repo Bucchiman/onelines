@@ -1,0 +1,23 @@
+Command> curl --help
+
+Description>
+           > オプション説明
+           >    -o file
+           >    -O
+           >    -L
+           >    -d
+           >    -c cookie_file
+           >    -s
+           >    -sS
+           >    -H 
+           >    -F
+           >    -X
+           >    -f
+           >    -u
+           >    -v
+           >    -k
+           >    -w
+
+Keywords> help
+
+Reference> https://qiita.com/takayukioda/items/edf371b3566bea64d046

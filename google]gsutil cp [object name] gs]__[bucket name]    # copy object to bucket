@@ -1,0 +1,10 @@
+Command> gsutil cp $1 gs://$2
+
+Arguments> $1: object name
+         > $2: bucket name
+
+TL;DR> copy object to bucket
+
+Keywords> google
+
+Reference> 

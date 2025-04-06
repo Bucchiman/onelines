@@ -1,0 +1,7 @@
+Command> sudo jetson_clocks --restore  # 元の環境に戻す
+
+Description>
+
+Keywords> jetson
+
+Reference>

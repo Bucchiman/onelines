@@ -1,0 +1,14 @@
+Command> montage -tile 5x4 icon-%d.png[1-20] output.png    # 連番でグリッド画像作成
+
+Keywords> image
+        > seq
+
+Description>
+           > $ montage -tile 5x4 icon-%03d.png[1-20] output.png    # ゼロパディング
+           >
+           >
+           >
+           >
+
+
+Reference> https://qiita.com/udoP_/items/8495aac075dbca5df143

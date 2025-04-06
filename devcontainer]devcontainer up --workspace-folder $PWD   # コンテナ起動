@@ -1,0 +1,18 @@
+Command> devcontainer up --workspace-folder $1
+
+Arguments> $1: [path where the '.devcontainer' directory is]
+
+TL;DR> コンテナ起動
+
+Keywords> devcontainer
+
+Example> git clone https://github.com/microsoft/vscode-remote-try-rust
+       > cd ./vscode-remote-try-rust
+       > devcontainer up --workspace-folder $PWD
+
+
+Install> npm install -g @devcontainers/cli
+
+
+Reference> https://github.com/devcontainers/cli
+

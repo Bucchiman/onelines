@@ -1,0 +1,15 @@
+Command> glab mr checkout $1
+
+Arguments> $1: issue number
+
+Keywords>
+        > gitlab
+        > mr
+
+Example01> glab mr checkout 1
+Example02> glab mr checkout branch
+Example03> glab mr checkout 12 --branch todo-fix
+Example04> glab mr checkout new-feature --set-upstream-to=upstream/main
+Example05> glab mr checkout   # use checked out branch
+
+Reference> https://gitlab.com/gitlab-org/cli/-/blob/main/docs/source/mr/checkout.md

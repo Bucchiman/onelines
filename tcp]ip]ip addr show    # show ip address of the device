@@ -1,0 +1,17 @@
+Command> ip addr show
+
+TL;DR> show ip address of the device
+
+Keywords>
+        > tcp
+        > ip
+
+Description>
+           > - 127.0.0.1, 10.0.2.15
+           > 自分のコンピュータのIpアドレス
+           > - ネットワークインターフェイスlo: 127.0.0.1
+           > - ネットワークインターフェイスenp0s3: 10.0.2.15
+           >
+           >
+           >
+

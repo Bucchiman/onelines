@@ -1,0 +1,9 @@
+Command> silicon main.rs -o main.png
+
+TL;DR> ソースコードを画像に変換
+
+Keywords> rust
+
+Install> cargo install silicon
+
+Reference> https://github.com/Aloxaf/silicon

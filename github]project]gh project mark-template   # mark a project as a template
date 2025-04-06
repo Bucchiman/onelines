@@ -1,0 +1,15 @@
+Command> gh project mark-template
+
+Arguments> [project number]
+
+TL;DR> mark a project as a template
+
+Keywords> github
+        > project
+
+
+Example01> gh project mark-template 1 --owner "github"
+Example02> gh project mark-template 1 --owner "github" --undo
+
+
+Reference> https://cli.github.com/manual/gh_project_mark-template

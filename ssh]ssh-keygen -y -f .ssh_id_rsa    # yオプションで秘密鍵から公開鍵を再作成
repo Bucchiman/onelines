@@ -1,0 +1,1 @@
+Command> ssh-keygen -y -f .ssh/id_rsa    # yオプションで秘密鍵から公開鍵を再作成

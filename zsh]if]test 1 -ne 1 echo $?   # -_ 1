@@ -1,0 +1,10 @@
+Command> test 1 -ne 1; echo $?   # -> 1
+
+
+Keywords> zsh
+        > if
+
+Description>
+
+
+Reference> https://shellscript.sunone.me/if_and_test.html
