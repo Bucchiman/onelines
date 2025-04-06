@@ -1,4 +1,4 @@
-Command> tr -dc 0-9 < /dev/urandom | fold -w 8 | head -1    # 数字のみ８桁出力
+Command> LC_CTYPE=C tr -dc 0-9 < /dev/urandom | fold -w 8 | head -1    # 数字のみ８桁出力
 
 Description>
            > - 別手法
