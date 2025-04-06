@@ -8,5 +8,6 @@ TL;DR> base branchからissue numberに関するbranch作成
 Keywords> github
         > issue
 
+OS> all
 
 Reference> https://cli.github.com/manual/gh_issue_develop

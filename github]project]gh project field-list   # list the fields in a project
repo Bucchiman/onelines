@@ -9,5 +9,6 @@ Keywords> github
 
 Example> gh project field-list 1 --owner "@me"
 
+OS> all
 
 Reference> https://cli.github.com/manual/gh_project_field-list

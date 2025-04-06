@@ -9,4 +9,6 @@ Keywords> github
 
 Example> gh project item-delete 1 --owner "@me" --id <item-ID>
 
+OS> all
+
 Reference> https://cli.github.com/manual/gh_project_item-delete

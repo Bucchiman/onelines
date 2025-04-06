@@ -21,6 +21,7 @@ Scene03> gh issue list --assignee "@me"
 Scene04> gh issue list --milestone "The big 1.0"
 Scene05> gh issue list --search "error no:assignee sort:created-asc"
 
+OS> all
 
 Reference> https://dev.classmethod.jp/articles/i-tried-operations-around-issue-with-github-cli-20/
          > https://zenn.dev/gashi/articles/6a9b7bf2b9dfe79e3870

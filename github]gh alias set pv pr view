@@ -24,4 +24,6 @@ Description>
            >  $ gh igrep epic foo  #=> gh issue list --label="epic" | grep "foo"
            >  
 
+OS> all
+
 Reference> https://cli.github.com/manual/gh_alias_set

@@ -2,4 +2,6 @@ Command> git branch topic master    # masterからtopicを作る
 
 Keywords> git
 
+OS> all
+
 Reference> https://dev.classmethod.jp/articles/git-config-alias-19/

@@ -23,5 +23,6 @@ Description>
 
 Example01> gh repo fork cli/cli --clone=false     # cloneをスキップ
 
+OS> all
 
 Reference> https://cli.github.com/manual/gh_repo_fork

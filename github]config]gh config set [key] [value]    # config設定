@@ -10,4 +10,6 @@ Example02> gh config set editor "code --wait"
 Example03> gh config set git_protocol ssh --host github.com
 Example04> gh config set prompt disabled 
 
+OS> all
+
 Reference> https://cli.github.com/manual/gh_config_set

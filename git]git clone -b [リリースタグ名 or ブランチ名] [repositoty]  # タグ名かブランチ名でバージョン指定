@@ -2,5 +2,6 @@ Command> git clone -b [タグ名 or ブランチ名] [repository]     # タグ�
 
 Keywords> git
 
+OS> all
 
 Reference> https://inno-tech-life.com/dev/infra/git_clone_tips/

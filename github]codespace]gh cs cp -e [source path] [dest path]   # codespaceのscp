@@ -13,4 +13,6 @@ Example02> gh codespace cp -e 'remote:~/*.go' ./gofiles/
 Example03> gh codepsace cp -e 'remote:/workspaces/myproj/go.{mod,sum}' ./gofiles/
 Example04> gh codespace cp -e -- -F $HOME/.ssh/codespaces_config 'remote:~/*.go' ./gofiles/
 
+OS> all
+
 Reference> https://cli.github.com/manual/gh_codespace_cp

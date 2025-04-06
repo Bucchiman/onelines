@@ -24,4 +24,6 @@ Scene02> gh pr list --label bug --label "priority"     # List only PRs with all 
 Scene03> gh pr list --search "status:success review:required"
 Scene04> gh pr list --search "<SHA>" --state merged
 
+OS> all
+
 Reference> https://cli.github.com/manual/gh_pr_list

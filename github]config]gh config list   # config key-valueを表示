@@ -5,4 +5,6 @@ TL;DR> config key-valueを表示
 Keywords> github
         > config
 
+OS> all
+
 Reference> https://cli.github.com/manual/gh_config_list

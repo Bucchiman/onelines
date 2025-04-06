@@ -17,4 +17,6 @@ Description>
            >    -R|--repo <[HOST/]OWNER/REPO>
            >        別のリポジトリを選択する
 
+OS> all
+
 Reference> https://cli.github.com/manual/gh_issue_comment

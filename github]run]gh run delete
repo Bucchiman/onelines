@@ -10,4 +10,6 @@ Keywords> github
 Example01> gh run delete    # Interactive mode
 Example02> gh run delete 12345
 
+OS> all
+
 Reference> https://cli.github.com/manual/gh_run_delete

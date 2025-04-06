@@ -7,5 +7,6 @@ TL;DR> $1のissueのbranchにcheckout
 Keywords> github
         > issue
 
+OS> all
 
 Reference> https://cli.github.com/manual/gh_issue_develop

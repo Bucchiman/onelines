@@ -2,4 +2,6 @@ Command> gh browse [issue number]    # open issue on browser
 
 Keywords> github
 
+OS> all
+
 Reference> https://cli.github.com/manual/gh_browse

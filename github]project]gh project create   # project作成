@@ -7,4 +7,6 @@ Keywords> github
 
 Example> gh project create --owner monalisa --title "a new project"    # create a new project owned by monalisa
 
+OS> all
+
 Reference> https://cli.github.com/manual/gh_project_create

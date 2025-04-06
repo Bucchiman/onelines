@@ -32,7 +32,7 @@ SCENE05> gh issue edit 23 --milestone "Version 1"
 SCENE06> gh issue edit 23 --body-file body.txt
 SCENE07> gh issue edit 23 34 --add-label "help wanted"
 
-
+OS> all
 
 Reference> https://dev.classmethod.jp/articles/i-tried-operations-around-issue-with-github-cli-20/
 

@@ -8,4 +8,6 @@ Example02> gh repo sync --branch v1
 Example03> gh repo sync owner/cli-fork
 Example04> gh repo sync owner/repo --source owner2/repo2
 
+OS> all
+
 Reference> https://cli.github.com/manual/gh_repo_sync

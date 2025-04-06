@@ -10,4 +10,6 @@ Description> git config --local user.name "8ucchiman"
            > git config --local push.default simple
            > git config --list
 
+OS> all
+
 Reference>

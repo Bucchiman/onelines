@@ -14,3 +14,5 @@ Description>
            >
 
 Example> gh label clone cli/cli --force     # clone and overwrite labels from cli/cli repo into the curent repo
+
+OS> all

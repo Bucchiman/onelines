@@ -13,5 +13,7 @@ Description>
            > $ git remote set-url --add origin https://gitlab.com/Bucchiman/hoge.git
            > $ git push -u origin master
 
+OS> all
+
 Reference> https://prograshi.com/general/git/git-remote-commands/
          > https://qiita.com/miso_develop/items/0eeae8ef01e755310538

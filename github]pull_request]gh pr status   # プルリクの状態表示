@@ -11,4 +11,6 @@ Description>
            > --json         <fields>
            > -t, --template <string>
 
+OS> all
+
 Reference> https://cli.github.com/manual/gh_pr_status

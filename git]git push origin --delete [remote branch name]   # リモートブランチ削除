@@ -12,5 +12,7 @@ Description>
            >   > remotes/origin/new_command
            > $ git push origin --delete new_command
 
+OS> all
+
 Reference> https://liginc.co.jp/387757
          > https://www.freecodecamp.org/japanese/news/how-to-delete-a-git-branch-both-locally-and-remotely/

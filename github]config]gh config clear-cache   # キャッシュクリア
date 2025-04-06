@@ -5,4 +5,6 @@ Keywords> github
 
 TL;DR> キャッシュクリア
 
+OS> all
+
 Reference> https://cli.github.com/manual/gh_config_clear-cache

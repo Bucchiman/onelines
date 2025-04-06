@@ -5,5 +5,7 @@ Keywords> git
 
 Install> cargo install gitui
 
+OS> all
+
 
 Reference> https://github.com/extrawurst/gitui

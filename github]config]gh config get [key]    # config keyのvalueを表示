@@ -10,4 +10,6 @@ TL;DR> config keyのvalueを表示
 
 Example> gh config get git_protocol     # -> https
 
+OS> all
+
 Reference> https://cli.github.com/manual/gh_config_get

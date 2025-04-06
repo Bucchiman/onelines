@@ -16,5 +16,6 @@ Description>
 
 Scene> gh pr comment 13 --body "Hi from GitHub CLI"
 
+OS> all
 
 Reference> https://cli.github.com/manual/gh_pr_comment

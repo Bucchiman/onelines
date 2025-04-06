@@ -3,4 +3,6 @@ Command> gh alias list
 Keywords> github
         > alias
 
+OS> all
+
 Reference> https://cli.github.com/manual/gh_alias_list

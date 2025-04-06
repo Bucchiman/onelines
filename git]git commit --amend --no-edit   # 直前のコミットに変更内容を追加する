@@ -11,5 +11,7 @@ Description>
            > $ git commit --amend --no-edit   # 直前のコミットに変更内容を追加
            >
 
+OS> all
+
 Reference> https://liginc.co.jp/387757
          > https://qiita.com/piruty/items/402b5bf83479f7e3480a
