@@ -1,0 +1,6 @@
+Command> $a = @("A", "B", "C"); $b = $a + "D"; $c = $b + @("E", "F")
+
+Keywords> powershell
+        > array
+
+OS> windows

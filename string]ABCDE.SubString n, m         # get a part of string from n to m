@@ -1,0 +1,12 @@
+Command> "$1".SubString(n, m)
+
+TL;DR> get a part of string from n to m
+
+
+OS> windows
+
+
+Keywords> string
+
+
+Reference> https://www.tohoho-web.com/ex/power-shell.html
