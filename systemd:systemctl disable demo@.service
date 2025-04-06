@@ -1,4 +1,0 @@
-Command> systemctl disable demo@.service
-
-
-Keywords> systemd

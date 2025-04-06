@@ -1,6 +1,0 @@
-Command> !?hello    # 直前のコマンドで後方検索して実行
-
-
-Keywords> zsh
-
-Reference> gulliver

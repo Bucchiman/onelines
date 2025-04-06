@@ -1,3 +1,0 @@
-Command> systemctl edit --user --force --full demo@.service  # サービス新規作成
-
-Keywords> systemd

@@ -1,5 +1,0 @@
-Command> git pull --recurse-submodules
-
-Keywords> git
-
-Reference> https://stackoverflow.com/questions/40987847/unable-to-find-current-origin-master-revision-in-submodule-path

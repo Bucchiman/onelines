@@ -1,8 +1,0 @@
-Command> netsh interface portproxy add v4tov4 listenaddress=* listenport=80 connectaddress=172.25.0.1 connectport=80
-
-Keywords>
-        > powershell
-        > portfowarding
-
-
-Reference> https://qiita.com/yabeenico/items/15532c703974dc40a7f5

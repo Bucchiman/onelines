@@ -1,4 +1,0 @@
-Command> journalctl --user --unit demo@sample.service        # ログの確認
-
-
-Keywords> systemd

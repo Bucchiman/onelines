@@ -1,3 +1,0 @@
-Command> systemctl list-unit-files --type=service            # サービス一覧
-
-Keywords> systemd

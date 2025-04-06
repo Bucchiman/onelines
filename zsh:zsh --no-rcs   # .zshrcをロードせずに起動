@@ -1,9 +1,0 @@
-Command> zsh --no-rcs
-
-TL;DR> .zshrcをロードせずに起動
-
-Keywords> zsh
-
-
-Reference> https://til.toshimaru.net/2021-05-23
-

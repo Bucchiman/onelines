@@ -1,3 +1,0 @@
-Command> python -c "import tensorflow as tf;print(tf.test.is_gpu_available())"
-
-Keywords> tensorflow_cuda

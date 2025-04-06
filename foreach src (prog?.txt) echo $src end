@@ -1,5 +1,0 @@
-Command> foreach src (prog?.txt) echo $src end
-
-Keywords> 
-
-Reference> 

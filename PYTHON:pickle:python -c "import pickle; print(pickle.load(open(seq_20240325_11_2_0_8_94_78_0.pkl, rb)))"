@@ -1,9 +1,0 @@
-Command> python -c "import pickle; print(pickle.load(open("$1", rb)))"
-
-TL;DR> load pickle
-
-Arguments> $1
-
-Keywords> python
-
-Reference> chatgpt

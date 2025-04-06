@@ -1,4 +1,0 @@
-Command> ros2 pkg create --build-type ament_python --node-name [node name]   [package name]
-
-
-Keywords> ros2

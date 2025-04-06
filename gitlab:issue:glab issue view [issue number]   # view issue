@@ -1,9 +1,0 @@
-Command> glab issue view $1
-
-Arguments> $1: issue number
-
-Keywords>
-        > gitlab
-        > issue
-
-Reference> https://gitlab.com/gitlab-org/cli/-/blob/main/docs/source/issue/view.md

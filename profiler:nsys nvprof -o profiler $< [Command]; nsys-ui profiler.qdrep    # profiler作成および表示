@@ -1,3 +1,0 @@
-Command> nsys nvprof -o profiler $< [Command]; nsys-ui profiler.qdrep    # profiler作成および表示
-
-Keywords> profiler

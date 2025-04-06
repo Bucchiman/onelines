@@ -1,9 +1,0 @@
-Command> genact
-
-
-Keywords> rust
-
-
-Install> cargo install genact
-
-Reference> https://github.com/svenstaro/genact

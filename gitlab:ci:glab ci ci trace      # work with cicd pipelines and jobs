@@ -1,9 +1,0 @@
-Command> glab ci ci $1
-
-Arguments
-
-Example> glab ci ci trace
-
-
-
-Reference> https://gitlab.com/gitlab-org/cli/-/blob/main/docs/source/ci/ci/index.md

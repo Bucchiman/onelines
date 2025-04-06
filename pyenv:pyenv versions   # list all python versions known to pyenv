@@ -1,7 +1,0 @@
-Command> pyenv versions
-
-TL;DR> list all python versions known to pyenv
-
-Keywords> pyenv
-
-Reference> https://github.com/pyenv/pyenv/blob/master/COMMANDS.md#pyenv-versions

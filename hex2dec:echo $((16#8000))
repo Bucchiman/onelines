@@ -1,7 +1,0 @@
-Command> echo $((16#8000))
-
-TL;DR> convert hex to decimal
-
-Keywords> hex2dec:
-
-Reference> https://stackoverflow.com/questions/13280131/hexadecimal-to-decimal-in-shell-script

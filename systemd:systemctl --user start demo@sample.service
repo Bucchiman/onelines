@@ -1,3 +1,0 @@
-Command> systemctl --user start demo@sample.service
-
-Keywords> systemd

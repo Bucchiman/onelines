@@ -1,7 +1,0 @@
-Command> gcloud config list
-
-Keywords> gcp
-
-Install> curl https://sdk.cloud.google.com | zsh
-
-Reference> https://book.st-hakky.com/docs/how-to-use-gcloud-and-gsutil/

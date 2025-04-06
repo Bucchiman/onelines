@@ -1,8 +1,0 @@
-Command> glab ssh-key get
-
-TL;DR> interactive mode
-
-Keywords> gitlab
-        > ssh-key
-
-Reference> https://gitlab.com/gitlab-org/cli/-/blob/main/docs/source/ssh-key/get.md
