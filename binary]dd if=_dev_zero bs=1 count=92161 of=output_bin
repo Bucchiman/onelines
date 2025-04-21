@@ -1,0 +1,5 @@
+Command> dd if=/dev/zero bs=1 count=92161 of=output.bin
+
+Keywords> binary
+
+

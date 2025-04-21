@@ -1,0 +1,5 @@
+Command> printf "%d\n" 0x4d2
+
+Keywords> convert
+        > hex2dec
+
