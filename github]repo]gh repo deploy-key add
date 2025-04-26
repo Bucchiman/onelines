@@ -21,5 +21,7 @@ Description>
 Example> ssh-keygen -t ed25519 -C "my description" -N "" -f ~/.ssh/gh-test    # generate a passwordless SSH key and add it as a deploy key to a repository
        > gh repo deploy-key add ~/.ssh/gh-test.pub
 
+OS> all
+
 Reference> https://zenn.dev/takamin55/scraps/aa270b868438e6
          > https://cli.github.com/manual/gh_repo_deploy-key

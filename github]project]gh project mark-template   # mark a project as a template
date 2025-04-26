@@ -11,5 +11,7 @@ Keywords> github
 Example01> gh project mark-template 1 --owner "github"
 Example02> gh project mark-template 1 --owner "github" --undo
 
+OS> all
+
 
 Reference> https://cli.github.com/manual/gh_project_mark-template

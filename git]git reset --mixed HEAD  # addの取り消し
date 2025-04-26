@@ -33,5 +33,7 @@ Description> addしたときに取り消し
            > HEAD^^^ HEAD~3 HEAD~~~ HEAD~{3} @^^^ はすべて同じ意味
            >
 
+OS> all
+
 
 Reference> https://qiita.com/shuntaro_tamura/items/db1aef9cf9d78db50ffe

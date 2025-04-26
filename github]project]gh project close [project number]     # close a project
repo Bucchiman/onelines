@@ -18,5 +18,7 @@ Description>
 Scene01> gh project close 1 --owner monalisa    # close project "1" owned by monalisa
 Scene02> gh project close 1 --owner github --undo
 
+OS> all
+
 Reference> https://cli.github.com/manual/gh_project_close
 

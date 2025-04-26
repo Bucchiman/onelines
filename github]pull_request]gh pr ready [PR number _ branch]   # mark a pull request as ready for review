@@ -7,5 +7,6 @@ TL;DR> mark a PR as ready for review
 Keywords> github
         > pull_request
 
+OS> all
 
 Reference> https://cli.github.com/manual/gh_pr_ready

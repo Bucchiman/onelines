@@ -1,0 +1,6 @@
+Command> $a = @("A", "B", "C"); for ($i = 0; $i -lt $a.Length; $i++)  { Write-Host $a[$i]}
+
+Keywords> powershell
+        > array
+
+OS> windows

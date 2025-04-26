@@ -19,4 +19,6 @@ Description>
 
 Example> gh alias import aliases.yml
 
+OS> all
+
 Reference> https://cli.github.com/manual/gh_alias_import

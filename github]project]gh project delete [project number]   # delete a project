@@ -12,4 +12,6 @@ Description>
 
 Example> gh project delete 1 --owner "@me"
 
+OS> all
+
 Reference> https://cli.github.com/manual/gh_project_delete

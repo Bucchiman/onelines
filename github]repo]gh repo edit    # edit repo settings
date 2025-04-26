@@ -48,5 +48,6 @@ Description>
 Example01> gh repo edit --enable-issues --enable-wiki
 Exmaple02> gh repo edit --enable-projects=false
 
+OS> all
 
 Reference> https://cli.github.com/manual/gh_repo_edit

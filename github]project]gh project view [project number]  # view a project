@@ -9,4 +9,6 @@ Keywords> github
 Example01> gh project view 1
 Example02> gh project view 1 --owner monalisa --web
 
+OS> all
+
 Reference> https://cli.github.com/manual/gh_project_view

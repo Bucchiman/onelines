@@ -9,5 +9,6 @@ Keywords> github
 Example01> gh workflow view # Interactively select a workflow to view
 Example02>  gh workflow view 0451 # View a specific workflow
 
+OS> all
 
 Reference> https://cli.github.com/manual/gh_workflow_view

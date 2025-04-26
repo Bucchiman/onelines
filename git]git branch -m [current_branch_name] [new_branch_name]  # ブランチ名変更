@@ -2,3 +2,5 @@ Command> git branch -m [current_branch_name] [new_branch_name]  # ブランチ�
 
 
 Keywords> git
+
+OS> all

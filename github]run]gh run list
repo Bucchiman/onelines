@@ -27,5 +27,6 @@ Description>
            > -w, --workflow <string>
            >    Filter runs by workflow
 
+OS> all
 
 Reference> https://cli.github.com/manual/gh_run_list

@@ -28,3 +28,5 @@ Description> --archived
            >    Filter by topic
            > --visibility <string>
            >    Filter by repository visibility: {public|private|internal}
+
+OS> all

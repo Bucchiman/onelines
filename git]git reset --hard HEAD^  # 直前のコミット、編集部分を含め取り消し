@@ -29,5 +29,6 @@ Description> 直前のコミットを取り消す(編集部分も取り消され
            > HEAD^^^ HEAD~3 HEAD~~~ HEAD~{3} @^^^ はすべて同じ意味
            >
 
+OS> all
 
 Reference> https://qiita.com/shuntaro_tamura/items/db1aef9cf9d78db50ffe

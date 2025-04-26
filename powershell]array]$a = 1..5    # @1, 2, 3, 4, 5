@@ -1,0 +1,11 @@
+Command> $a = 1..5
+
+
+TL;DR> equivalent to @(1, 2, 3, 4, 5)
+
+Keywords> powershell
+        > array
+
+OS> windows
+
+Reference> https://www.tohoho-web.com/ex/power-shell.html

@@ -17,4 +17,6 @@ Example01> gh run download     # Interactive mode
 Example02> gh run download [run-id]
 Example03> gh run download [run-id] -n <name>
 
+OS> all
+
 Reference> https://cli.github.com/manual/gh_run_download

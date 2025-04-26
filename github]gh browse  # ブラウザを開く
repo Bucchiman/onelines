@@ -2,4 +2,6 @@ Command> gh browse   # ブラウザを開く
 
 Keywords> github
 
+OS> all
+
 Reference> https://cli.github.com/manual/gh_browse

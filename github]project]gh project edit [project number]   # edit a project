@@ -18,4 +18,6 @@ Description>
 
 Example> gh project edit 1 --owner monalisa --title "New title"
 
+OS> all
+
 Reference> https://cli.github.com/manual/gh_project_edit

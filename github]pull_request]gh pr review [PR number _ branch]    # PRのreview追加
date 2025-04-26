@@ -12,5 +12,6 @@ Example02> gh pr review --comment -b "interesting"
 Example03> gh pr review 123
 Example04> gh pr review 123 -r -b "needs more ASCII art"
 
+OS> all
 
 Reference> https://cli.github.com/manual/gh_pr_review

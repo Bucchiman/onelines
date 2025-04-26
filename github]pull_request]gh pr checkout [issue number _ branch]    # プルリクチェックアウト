@@ -26,4 +26,6 @@ Scene> $ ~/Projects/my-project$ gh pr checkout 12
      >  > M       README.md
      >  > Switched to branch 'patch-2'
 
+OS> all
+
 Reference> https://cli.github.com/manual/gh_pr_checkout

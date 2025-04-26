@@ -2,4 +2,6 @@ Command> gh browse [file name] --branch bug-fix    # 特定ブランチの特定
 
 Keywords> github
 
+OS> all
+
 Reference> https://cli.github.com/manual/gh_browse

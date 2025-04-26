@@ -22,5 +22,6 @@ Description> HEADのトラッキングが可能
            > -> addしただけでcommitしていない状態でreset --hardをするとcommitされていないので
            >    reflogで確認することはできない
 
+OS> all
 
 Reference> https://qiita.com/shuntaro_tamura/items/db1aef9cf9d78db50ffe

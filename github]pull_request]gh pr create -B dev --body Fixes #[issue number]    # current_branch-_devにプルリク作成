@@ -40,5 +40,7 @@ Scene03> gh pr create --reviewer monalisa,hubot  --reviewer myorg/team-name
 Scene04> gh pr create --project "Roadmap"
 Scene05> gh pr create --base develop --head monalisa:feature
 
+OS> all
+
 Reference> https://zenn.dev/donchan922/articles/65bb47508923abab677b
            https://dev.classmethod.jp/articles/shuntaka9576-gh/

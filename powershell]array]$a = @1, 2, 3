@@ -1,0 +1,13 @@
+Command> $a = @(1, 2, 3)
+
+Examples> $a = 1, 2, 3
+        > $a = "A", "B", "C"
+        > $a = @("A", "B", "C")
+
+
+Keywords> powershell
+        > array
+
+OS> windows
+
+Reference> https://www.tohoho-web.com/ex/power-shell.html

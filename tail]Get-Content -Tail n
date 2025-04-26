@@ -1,0 +1,6 @@
+Command> Get-Content -Tail n
+
+
+Keywords> tail
+
+OS> windows

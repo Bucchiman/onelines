@@ -6,4 +6,7 @@ Keywords> github
 
 TL;DR> current_branch->devにプルリク作成
 
+
+OS> all
+
 Reference> https://cli.github.com/manual/gh_pr_create
