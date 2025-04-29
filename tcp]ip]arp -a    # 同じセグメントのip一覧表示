@@ -1,7 +1,13 @@
 Command> arp -a
 
-TL;DR> 同じセグメントのip一覧表示
+TL;DR> 同じセグメントのip一覧表示 (Address Resolved Protocol)
 
 Keywords> ip
+
+
+Description> Address Resolved Protocol
+           > MACアドレスとIPアドレスを紐付る
+
+OS> mac
 
 Reference> https://ez-net.jp/article/E0/qR0Hn0ZF/D6QUsUcORVa1/

@@ -7,6 +7,9 @@ TL;DR> check DNS -> ip address
 Keywords> tcp
         > ip
         > check domain+ip
+        > dns2ip
+
+OS> mac
 
 Related> tcp:ip:dig yahoo.co.jp   # convert dns server to ip address
 
