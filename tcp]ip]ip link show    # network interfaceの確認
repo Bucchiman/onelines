@@ -1,0 +1,33 @@
+Command> ip link show
+
+TL;DR> network interfaceの確認
+
+
+Keywords>
+        > tcp
+        > ip
+
+
+Description>
+           > 1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN mode DEFAULT group default qlen 1000
+           >     link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+           > 2: enp6s0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP mode DEFAULT group default qlen 1000
+           >     link/ether 50:eb:f6:b2:44:4c brd ff:ff:ff:ff:ff:ff
+           > 3: wlp5s0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue state UP mode DORMANT group default qlen 1000
+           >     link/ether cc:47:40:fd:34:70 brd ff:ff:ff:ff:ff:ff
+           > 4: docker0: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc noqueue state DOWN mode DEFAULT group default 
+           >     link/ether d6:c2:42:23:77:77 brd ff:ff:ff:ff:ff:ff
+           >
+           >
+           >
+           > 2: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 ...
+           > link/ether 00:11:22:33:44:55 brd ff:ff:ff:ff:ff:ff
+           >
+           > 2                                  -> インターフェースID
+           > eth0                               -> インターフェース名
+           > <BROADCAST,MULTICAST,UP,LOWER_UP>  -> 状態・フラグ
+           > link/ether 50:eb:f6:b2:44:4c       -> mac address
+
+
+
+Reference> Linuxで動かしながら学ぶTCP/IPネットワーク入門

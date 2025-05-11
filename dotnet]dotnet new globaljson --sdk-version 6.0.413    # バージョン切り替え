@@ -1,0 +1,11 @@
+Command> dotnet new globaljson --sdk-version 6.0.413
+
+
+TL;DR> バージョン切り替え
+
+
+Keywords> dotnet
+
+OS> all
+
+Reference> https://lifetime-engineer.com/dotnet-version-switch/

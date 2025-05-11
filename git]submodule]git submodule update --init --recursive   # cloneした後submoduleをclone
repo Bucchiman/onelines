@@ -1,0 +1,10 @@
+Command> git submodule update --init --recursive   # cloneした後submoduleをclone
+
+Description>
+
+Keywords> git
+        > clone_submodule
+
+OS> all
+
+Reference> https://karoten512.hatenablog.com/entry/2017/11/09/013845

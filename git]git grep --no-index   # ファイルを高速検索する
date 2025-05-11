@@ -1,0 +1,18 @@
+Command> git grep --no-index   # ファイルを高速検索する
+
+Description>
+           > git grep [-i] [-P] <pattern> [--and|--or|--not   <pattern>...]
+           >
+           >
+           >
+           >
+           >
+           >
+           >
+           >
+
+Keywords> git
+
+OS> all
+
+Reference> https://liginc.co.jp/387757

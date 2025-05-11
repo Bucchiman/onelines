@@ -1,0 +1,9 @@
+Command> git log --author=[username]  # 指定ユーザのコミット履歴を表示
+
+Keywords> git
+
+Description>
+
+OS> all
+
+Reference> https://tech.pjin.jp/blog/2015/11/24/git-command-matome-list-100/

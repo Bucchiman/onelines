@@ -1,0 +1,10 @@
+Command> gh label list   # ラベル一覧表示
+
+Keywords> github
+        > label
+
+Description>
+
+OS> all
+
+Reference> https://cli.github.com/manual/gh_label

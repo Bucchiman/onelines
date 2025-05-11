@@ -1,0 +1,10 @@
+Command> gh cs rebuild
+
+TL;DR>
+
+Keywords> github
+        > codespace
+
+OS> all
+
+Reference> https://cli.github.com/manual/gh_codespace_rebuild

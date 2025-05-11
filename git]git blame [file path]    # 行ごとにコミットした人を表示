@@ -1,0 +1,10 @@
+Command> git blame [file path]    # 行ごとにコミットした人を表示
+
+
+Description>
+
+Keywords> git
+
+OS> all
+
+Reference> https://liginc.co.jp/387757

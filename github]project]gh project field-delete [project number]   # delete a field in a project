@@ -1,0 +1,14 @@
+Command> gh project field-delete
+
+Arguments> [project number]
+
+TL;DR> Delete a field in a project
+
+Keywords> github
+        > project
+
+Description>
+
+OS> all
+
+Reference> https://cli.github.com/manual/gh_project_field-delete

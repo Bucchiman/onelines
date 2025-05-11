@@ -1,0 +1,5 @@
+Command> printf "%x\n" 1234
+
+Keywords> convert
+        > dec2hex
+

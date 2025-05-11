@@ -1,0 +1,15 @@
+Command> gh run cancel
+
+Arguments> [run-id]
+
+TL;DR> Cancel a workflow run
+
+
+Keywords> github
+        > run
+
+Description>
+
+OS> all
+
+Reference> https://cli.github.com/manual/gh_run_cancel

@@ -1,0 +1,10 @@
+Command> gh cs logs
+
+TL;DR> access codespace logs
+
+Keywords> github
+        > codespace
+
+OS> all
+
+Reference> https://cli.github.com/manual/gh_codespace_logs
