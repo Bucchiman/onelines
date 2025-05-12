@@ -1,0 +1,5 @@
+Command> New-Item dir -ItemType Directory
+
+Keywords> mkdir
+
+OS> windows

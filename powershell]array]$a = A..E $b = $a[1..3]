@@ -1,0 +1,7 @@
+Command> $a = "A".."E"; $b = $a[1..3];
+
+Keywords> powershell
+        > array
+
+
+OS> windows

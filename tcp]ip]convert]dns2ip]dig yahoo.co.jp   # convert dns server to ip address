@@ -1,0 +1,14 @@
+Command> dig $1
+
+Arguments> $1: domain name system (e.g. yahoo.co.jp)
+
+TL;DR> convert dns server to ip address
+
+Keywords> tcp
+        > ip
+        > dns2ip
+
+OS> linux
+  > mac
+
+Reference> 

@@ -1,0 +1,17 @@
+Command> gh pr --help
+
+Keywords> github
+        > pull_request
+
+Description>
+           > - gh pr checkout {[number] | [url] | [branch]} [flags]
+           > - gh pr create [flags]
+           > - gh pr close {[number] | [url] | [branch]} [flags]
+           > - gh pr list
+           > - gh pr merge {[number] | [url] | [branch]}
+           > - gh pr review {}
+
+OS> all
+
+Reference> https://qiita.com/ryo2132/items/2a29dd7b1627af064d7b
+         > https://cli.github.com/manual/gh_pr

@@ -1,0 +1,9 @@
+Command> git diff -C    # rename, copyを検出
+
+Description> 
+
+Keywords> git
+
+OS> all
+
+Reference> https://liginc.co.jp/387757

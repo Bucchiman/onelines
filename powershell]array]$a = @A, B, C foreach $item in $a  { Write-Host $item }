@@ -1,0 +1,6 @@
+Command> $a = @("A", "B", "C"); foreach ($item in $a) { Write-Host $item };
+
+Keywords> powershell
+        > array
+
+OS> windows

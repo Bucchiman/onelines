@@ -1,0 +1,11 @@
+Command> git clean -df   # 追跡していないファイルを全て削除
+
+Keywords> git
+
+
+Description>
+
+OS> all
+
+
+Reference> https://liginc.co.jp/387757

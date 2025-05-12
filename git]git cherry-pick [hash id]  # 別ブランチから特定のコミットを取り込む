@@ -1,0 +1,14 @@
+Command> git cherry-pick [hash id]  # 別ブランチから特定のコミットを取り込む
+
+Keywords> git
+
+
+Description>
+           > 一部のコミットだけ取り込む場合
+	       > cherry-pick ... チェリーだけつまみ食い
+           >
+           >
+
+OS> all
+
+Reference> https://liginc.co.jp/387757

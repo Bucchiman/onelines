@@ -1,0 +1,11 @@
+Command> gh issue view [issue number]    # イシュー番号の詳細を表示
+
+Keywords> github
+        > issue
+
+
+Description>
+
+OS> all
+
+Reference> https://dev.classmethod.jp/articles/i-tried-operations-around-issue-with-github-cli-20/

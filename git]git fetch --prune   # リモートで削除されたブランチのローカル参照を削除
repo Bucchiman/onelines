@@ -1,0 +1,9 @@
+Command> git fetch --prune  # リモートで削除されたブランチのローカル参照を削除
+
+Description>
+
+Keywords> git
+
+OS> all
+
+Reference> https://liginc.co.jp/387757

@@ -1,0 +1,62 @@
+Command> netstat -rnf inet
+
+
+TL;DR> show routing table (only IPv4)
+
+Keywords> tcp
+        > ip
+        > check routing table
+
+Description>
+           > $ netstat -rn
+           >  > Internet:
+           >  > Destination        Gateway            Flags               Netif Expire
+           >  > default            192.168.181.1      UGScg                 en0       
+           >  > 127                localhost          UCS                   lo0       
+           >  > localhost          localhost          UH                    lo0       
+           >  > 169.254            link#11            UCS                   en0      !
+           >  > 169.254.118.237    c0:e4:34:cb:2b:3   UHLSW                 en0      !
+           >  > 192.168.181        link#11            UCS                   en0      !
+           >  > 192.168.181.1/32   link#11            UCS                   en0      !
+           >  > 192.168.181.1      74:3:bd:7e:27:86   UHLWIir               en0   1142
+           >  > 192.168.181.7      2:11:42:6f:6d:31   UHLWI                 en0    826
+
+           >
+           > Destination:   宛先IPアドレス
+           > Gateway:       ゲートウェイIPアドレス
+           >                192.168.181.1       : ip address
+           >                74:3:bd:7e:27:86    : ARP(Address Resolved Protocol)解決されたMACアドレス
+           >                                      ARP: IPアドレスと物理的なマシンアドレスを変換するための仕組み
+           >
+           > Flags:         フラグ
+           >                A	アクティブ・デッド・ゲートウェイ検出が経路で使用可能である
+           >                U	稼働中
+           >                H	経路はネットワークではなくホストを宛先にしている
+           >                G	経路はゲートウェイを宛先にしている
+           >                D	経路がリダイレクトによって動的に作成されている
+           >                M	経路がリダイレクトによって変更されている
+           >                L	リンク・レベル・アドレスが経路エントリーの中にある
+           >                c	この経路へのアクセスはクローン経路を作成する
+           >                W	経路はクローン経路である
+           >                1	プロトコル固有経路指定フラグ #1
+           >                2	プロトコル固有経路指定フラグ #2
+           >                3	プロトコル固有経路指定フラグ #3
+           >                b	経路はブロードキャスト・アドレスを表す
+           >                e	バインディング・キャッシュ・エントリーを使用している
+           >                l	経路はローカル・アドレスを表す
+           >                m	経路はマルチキャスト・アドレスを表す
+           >                P	ピン固定経路
+           >                R	ホストまたはネットワークに到達できない
+           >                S	手動で追加
+           >                u	経路は使用可能
+           > Netif:         インターフェース
+           > Expire
+           >
+
+
+OS> mac
+
+
+Reference> https://qiita.com/ryuichi1208/items/c7df775dcc70f448240c
+         > https://infrastructure-engineer.com/static-route-mac-001/
+         > https://kinsta.com/jp/knowledgebase/what-is-arp/

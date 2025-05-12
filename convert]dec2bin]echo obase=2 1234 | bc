@@ -1,0 +1,4 @@
+Command> echo "obase=2; 1234" | bc
+
+Keywords> convert
+        > dec2bin

@@ -1,0 +1,35 @@
+Command> netstat -r | grep default
+
+TL;DR> show gateway address
+
+Keywords> tcp
+        > ip
+        > gateway
+
+
+Description> netstat --help
+           > netstat -r         (routing table)
+           >
+           > - gateway
+           > 目的:  他ネットワークへの通信中継
+           > ゲートウェイアドレス: .1が多いパターン
+           > 例:    192.168.0.0/24  --> gateway: 192.168.0.1
+           >        192.168.1.0/24  --> gateway: 192.168.1.1
+           > ルーターアドレスがgateway アドレスとなる
+           >
+           >
+           > - broadcast
+           > 目的:  同じネットワーク内の全端末に一斉送信
+           > 例:    192.168.0.0/24  --> broadcast: 192.168.0.255
+           > ARPはip addressからmacアドレスを知るためにブロードキャストする
+           >
+           > - multicast
+           > 目的: 特定のグループに属する複数の端末に同時にデータを送るため
+           >    例:
+           >
+           > - network
+           >    例: 244.0.0.1: 同じLAN内の全てのホスト
+           >        224.0.0.2: 同じLAN内の全てのルーター
+           >        239.0.0.1: 組織内で使う独自マルチキャストグループ
+           >
+           >

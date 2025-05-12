@@ -1,9 +1,0 @@
-Command> git submodule init
-
-TL;DR> .gitmodulesでsubmodulesを.git/configに登録
-
-Keywords> git
-        > submodule
-
-
-Reference> https://maku77.github.io/p/dsctaq7/

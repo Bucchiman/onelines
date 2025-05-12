@@ -1,0 +1,14 @@
+Command> gh project field-list
+
+Arguments> [field number]
+
+TL;DR> List the fields in a project
+
+Keywords> github
+        > project
+
+Example> gh project field-list 1 --owner "@me"
+
+OS> all
+
+Reference> https://cli.github.com/manual/gh_project_field-list
