@@ -1,0 +1,6 @@
+Command> dvipdfmx -o $1 $2
+
+Arguments> $1: output file(pdf file)
+         > $2: input file(dvi file)
+
+Keywords> latex

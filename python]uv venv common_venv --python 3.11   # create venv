@@ -1,0 +1,10 @@
+Command> uv venv $1 --python $2
+
+Arguments> $1: venv name
+         > $2: python version
+
+TL;DR> create venv
+
+Keywords> python
+
+Reference> https://docs.astral.sh/uv/pip/environments/

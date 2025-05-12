@@ -1,0 +1,12 @@
+Command> screen /dev/tty.usbserial-XXXXXX 115200
+
+TL;DR> connect through serial port
+
+Keywords> serial
+
+
+OS> mac
+
+Reference> https://qiita.com/UedaTakeyuki/items/7cc0fc6011cb0448c070
+
+

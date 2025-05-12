@@ -1,0 +1,13 @@
+Command> uplatex -output-directory=$1 $2
+
+Arguments> $1: directory
+         > $2: tex file
+
+TL;DR> compile ./docs/main.tex
+
+Keywords> latex
+
+Relative> uplatex -output-directory=docs main.tex
+        > dvipdfmx -o docs/main.pdf docs/main.dvi
+
+Reference> 

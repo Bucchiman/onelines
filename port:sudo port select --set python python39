@@ -1,1 +1,3 @@
 Command> sudo port select --set python python39
+
+OS> mac
