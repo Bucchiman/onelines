@@ -15,4 +15,6 @@ Description>
            > $ rustup default 1.70 ...
            >
 
+OS> all
+
 Reference> https://zenn.dev/shinyay/articles/hello-rust-day077

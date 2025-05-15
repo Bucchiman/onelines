@@ -1,0 +1,7 @@
+Command> $a -ge $b
+
+Keywords> variable
+
+TL;DR> a is greater equal than b
+
+OS> windows

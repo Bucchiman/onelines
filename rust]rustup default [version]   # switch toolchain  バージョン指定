@@ -7,4 +7,6 @@ TL;DR> switch toolchain (バージョン指定)
 Related> rustup toolchain add [version]    # install version
        > rustup toolchain list   # install list
 
+OS> all
+
 Reference> https://ushitora.net/archives/3920

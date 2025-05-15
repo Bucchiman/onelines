@@ -1,0 +1,9 @@
+Command> $a -eq $b
+
+TL;DR> a == b
+
+Keywords> variable
+
+OS> windows
+
+

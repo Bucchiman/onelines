@@ -1,0 +1,7 @@
+Command> $a -le $b
+
+Keywords> variable
+
+TL;DR> a is less equal than b
+
+OS> windows

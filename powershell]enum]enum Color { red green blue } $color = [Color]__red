@@ -1,0 +1,6 @@
+Command> enum Color { red; green; blue; }; $color = [Color]::red
+
+Keywords> powershell
+        > enum
+
+OS> windows

@@ -1,0 +1,12 @@
+Command> New-Item -Value $from_file -Path $to_dir -Name $file_name -ItemType SymbolicLink
+
+Arguments> $from_file: from
+         > $to_dir: to directory
+         > $file_name: file name for from directory
+
+Keywords> powershell
+        > ln
+
+OS> windows
+
+
