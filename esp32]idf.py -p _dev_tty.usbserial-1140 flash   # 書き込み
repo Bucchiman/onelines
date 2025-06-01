@@ -1,0 +1,15 @@
+Command> idf.py -p  flash
+
+Arguments> $1 シリアルポート
+
+TL;DR> シリアルポート先に書き込み
+
+Keywords> esp32
+
+Description> mac   $1: /dev/tty.usbserial-1140
+           > linux $1: /dev/ttyUSB0
+
+OS> mac
+  > linux
+
+Reference> jetpack.io/devbox/docs/installing_devbox/
