@@ -1,0 +1,14 @@
+Command> openocd -f interface/cmsis-dap.cfg -f target/rp2040.cfg -s tcl -c "adapter speed 5000"
+
+Keywords> pico
+
+Description> term01: openocd -f interface/cmsis-dap.cfg -f target/rp2040.cfg -s tcl -c "adapter speed 5000"
+           > term02: gdb-multiarch pico.elf    # 
+           >         (gdb) target remote :3333
+           >         (gdb) mon reset init
+           >         (gdb) load
+           > term03: nohup gtkterm &
+
+OS> linux
+
+Reference> https://mickey-happygolucky.hatenablog.com/entry/2021/02/18/235625

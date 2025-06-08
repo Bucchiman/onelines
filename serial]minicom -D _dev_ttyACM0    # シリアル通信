@@ -1,0 +1,7 @@
+Command> minicom -D /dev/ttyACM0
+
+TL;DR> シリアル通信
+
+Keywords> serial
+
+OS> linux
