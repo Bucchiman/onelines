@@ -5,6 +5,7 @@ Arguments> $1 シリアルポート
 TL;DR> シリアルポート先に書き込み
 
 Keywords> esp32
+        > embed
 
 Description> mac   $1: /dev/tty.usbserial-1140
            > linux $1: /dev/ttyUSB0

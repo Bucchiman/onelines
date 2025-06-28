@@ -3,5 +3,6 @@ Command> idf.py fullclean
 TL;DR> delete the entire contents
 
 Keywords> esp32
+        > embed
 
 Reference> https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-guides/tools/idf-py.html

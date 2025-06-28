@@ -7,6 +7,7 @@ TL;DR> start a new project
 
 
 Keywords> esp32
+        > embed
 
 
 Reference> https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-guides/tools/idf-py.html
