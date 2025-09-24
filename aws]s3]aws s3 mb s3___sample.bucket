@@ -1,0 +1,7 @@
+Command> aws s3 mb s3://sample.bucket
+
+Keywords> aws
+        > s3
+
+
+OS> all
