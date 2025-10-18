@@ -1,0 +1,8 @@
+Command> aws s3 rb s3://sample.bucket
+
+
+Keywords> aws
+        > s3
+
+
+OS> all
