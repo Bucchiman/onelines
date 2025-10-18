@@ -1,6 +1,6 @@
-Command> cmake --build  # ビルド実行
+Command> cmake --build build --target all
 
-Description> 
+Description> ビルドする方法
 
 Keywords>
         > cmake
