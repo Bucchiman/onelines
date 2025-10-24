@@ -1,0 +1,5 @@
+Command> cargo test -- --show_output
+
+TL;DR> print output
+
+Keywords> rust
