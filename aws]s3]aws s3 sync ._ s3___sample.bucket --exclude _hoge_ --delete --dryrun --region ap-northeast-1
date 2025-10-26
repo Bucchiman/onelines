@@ -1,0 +1,4 @@
+Command> aws s3 sync ._ s3___sample.bucket --exclude _hoge_ --delete --dryrun --region ap-northeast-1
+
+Keywords> aws
+        > s3
