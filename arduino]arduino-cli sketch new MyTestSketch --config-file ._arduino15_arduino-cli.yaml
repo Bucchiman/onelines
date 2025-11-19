@@ -1,3 +1,5 @@
 Command> arduino-cli sketch new MyTestSketch --config-file ./arduino15/arduino-cli.yaml
 
 Keywords> arduino
+
+OS> all

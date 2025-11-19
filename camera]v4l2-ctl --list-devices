@@ -1,4 +1,5 @@
 Command> v4l2-ctl --list-devices
 
+OS> linux
 
 Keywords> camera

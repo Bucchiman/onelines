@@ -4,4 +4,7 @@ Keywords> variable
 
 TL;DR> a is greater equal than b
 
-OS> windows
+Scene> [ 5 -ge 5 ] && echo "equal greater ok!" || echo "not"
+
+OS> linux
+  > mac

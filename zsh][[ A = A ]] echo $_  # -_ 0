@@ -15,5 +15,8 @@ Description>
 Keywords>
         > zsh
 
+OS> linux
+  > mac
+
 
 Reference> https://shellscript.sunone.me/if_and_test.html

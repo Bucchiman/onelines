@@ -12,4 +12,7 @@ Install>
        > mv ttf/Hack-Regular.ttf ~/.local/share/fonts/Hack-Regular.ttf
        > fc-cache -f -v
 
+OS> linux
+  > mac
+
 Reference> https://medium.com/source-words/how-to-manually-install-update-and-uninstall-fonts-on-linux-a8d09a3853b0

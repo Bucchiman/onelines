@@ -4,4 +4,7 @@ Keywords> variable
 
 TL;DR> a is less equal than b
 
-OS> windows
+Scene> [ 5 -le 5 ] && echo "equal less than ok!" || echo "not"
+
+OS> linux
+  > mac

@@ -3,3 +3,5 @@ Command> v4l2-ctl -L
 TL;DR> show parameters
 
 Keywords> camera
+
+OS> linux

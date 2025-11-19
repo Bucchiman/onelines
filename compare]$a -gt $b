@@ -4,4 +4,8 @@ Keywords> variable
 
 TL;DR> a greater than b
 
-OS> windows
+OS> linux
+  > mac
+
+Scene> [ 5 -gt 5 ] && echo "greater than ok!" || echo "not"
+

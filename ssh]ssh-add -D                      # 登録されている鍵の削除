@@ -1,1 +1,3 @@
 Command> ssh-add -D                      # 登録されている鍵の削除
+
+OS> all

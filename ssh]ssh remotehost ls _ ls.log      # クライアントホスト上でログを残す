@@ -1,1 +1,3 @@
 Command> ssh remotehost ls > ls.log      # クライアントホスト上でログを残す
+
+OS> all
