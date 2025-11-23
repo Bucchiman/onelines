@@ -5,4 +5,7 @@ Keywords> zsh
 
 Description> $ test 1 -eq 2; echo $?  # -> 1
 
+OS> mac
+  > linux
+
 Reference> https://shellscript.sunone.me/if_and_test.html

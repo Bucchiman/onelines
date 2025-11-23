@@ -1,3 +1,5 @@
 Command> arduino-cli compile --fqbn arduino:avr:uno MyTestSketch --config-file ./arguino15/arduino-cli.yaml
 
 Keywords> arduino
+
+OS> all

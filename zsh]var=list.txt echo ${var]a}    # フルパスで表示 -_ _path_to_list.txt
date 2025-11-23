@@ -22,6 +22,7 @@ Description>
            > - gs/old/new : 全てのoldをnewに置換
            >
 
-
+OS> mac
+  > linux
 
 Reference> https://qiita.com/mollifier/items/7dd72d6a255ce7273d2a

@@ -6,4 +6,6 @@ Keywords> compile
 
 TL;DR> オブジェクトファイルのヘッダ情報出力
 
+OS> linux
+
 Reference> https://tanakamura.github.io/pllp/docs/linker.html

@@ -1,0 +1,12 @@
+Command> JLinkExe -device R7FA8D1BH -if SWD -speed 4000 -autoconnect 1
+
+
+Description> $ JLinkExe -device R7FA8D1BH -if SWD -speed 4000 -autoconnect 1
+           > $ J-Link>loadfile mtk3bsp2_ra8d1.elf
+
+
+
+
+Keywords> embed
+
+

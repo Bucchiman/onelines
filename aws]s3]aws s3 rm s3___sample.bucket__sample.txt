@@ -1,0 +1,6 @@
+Command> aws s3 rm s3___sample.bucket__sample.txt
+
+Keywords> aws
+        > s3
+
+OS> all

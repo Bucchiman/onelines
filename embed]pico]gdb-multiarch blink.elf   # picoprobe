@@ -1,6 +1,11 @@
-Command> openocd -f interface/cmsis-dap.cfg -f target/rp2040.cfg -s tcl -c "adapter speed 5000"
+Command> gdb-multiarch $1
+
+Arguments> $1: elf file
 
 Keywords> pico
+        > embed
+
+TL;DR> pico用のデバッグ
 
 Description> term01: openocd -f interface/cmsis-dap.cfg -f target/rp2040.cfg -s tcl -c "adapter speed 5000"
            > term02: gdb-multiarch pico.elf    # 
@@ -10,5 +15,3 @@ Description> term01: openocd -f interface/cmsis-dap.cfg -f target/rp2040.cfg -s 
            > term03: nohup gtkterm &
 
 OS> linux
-
-Reference> https://mickey-happygolucky.hatenablog.com/entry/2021/02/18/235625

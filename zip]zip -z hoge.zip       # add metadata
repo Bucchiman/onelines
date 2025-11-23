@@ -8,6 +8,7 @@ Keywords> zip
 
 Related> unzip -z $1.zip
 
+OS> all
 
 Reference> https://stackoverflow.com/questions/66800511/how-to-add-additional-metadata-to-a-zip-file-using-a-bash-script
          > https://superuser.com/questions/337112/zip-file-with-metadata

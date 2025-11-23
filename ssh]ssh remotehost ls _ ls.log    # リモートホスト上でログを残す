@@ -1,0 +1,3 @@
+Command> ssh remote ls > ls.log
+
+OS> all

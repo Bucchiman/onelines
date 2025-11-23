@@ -2,4 +2,7 @@ Command> ${target:a}
 
 Keywords> FULLPATH
 
+OS> mac
+  > linux
+
 Reference> https://tecadmin.net/how-to-extract-filename-extension-in-shell-script/

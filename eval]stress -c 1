@@ -1,1 +1,6 @@
+Command> stress -c 1
+
+OS> linux
+  > mac
+
 Reference> https://blog.amedama.jp/entry/stress-command

@@ -1,0 +1,7 @@
+Command> aws ec2 start-instances --instance-ids i-xxxx
+
+Keywords> aws
+        > ec2
+
+
+OS> all

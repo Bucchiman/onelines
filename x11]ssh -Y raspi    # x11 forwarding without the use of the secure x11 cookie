@@ -3,3 +3,5 @@ Command> ssh -Y raspi
 TL;DR> x11 forwarding without the use of the secure x11 cookie
 
 Keywords> x11
+
+OS> all

@@ -4,6 +4,8 @@ TL;DR> a == b
 
 Keywords> variable
 
-OS> windows
+Scene> [ 5 -eq 5 ] && echo "equal ok!" || echo "not equal"
 
+OS> linux
+  > mac
 

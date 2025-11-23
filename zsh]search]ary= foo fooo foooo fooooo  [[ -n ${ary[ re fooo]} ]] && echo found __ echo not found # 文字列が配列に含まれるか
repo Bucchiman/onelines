@@ -21,5 +21,7 @@ Description>
            > $ [[ -n ${ary[(re)fo*]} ]] && echo 'found' || echo 'not found'
            >  > not found
 
+OS> mac
+  > liinux
 
 Reference> https://qiita.com/kyanagi/items/6bada2bc75578898736d

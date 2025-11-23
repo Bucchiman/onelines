@@ -1,3 +1,5 @@
 Command> cargo doc --open
 
 Keywords> rust
+
+OS> all

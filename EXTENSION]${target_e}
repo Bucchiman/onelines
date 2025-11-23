@@ -2,4 +2,7 @@ Command> ${target:e}
 
 Keywords> EXTENSION
 
+OS> mac
+  > linux
+
 Reference> https://tecadmin.net/how-to-extract-filename-extension-in-shell-script/
