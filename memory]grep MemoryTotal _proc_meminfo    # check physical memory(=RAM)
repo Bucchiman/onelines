@@ -1,0 +1,8 @@
+Command> grep MemoryTotal /proc/meminfo
+
+TL;DR> check physical memory(=RAM)
+
+Keywords> memory
+
+OS> linux
+  > mac

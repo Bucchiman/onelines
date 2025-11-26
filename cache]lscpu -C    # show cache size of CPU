@@ -1,0 +1,5 @@
+Command> lscpu -C
+
+TL;DR> show cache size of CPU
+
+Keywords> cache

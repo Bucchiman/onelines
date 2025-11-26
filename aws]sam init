@@ -1,0 +1,7 @@
+Command> sam init
+
+Keywords> aws
+
+TL;DR> make template project for lambda, API gateway, DynamoDB
+
+OS> all
