@@ -9,6 +9,9 @@ Related> gcc -v
        > arch
        > dpkg --print-architecture
 
+OS> linux
+  > mac
+
 
 Reference> https://open-groove.net/linux/architecture-check/
          > https://blog.framinal.life/entry/2020/04/22/041548

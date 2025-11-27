@@ -2,5 +2,6 @@ Command> ${target:r}
 
 Keywords> BASENAME
 
+OS> all
 
 Reference> https://tecadmin.net/how-to-extract-filename-extension-in-shell-script/

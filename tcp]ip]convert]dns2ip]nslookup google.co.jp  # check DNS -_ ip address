@@ -10,6 +10,7 @@ Keywords> tcp
         > dns2ip
 
 OS> mac
+  > windows
 
 Related> tcp:ip:dig yahoo.co.jp   # convert dns server to ip address
 
