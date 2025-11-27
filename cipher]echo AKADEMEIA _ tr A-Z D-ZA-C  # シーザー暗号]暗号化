@@ -2,5 +2,7 @@ Command> echo AKADEMEIA | tr A-Z D-ZA-C  # シーザー暗号:暗号化
 
 Keywords> cipher
 
+OS> mac
+  > linux
 
 Reference> 暗号技術のすべて

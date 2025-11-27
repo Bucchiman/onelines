@@ -3,4 +3,7 @@ Command> $a -ne $b
 
 Keywords> variable
 
-OS> windows
+OS> linux
+  > mac
+
+Scene> [ 5 -ne 5 ] && echo "not equal ok!" || echo "equal"

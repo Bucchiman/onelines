@@ -2,4 +2,6 @@ Command> cargo install --locked bandwhich fd-find bat starship git-delta hyperfi
 
 Keywords> rust
 
+OS> all
+
 Reference> https://wonderwall.hatenablog.com/entry/rust-command-line-tools

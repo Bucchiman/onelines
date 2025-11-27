@@ -1,0 +1,9 @@
+Command> strace ls
+
+TL;DR> check systemcall
+
+
+Keywords> system call
+
+OS> linux
+  > mac

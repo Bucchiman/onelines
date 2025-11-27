@@ -6,4 +6,6 @@ Description>
 Keywords> nvim
         > neovim
 
+OS> all
+
 Reference> https://neovim.io/doc/user/lua.html

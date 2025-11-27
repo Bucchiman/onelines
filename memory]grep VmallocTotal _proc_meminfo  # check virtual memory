@@ -1,0 +1,8 @@
+Command> grep VmallocTotal /proc/meminfo
+
+TL;DR> check virtual memory
+
+Keywords> memory
+
+OS> mac
+  > linux

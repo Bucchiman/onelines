@@ -2,4 +2,7 @@ Command> foreach src (prog?.txt) echo $src end
 
 Keywords> 
 
+OS> linux
+  > mac
+
 Reference> 

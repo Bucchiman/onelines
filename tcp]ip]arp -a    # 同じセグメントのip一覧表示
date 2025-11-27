@@ -9,7 +9,6 @@ Keywords> ip
 Description> Address Resolved Protocol
            > MACアドレスとIPアドレスを紐付る
 
-OS> mac
-  > windows
+OS> all
 
 Reference> https://ez-net.jp/article/E0/qR0Hn0ZF/D6QUsUcORVa1/

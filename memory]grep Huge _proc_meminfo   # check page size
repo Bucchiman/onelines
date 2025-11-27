@@ -1,0 +1,8 @@
+Command> grep Huge /proc/meminfo
+
+TL;DR> check page size
+
+Keywords> memory
+
+OS> linux
+  > mac

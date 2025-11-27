@@ -9,4 +9,7 @@ Install>
        > chmod +x TermiC.sh
        > bash TermiC.sh
 
+OS> linux
+  > mac
+
 Reference> https://github.com/hanoglu/TermiC

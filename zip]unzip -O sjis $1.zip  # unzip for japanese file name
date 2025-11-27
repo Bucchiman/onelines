@@ -1,0 +1,3 @@
+Command> unzip -O sjis $1.zip  # unzip for japanese file name
+
+Keywords> zip
