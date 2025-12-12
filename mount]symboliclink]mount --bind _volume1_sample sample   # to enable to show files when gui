@@ -1,0 +1,4 @@
+Command> mount --bind /volume1/sample sample   # to enable to show files when gui
+
+Keywords> mount
+        > symboliclink
