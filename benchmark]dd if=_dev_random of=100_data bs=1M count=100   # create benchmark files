@@ -1,0 +1,5 @@
+Command> dd if=/dev/random of=100_data bs=1M count=100
+
+TL;DR> create benchmark files
+
+Keywords> benchmark
