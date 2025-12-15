@@ -1,4 +1,4 @@
-Command> cargo test -- --show_output
+Command> cargo test -- --nocapture
 
 TL;DR> print output
 

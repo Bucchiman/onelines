@@ -1,0 +1,7 @@
+Command> cargo run -- -d abcde123
+
+TL;DR>  run main with d option
+
+Keywords> rust
+
+Reference> https://www.markcreators.com/blog/%E9%96%8B%E7%99%BA/cargo%E3%81%AE%E3%82%AA%E3%83%97%E3%82%B7%E3%83%A7%E3%83%B3-%E3%82%B5%E3%83%96%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%E4%B8%80%E8%A6%A7/
