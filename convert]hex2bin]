@@ -1,0 +1,3 @@
+Command> [Convert]::ToString(0xFF, 2)
+
+OS> windows

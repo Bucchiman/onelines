@@ -1,0 +1,10 @@
+Command> [Convert]::ToInt32("FF", 16)
+
+Keywords> convert
+        > hex2dec
+
+
+Alternative> 0xFF
+           > [int]"0xFF"
+
+OS> windows
