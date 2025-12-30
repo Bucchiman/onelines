@@ -1,0 +1,108 @@
+Command> awk 'BEGIN { printf "%d -> %c\n", 66, 66 }'
+
+
+Keywords> convert
+        > dec2ascii
+
+
+
+Description> DEC OCT    HEX BIN	        Symbol  HTML_Number	HTML_Name	Description
+           > 032 040	020	00100000    SP      &#32;       Space
+           > 033 041	021	00100001    !       &#33;       &excl;	Exclamation mark
+           > 034 042	022	00100010    "       &#34;       &quot;	Double quotes (or speech marks)
+           > 035 043	023	00100011    #       &#35;       &num;	Number sign
+           > 036 044	024	00100100    $       &#36;       &dollar;	Dollar
+           > 037 045	025	00100101    %       &#37;       &percnt;	Per cent sign
+           > 038 046	026	00100110    &       &#38;       &amp;	Ampersand
+           > 039 047	027	00100111    '       &#39;       &apos;	Single quote
+           > 040 050	028	00101000    (       &#40;       &lparen;	Open parenthesis (or open bracket)
+           > 041 051	029	00101001    )       &#41;       &rparen;	Close parenthesis (or close bracket)
+           > 042 052	02A	00101010    *       &#42;       &ast;	Asterisk
+           > 043 053	02B	00101011    +       &#43;       &plus;	Plus
+           > 044 054	02C	00101100    ,       &#44;       &comma;	Comma
+           > 045 055	02D	00101101    -       &#45;        	Hyphen-minus
+           > 046 056	02E	00101110    .       &#46;       &period;	Period, dot or full stop
+           > 047 057	02F	00101111    /       &#47;       &sol;	Slash or divide
+           > 048 060	030	00110000    0       &#48;       Zero
+           > 049 061	031	00110001    1       &#49;       One
+           > 050 062	032	00110010    2       &#50;       Two
+           > 051 063	033	00110011    3       &#51;       Three
+           > 052 064	034	00110100    4       &#52;       Four
+           > 053 065	035	00110101    5       &#53;       Five
+           > 054 066	036	00110110    6       &#54;       Six
+           > 055 067	037	00110111    7       &#55;       Seven
+           > 056 070	038	00111000    8       &#56;       Eight
+           > 057 071	039	00111001    9       &#57;       Nine
+           > 058 072	03A	00111010    :       &#58;       &colon;	Colon
+           > 059 073	03B	00111011    ;       &#59;       &semi;	Semicolon
+           > 060 074	03C	00111100    <       &#60;       &lt;	Less than (or open angled bracket)
+           > 061 075	03D	00111101    =       &#61;       &equals;	Equals
+           > 062 076	03E	00111110    >       &#62;       &gt;	Greater than (or close angled bracket)
+           > 063 077	03F	00111111    ?       &#63;       &quest;	Question mark
+           > 064 100	040	01000000    @       &#64;       &commat;	At sign
+           > 065 101	041	01000001    A       &#65;       Uppercase A
+           > 066 102	042	01000010    B       &#66;       Uppercase B
+           > 067 103	043	01000011    C       &#67;       Uppercase C
+           > 068 104	044	01000100    D       &#68;       Uppercase D
+           > 069 105	045	01000101    E       &#69;       Uppercase E
+           > 070 106	046	01000110    F       &#70;       Uppercase F
+           > 071 107	047	01000111    G       &#71;       Uppercase G
+           > 072 110	048	01001000    H       &#72;       Uppercase H
+           > 073 111	049	01001001    I       &#73;       Uppercase I
+           > 074 112	04A	01001010    J       &#74;       Uppercase J
+           > 075 113	04B	01001011    K       &#75;       Uppercase K
+           > 076 114	04C	01001100    L       &#76;       Uppercase L
+           > 077 115	04D	01001101    M       &#77;       Uppercase M
+           > 078 116	04E	01001110    N       &#78;       Uppercase N
+           > 079 117	04F	01001111    O       &#79;       Uppercase O
+           > 080 120	050	01010000    P       &#80;       Uppercase P
+           > 081 121	051	01010001    Q       &#81;       Uppercase Q
+           > 082 122	052	01010010    R       &#82;       Uppercase R
+           > 083 123	053	01010011    S       &#83;       Uppercase S
+           > 084 124	054	01010100    T       &#84;       Uppercase T
+           > 085 125	055	01010101    U       &#85;       Uppercase U
+           > 086 126	056	01010110    V       &#86;       Uppercase V
+           > 087 127	057	01010111    W       &#87;       Uppercase W
+           > 088 130	058	01011000    X       &#88;       Uppercase X
+           > 089 131	059	01011001    Y       &#89;       Uppercase Y
+           > 090 132	05A	01011010    Z       &#90;       Uppercase Z
+           > 091 133	05B	01011011    [       &#91;       &lsqb;	Opening bracket
+           > 092 134	05C	01011100    \       &#92;       &bsol;	Backslash
+           > 093 135	05D	01011101    ]       &#93;       &rsqb;	Closing bracket
+           > 094 136	05E	01011110    ^       &#94;       &Hat;	Caret - circumflex
+           > 095 137	05F	01011111    _       &#95;       &lowbar;	Underscore
+           > 096 140	060	01100000    `       &#96;       &grave;	Grave accent
+           > 097 141	061	01100001    a       &#97;       Lowercase a
+           > 098 142	062	01100010    b       &#98;       Lowercase b
+           > 099 143	063	01100011    c       &#99;       Lowercase c
+           > 100 144	064	01100100    d       &#100       Lowercase d
+           > 101 145	065	01100101    e       &#101       Lowercase e
+           > 102 146	066	01100110    f       &#102       Lowercase f
+           > 103 147	067	01100111    g       &#103       Lowercase g
+           > 104 150	068	01101000    h       &#104       Lowercase h
+           > 105 151	069	01101001    i       &#105       Lowercase i
+           > 106 152	06A	01101010    j       &#106       Lowercase j
+           > 107 153	06B	01101011    k       &#107       Lowercase k
+           > 108 154	06C	01101100    l       &#108       Lowercase l
+           > 109 155	06D	01101101    m       &#109       Lowercase m
+           > 110 156	06E	01101110    n       &#110       Lowercase n
+           > 111 157	06F	01101111    o       &#111       Lowercase o
+           > 112 160	070	01110000    p       &#112       Lowercase p
+           > 113 161	071	01110001    q       &#113       Lowercase q
+           > 114 162	072	01110010    r       &#114       Lowercase r
+           > 115 163	073	01110011    s       &#115       Lowercase s
+           > 116 164	074	01110100    t       &#116       Lowercase t
+           > 117 165	075	01110101    u       &#117       Lowercase u
+           > 118 166	076	01110110    v       &#118       Lowercase v
+           > 119 167	077	01110111    w       &#119       Lowercase w
+           > 120 170	078	01111000    x       &#120       Lowercase x
+           > 121 171	079	01111001    y       &#121       Lowercase y
+           > 122 172	07A	01111010    z       &#122       Lowercase z
+           > 123 173	07B	01111011    {       &#123       &lcub;	Opening brace
+           > 124 174	07C	01111100    |       &#124       &verbar;	Vertical bar
+           > 125 175	07D	01111101    }       &#125       &rcub;	Closing brace
+           > 126 176	07E	01111110    ~       &#126       &tilde;	Equivalency sign - tilde
+           > 127 177	07F	01111111    DEL	    &#127           Delete
+
+
+Reference> https://www.ascii-code.com/

@@ -1,0 +1,8 @@
+Command> strings lena.png
+
+TL;DR> extract readable strings from file
+
+Keywords> static_analysis
+
+OS> linux
+  > mac
