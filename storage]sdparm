@@ -1,0 +1,8 @@
+Command>  sdparm --all /dev/sda
+
+OS> linux
+  > mac
+
+Keywords> storage
+
+Reference> https://zenn.dev/mhhkn098/scraps/e7d51cd888f3ab

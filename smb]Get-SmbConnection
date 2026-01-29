@@ -1,0 +1,8 @@
+Command> Get-SmbConnection
+
+Keywords> smb
+
+
+OS> windows
+
+Reference> https://blog.treedown.net/entry/2018/03/12/010000

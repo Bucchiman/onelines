@@ -1,0 +1,8 @@
+Command> robocopy $1 $2 /MIR /E /Z
+
+Arguments> $1: src
+         > $2: dest
+
+Keywords> rsync
+
+Reference> 
