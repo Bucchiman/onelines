@@ -1,0 +1,5 @@
+Command> echo abc _ od -t x1 -c
+
+TL;DR> print hex
+
+Keywords> binary

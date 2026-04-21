@@ -1,0 +1,5 @@
+Command> echo abc | xxd
+
+TL;DR> binary
+
+Reference> https://note.com/hassy627hassy/n/n8d377797e97b
