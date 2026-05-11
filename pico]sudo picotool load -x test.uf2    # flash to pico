@@ -1,0 +1,4 @@
+
+Command> sudo picotool load test.uf2    # flash to pico
+
+Keywords> pico

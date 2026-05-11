@@ -1,0 +1,5 @@
+Command> sudo picotool load -x test.elf
+
+Keywords> pico
+
+TL;DR> Write to SRAM
